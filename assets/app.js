@@ -126,6 +126,11 @@ function halfLife(tau, beta) {
   return tau * Math.pow(Math.log(2), 1 / beta);
 }
 
+function decayHalfLifeScore(topic) {
+  const h = halfLife(topic?.fit?.tau_hours, topic?.fit?.beta);
+  return Number.isFinite(h) ? h : -1;
+}
+
 function clampSignal(v) {
   if (v === null || v === undefined || Number.isNaN(Number(v))) return null;
   return Math.max(0, Math.min(1.5, Number(v)));
@@ -168,7 +173,10 @@ function cycleToTopic(cycle) {
     topic_key: cycle.topic,
     label: cycle.topic_label || cycle.topic || 'Archived cycle',
     article_count: cycle.article_count || 0,
-    phase: cycle.verdict || cycle.phase || 'Archived cycle',
+    phase: cycle.combined_verdict || cycle.verdict || cycle.phase || 'Archived cycle',
+    lifecycle_phase: cycle.lifecycle_phase || cycle.phase,
+    verdict: cycle.verdict,
+    duplicate_count: cycle.duplicate_count || 1,
     event_horizon: cycle.event_horizon || {},
     residual_dust: fit.residual_dust ?? cycle.residual_dust,
     circadian_bias: cycle.circadian_bias,
@@ -199,6 +207,7 @@ function getCyclesSorted() {
   cycles.sort((a, b) => {
     if (state.sort === 'horizon') return ((b.event_horizon || {}).max_score || (b.event_horizon || {}).score || 0) - ((a.event_horizon || {}).max_score || (a.event_horizon || {}).score || 0);
     if (state.sort === 'stickiness') return (b.max_stickiness || 0) - (a.max_stickiness || 0);
+    if (state.sort === 'slowest') return decayHalfLifeScore(cycleToTopic(b)) - decayHalfLifeScore(cycleToTopic(a));
     if (state.sort === 'lambda') return (b.fit?.tau_hours || 0) - (a.fit?.tau_hours || 0);
     if (state.sort === 'dust') return ((b.fit?.residual_dust ?? b.residual_dust) || 0) - ((a.fit?.residual_dust ?? a.residual_dust) || 0);
     if (state.sort === 'fit') return (b.fit?.log_r2 || -10) - (a.fit?.log_r2 || -10);
@@ -214,6 +223,7 @@ function getTopicsSorted() {
   topics.sort((a, b) => {
     if (state.sort === 'horizon') return topicHorizon(b) - topicHorizon(a);
     if (state.sort === 'stickiness') return topicStickiness(b) - topicStickiness(a);
+    if (state.sort === 'slowest') return decayHalfLifeScore(b) - decayHalfLifeScore(a);
     if (state.sort === 'lambda') return (b.fit?.tau_hours || 0) - (a.fit?.tau_hours || 0);
     if (state.sort === 'dust') return (topicDust(b) || 0) - (topicDust(a) || 0);
     if (state.sort === 'fit') return (b.fit?.log_r2 || -10) - (a.fit?.log_r2 || -10);
@@ -310,6 +320,27 @@ function topicHorizonLabel(topic) {
   const score = Number(h.score ?? h.max_score ?? 0) || 0;
   const phase = h.phase || 'warming up';
   return `H ${Math.round(score)} · ${phase}`;
+}
+
+function s2Verdict(topic) {
+  const d = Number(topic?.fit?.delta_aic_vs_exp);
+  const r2 = Number(topic?.fit?.log_r2);
+  if (!Number.isFinite(d)) return 'provisional';
+  if (d >= 10 && (!Number.isFinite(r2) || r2 >= 0.9)) return 'S2 strong';
+  if (d >= 6) return 'S2 likely';
+  if (d >= 2) return 'S2 weak';
+  if (d <= -10) return 'exp strong';
+  if (d <= -2) return 'exp likely';
+  return 'tied / mixed';
+}
+
+function cycleDisplayPhase(topic) {
+  if (state.scope === 'cycles') {
+    const lifecycle = topic.lifecycle_phase ? ` · ${topic.lifecycle_phase}` : '';
+    const dup = topic.duplicate_count && topic.duplicate_count > 1 ? ` · merged ${topic.duplicate_count}x` : '';
+    return `${topic.verdict || s2Verdict(topic)}${lifecycle}${dup}`;
+  }
+  return topic.phase || s2Verdict(topic);
 }
 
 function tailReadiness(topic) {
@@ -438,7 +469,7 @@ function renderSelected() {
   else state.selectedTopic = topic.key;
   const fit = topic.fit || {};
   const bias = topic.circadian_bias;
-  els.phaseBadge.textContent = state.scope === 'cycles' ? (topic.phase || 'Archived cycle') : (topic.phase || '-');
+  els.phaseBadge.textContent = state.scope === 'cycles' ? cycleDisplayPhase(topic) : (topic.phase || '-');
   els.metricsStrip.innerHTML = [
     ['lambda_q / tau', fmtHours(fit.tau_hours), 'coherence cliff'],
     ['D_eff / beta', fmtNumber(fit.beta, 2), (fit.beta || 0) > 1 ? 'cliff-like' : 'long tail'],
@@ -711,7 +742,7 @@ function renderTopicBoard() {
       const hscore = topicHorizon(topic);
       badge = state.sort === 'horizon' ? `H ${fmtNumber(hscore, 0)}` : `${fmtNumber(topic.max_stickiness || topicStickiness(topic), 0)}`;
       width = Math.min(100, Math.round(state.sort === 'horizon' ? hscore : (topic.max_stickiness || topicStickiness(topic))));
-      statusText = `${topic.phase || 'archived'} · ${topicHorizonLabel(topic)} · peak ${shortDate(topic.peak_at)}`;
+      statusText = `${cycleDisplayPhase(topic)} · ${topicHorizonLabel(topic)} · peak ${shortDate(topic.peak_at)}`;
       barTitle = state.sort === 'horizon' ? `Archived event horizon ${hscore}/100` : `Archived stickiness ${badge}/100`;
     } else if (isFormal) {
       const hscore = topicHorizon(topic);
@@ -741,22 +772,43 @@ function renderTopicBoard() {
 
 function renderTopicTable() {
   els.tableTitle.textContent = state.scope === 'cycles' ? 'Archived cycle table' : 'Topic S2 table';
+  const head = document.querySelector('#topic-table thead tr');
+  if (head) {
+    head.innerHTML = state.scope === 'cycles'
+      ? '<th>Topic</th><th>Verdict / phase</th><th>Horizon</th><th>N</th><th>Peak</th><th>Archived</th><th>lambda_q</th><th>beta</th><th>Half</th><th>Dust</th><th>Delta AIC</th>'
+      : '<th>Topic</th><th>Phase</th><th>Horizon</th><th>N</th><th>Newest</th><th>lambda_q</th><th>beta</th><th>Half</th><th>Dust</th><th>Delta AIC</th>';
+  }
   els.topicTable.innerHTML = '';
   getTopicsSorted().forEach(topic => {
     const fit = topic.fit || {};
     const newest = topicNewest(topic);
     const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><span class="topic-pill">${topic.label}</span></td>
-      <td>${topic.phase}</td>
-      <td>${fmtNumber((topic.event_horizon || {}).score ?? 0, 0)}</td>
-      <td>${topic.article_count}</td>
-      <td>${state.scope === 'cycles' ? shortDate(topic.peak_at) : (newest ? ageLabel(new Date(newest).toISOString()) : '-')}</td>
-      <td>${fmtHours(fit.tau_hours)}</td>
-      <td>${fmtNumber(fit.beta, 2)}</td>
-      <td>${fmtHours(halfLife(fit.tau_hours, fit.beta))}</td>
-      <td>${fmtNumber(topicDust(topic), 3)}</td>
-      <td>${fmtNumber(fit.delta_aic_vs_exp, 2)}</td>`;
+    if (state.scope === 'cycles') {
+      tr.innerHTML = `
+        <td><span class="topic-pill">${topic.label}</span></td>
+        <td>${cycleDisplayPhase(topic)}</td>
+        <td>${fmtNumber((topic.event_horizon || {}).score ?? (topic.event_horizon || {}).max_score ?? 0, 0)}</td>
+        <td>${topic.article_count}</td>
+        <td>${shortDate(topic.peak_at)}</td>
+        <td>${shortDate(topic.archived_at)}</td>
+        <td>${fmtHours(fit.tau_hours)}</td>
+        <td>${fmtNumber(fit.beta, 2)}</td>
+        <td>${fmtHours(halfLife(fit.tau_hours, fit.beta))}</td>
+        <td>${fmtNumber(topicDust(topic), 3)}</td>
+        <td>${fmtNumber(fit.delta_aic_vs_exp, 2)}</td>`;
+    } else {
+      tr.innerHTML = `
+        <td><span class="topic-pill">${topic.label}</span></td>
+        <td>${topic.phase}</td>
+        <td>${fmtNumber((topic.event_horizon || {}).score ?? 0, 0)}</td>
+        <td>${topic.article_count}</td>
+        <td>${newest ? ageLabel(new Date(newest).toISOString()) : '-'}</td>
+        <td>${fmtHours(fit.tau_hours)}</td>
+        <td>${fmtNumber(fit.beta, 2)}</td>
+        <td>${fmtHours(halfLife(fit.tau_hours, fit.beta))}</td>
+        <td>${fmtNumber(topicDust(topic), 3)}</td>
+        <td>${fmtNumber(fit.delta_aic_vs_exp, 2)}</td>`;
+    }
     tr.addEventListener('click', () => {
       if (state.scope === 'cycles') state.selectedCycle = topic.key;
       else state.selectedTopic = topic.key;
