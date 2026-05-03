@@ -1,0 +1,61 @@
+name: Update news S2 data and deploy
+
+on:
+  schedule:
+    # Hourly, deliberately offset from the top of the hour to reduce queue congestion.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-news-s2
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch RSS and fit S2 curves
+        run: python scripts/update_news.py
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data)" ]; then
+            git add data/history.json data/news_s2.json data/cycles.json data/topic_memory.json
+            git commit -m "Update S2 news data [skip ci]"
+            git push
+          else
+            echo "No data changes to commit."
+          fi
+
+      - name: Build static artifact
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp index.html dist/
+          cp -R assets data dist/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,32 @@
+{
+  "generated_at": null,
+  "window_hours": 168,
+  "bin_hours": 3,
+  "model": {
+    "name": "DREAM S2 semantic news-cycle retention",
+    "retention_law": "R(lambda)=exp[-(lambda/lambda_q)^D_eff]",
+    "event_horizon_layer": "H(t)=Deviation(t)*CrossScaleCoherence(t), where Deviation=observed/expected_S2; pre-horizon requires high H and positive slope.",
+    "status": "pending first live RSS update"
+  },
+  "semantic_tracker": {
+    "mode": "semantic-lite",
+    "clusters_seen": 0,
+    "clusters_kept": 0,
+    "noise_articles": 0,
+    "memory_topics": 0
+  },
+  "summary": {
+    "article_count": 0,
+    "raw_recent_count": 0,
+    "history_count": 0,
+    "source_count": 0,
+    "fetch_errors": [],
+    "noise_articles": 0,
+    "semantic_topic_count": 0,
+    "cycle_count": 0,
+    "topic_memory_count": 0
+  },
+  "sources": [],
+  "topics": [],
+  "articles": []
+}

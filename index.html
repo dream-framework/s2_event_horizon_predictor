@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DREAM S2 Live News Retention</title>
+  <meta name="description" content="Compact GitHub Pages dashboard for live RSS news-cycle attention decay, cycle archives, and DREAM S2 stickiness detection." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar panel">
+      <section class="brand-block">
+        <p class="eyebrow">DREAM · S2 live feeds</p>
+        <h1>News Retention Monitor</h1>
+        <p class="lede">RSS feeds -> semantic objects -> S2 baseline -> event-horizon alerts -> stories that stick.</p>
+      </section>
+
+      <section class="control-block" aria-label="Dashboard controls">
+        <label>
+          <span>Scope</span>
+          <select id="scope-select">
+            <option value="current">Current wave</option>
+            <option value="cycles">Cycle archive</option>
+          </select>
+        </label>
+        <label>
+          <span>Topic / cycle</span>
+          <select id="topic-select"></select>
+        </label>
+        <label>
+          <span>View</span>
+          <select id="view-select">
+            <option value="retention">Retention</option>
+            <option value="residuals">Residuals</option>
+            <option value="comparison">S2 vs exp</option>
+            <option value="horizon">Event horizon</option>
+          </select>
+        </label>
+        <label>
+          <span>Signal</span>
+          <select id="signal-select">
+            <option value="corrected">Circadian-corrected</option>
+            <option value="raw">Raw feed</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="sort-select">
+            <option value="horizon">Event horizon</option>
+            <option value="stickiness">Stickiness</option>
+            <option value="articles">Articles</option>
+            <option value="recent">Newest</option>
+            <option value="lambda">lambda_q</option>
+            <option value="dust">Dust</option>
+            <option value="fit">Fit</option>
+          </select>
+        </label>
+        <button id="theme-btn" type="button" class="ghost-btn" aria-label="Toggle light and dark theme">Light</button>
+        <button id="refresh-btn" type="button">Refresh</button>
+      </section>
+
+      <section class="status-block" aria-label="Live feed status">
+        <div class="status-line"><i id="status-dot" class="status-dot"></i><span id="last-updated">Loading...</span></div>
+        <div class="stats-grid">
+          <div><b id="stat-topics">-</b><span>topics</span></div>
+          <div><b id="stat-articles">-</b><span>articles</span></div>
+          <div><b id="stat-sources">-</b><span>sources</span></div>
+          <div><b id="stat-errors">-</b><span>errors</span></div>
+        </div>
+      </section>
+    </header>
+
+    <main class="workspace">
+      <section class="left-stack">
+        <article class="panel metrics-strip" id="metrics-strip" aria-label="S2 metrics"></article>
+
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">selected signal</p>
+              <h2 id="chart-title">Retention curve</h2>
+            </div>
+            <div class="chart-actions">
+              <button class="chart-max-btn" id="chart-max-btn" type="button" aria-pressed="false">Max</button>
+              <div class="phase-badge" id="phase-badge">-</div>
+            </div>
+          </div>
+          <div id="chart" class="chart" role="img" aria-label="Interactive ECharts S2 news decay chart"></div>
+          <div class="chart-footer">
+            <p id="chart-note"></p>
+            <div class="legend" id="chart-legend"></div>
+          </div>
+        </article>
+
+        <article class="panel table-panel">
+          <div class="panel-head slim">
+            <div>
+              <p class="eyebrow">batch / archive summary</p>
+              <h2 id="table-title">Topic S2 table</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table id="topic-table">
+              <thead>
+                <tr>
+                  <th>Topic</th><th>Phase</th><th>Horizon</th><th>N</th><th>Newest / peak</th><th>lambda_q</th><th>beta</th><th>Half</th><th>Dust</th><th>Delta AIC</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <aside class="right-stack">
+        <article class="panel topic-board-panel">
+          <div class="panel-head slim">
+            <div>
+              <p class="eyebrow">topic board</p>
+              <h2 id="board-title">Live cycles</h2>
+            </div>
+          </div>
+          <div class="topic-board" id="topic-board"></div>
+        </article>
+
+        <article class="panel story-panel">
+          <div class="panel-head slim">
+            <div>
+              <p class="eyebrow">stickiness stream</p>
+              <h2 id="story-title">Stories that stick</h2>
+            </div>
+            <p class="small" id="story-count"></p>
+          </div>
+          <div class="story-list" id="story-list"></div>
+        </article>
+
+        <article class="panel source-panel">
+          <div class="panel-head slim">
+            <div>
+              <p class="eyebrow">source health</p>
+              <h2>RSS feeds</h2>
+            </div>
+            <p class="small" id="source-count"></p>
+          </div>
+          <div class="source-list" id="source-list"></div>
+        </article>
+      </aside>
+    </main>
+  </div>
+
+  <template id="story-template">
+    <article class="story">
+      <div>
+        <p class="story__meta"></p>
+        <h3><a target="_blank" rel="noopener noreferrer"></a></h3>
+      </div>
+      <span class="story__topic"></span>
+    </article>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="assets/app.js" type="module"></script>
+</body>
+</html>
