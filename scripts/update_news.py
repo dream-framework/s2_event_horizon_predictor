@@ -522,16 +522,49 @@ def cluster_category(indices: List[int], records: List[Dict[str, Any]]) -> Tuple
     return key, label
 
 
+LABEL_SKIP_TERMS = {
+    "news", "latest", "update", "updates", "report", "reports", "says", "said", "new",
+    "artificial", "intelligence", "secret", "oscar", "oscars", "scientific", "american",
+    "department", "public", "health", "california", "live", "world", "general"
+}
+
+def label_tokens(text: str) -> set:
+    return {t for t in re.findall(r"[a-z0-9]+", (text or "").lower()) if len(t) > 2 and t not in LABEL_SKIP_TERMS}
+
+def redundant_anchor(candidate: str, anchors: List[str]) -> bool:
+    ct = label_tokens(candidate)
+    if not ct:
+        return True
+    for anchor in anchors:
+        at = label_tokens(anchor)
+        if not at:
+            continue
+        overlap = len(ct & at) / max(1, min(len(ct), len(at)))
+        if ct <= at or at <= ct or overlap >= 0.72:
+            return True
+    return False
+
+def clean_anchor(text: str) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip(" -_/"))
+    text = re.sub(r"\b(News|Latest|Update|Updates|Report|Reports)\b", "", text, flags=re.I).strip(" -_/")
+    return text[:40].rstrip()
+
 def semantic_label(category_label: str, keywords: List[str], entities: List[str]) -> str:
-    anchors = []
+    anchors: List[str] = []
+    # Prefer stable named entities; they survive wording changes better than raw keywords.
     for ent in entities:
-        if ent not in anchors:
-            anchors.append(ent)
+        pretty = clean_anchor(ent)
+        if pretty and not redundant_anchor(pretty, anchors):
+            anchors.append(pretty)
         if len(anchors) >= 2:
             break
+    # Add only non-redundant descriptive keywords.
     for kw in keywords:
-        pretty = kw.replace("_", " ").title() if len(kw) <= 4 else kw.replace("_", " ")
-        if pretty.lower() not in {a.lower() for a in anchors}:
+        raw = kw.replace("_", " ")
+        if raw.lower() in LABEL_SKIP_TERMS:
+            continue
+        pretty = clean_anchor(raw.title() if len(raw) <= 4 else raw)
+        if pretty and not redundant_anchor(pretty, anchors):
             anchors.append(pretty)
         if len(anchors) >= 3:
             break
@@ -1272,7 +1305,9 @@ def cycle_from_topic(topic: Dict[str, Any], output: Dict[str, Any]) -> Optional[
         "archived_at": generated_at.isoformat(),
         "article_count": topic.get("article_count", 0),
         "phase": topic.get("phase"),
+        "lifecycle_phase": topic.get("phase"),
         "verdict": verdict_from_fit(fit),
+        "combined_verdict": f"{verdict_from_fit(fit)} · {topic.get('phase') or 'cycle'}",
         "event_horizon": topic.get("event_horizon", {}),
         "residual_dust": topic.get("residual_dust"),
         "circadian_bias": topic.get("circadian_bias"),
@@ -1293,7 +1328,81 @@ def cycle_from_topic(topic: Dict[str, Any], output: Dict[str, Any]) -> Optional[
     }
 
 
-def update_cycle_archive(existing_cycles: List[Dict[str, Any]], previous_output: Dict[str, Any], current_time: dt.datetime) -> List[Dict[str, Any]]:
+def norm_cycle_label(label: str) -> str:
+    toks = sorted(label_tokens(label))
+    return " ".join(toks[:8])
+
+def cycle_score(cycle: Dict[str, Any]) -> float:
+    fit = cycle.get("fit") or {}
+    h = cycle.get("event_horizon") or {}
+    return (
+        float(h.get("max_score") or h.get("score") or 0) * 4.0
+        + float(cycle.get("max_stickiness") or 0) * 1.2
+        + max(0.0, float(fit.get("delta_aic_vs_exp") or 0)) * 3.0
+        + max(0.0, float(fit.get("log_r2") or 0)) * 8.0
+        + math.log1p(float(cycle.get("article_count") or 0)) * 2.0
+    )
+
+def merge_sticky_stories(a: List[Dict[str, Any]], b: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    by_key: Dict[str, Dict[str, Any]] = {}
+    for story in list(a or []) + list(b or []):
+        key = story.get("id") or story.get("url") or story.get("title")
+        if not key:
+            continue
+        old = by_key.get(key)
+        if old is None or (story.get("stickiness_score") or 0) > (old.get("stickiness_score") or 0):
+            by_key[key] = story
+    stories = list(by_key.values())
+    stories.sort(key=lambda item: (item.get("stickiness_score") or 0, item.get("published_at") or ""), reverse=True)
+    return stories[:24]
+
+def merge_cycle_records(keep: Dict[str, Any], incoming: Dict[str, Any]) -> Dict[str, Any]:
+    # Keep the scientifically stronger representative, but carry forward evidence from the duplicate.
+    best, other = (incoming, keep) if cycle_score(incoming) > cycle_score(keep) else (keep, incoming)
+    merged = dict(best)
+    merged["article_count"] = max(int(keep.get("article_count") or 0), int(incoming.get("article_count") or 0))
+    merged["archived_at"] = max(str(keep.get("archived_at") or ""), str(incoming.get("archived_at") or ""))
+    merged["duplicate_count"] = int(keep.get("duplicate_count") or 1) + int(incoming.get("duplicate_count") or 1)
+    merged["duplicate_cycle_ids"] = sorted(set((keep.get("duplicate_cycle_ids") or []) + (incoming.get("duplicate_cycle_ids") or []) + [keep.get("cycle_id"), incoming.get("cycle_id")]))
+    merged["dedupe_reason"] = "same semantic label and nearby peak; retained strongest representative"
+    merged["sticky_stories"] = merge_sticky_stories(keep.get("sticky_stories", []), incoming.get("sticky_stories", []))
+    merged["max_stickiness"] = max([s.get("stickiness_score") or 0 for s in merged.get("sticky_stories", [])], default=max(keep.get("max_stickiness") or 0, incoming.get("max_stickiness") or 0))
+    return merged
+
+def dedupe_cycles(cycles: List[Dict[str, Any]], peak_window_hours: float = 8.0) -> List[Dict[str, Any]]:
+    representatives: List[Dict[str, Any]] = []
+    for cycle in sorted(cycles, key=cycle_score, reverse=True):
+        label = norm_cycle_label(cycle.get("topic_label") or cycle.get("topic") or "")
+        peak = parse_dt(cycle.get("peaked_at"), now_utc())
+        merged = False
+        for idx, existing in enumerate(representatives):
+            if label != norm_cycle_label(existing.get("topic_label") or existing.get("topic") or ""):
+                continue
+            epeak = parse_dt(existing.get("peaked_at"), peak)
+            dt_hours = abs((peak - epeak).total_seconds()) / 3600.0
+            if dt_hours <= peak_window_hours:
+                representatives[idx] = merge_cycle_records(existing, cycle)
+                merged = True
+                break
+        if not merged:
+            cycle.setdefault("duplicate_count", 1)
+            representatives.append(cycle)
+    representatives.sort(key=lambda c: (float((c.get("event_horizon") or {}).get("max_score") or (c.get("event_horizon") or {}).get("score") or 0), c.get("peaked_at") or c.get("archived_at") or ""), reverse=True)
+    return representatives
+
+def active_cycle_ids(output: Dict[str, Any]) -> set:
+    ids = set()
+    if not isinstance(output, dict):
+        return ids
+    for topic in output.get("topics", []):
+        cycle = cycle_from_topic(topic, output)
+        if cycle and cycle.get("cycle_id"):
+            ids.add(cycle["cycle_id"])
+    return ids
+
+def update_cycle_archive(existing_cycles: List[Dict[str, Any]], previous_output: Dict[str, Any], current_output: Dict[str, Any], current_time: dt.datetime) -> List[Dict[str, Any]]:
+    # Do not archive the still-active formal cycle. Archive it only when a new wave/peak replaces it.
+    active_ids = active_cycle_ids(current_output)
     by_id: Dict[str, Dict[str, Any]] = {}
     for cycle in existing_cycles:
         cid = cycle.get("cycle_id")
@@ -1305,10 +1414,15 @@ def update_cycle_archive(existing_cycles: List[Dict[str, Any]], previous_output:
             if not cycle:
                 continue
             cid = cycle.get("cycle_id")
-            if cid and cid not in by_id:
+            if not cid or cid in active_ids:
+                continue
+            if cid not in by_id:
                 by_id[cid] = cycle
-    cycles = list(by_id.values())
-    cycles.sort(key=lambda c: c.get("archived_at") or c.get("peaked_at") or "", reverse=True)
+            else:
+                by_id[cid] = merge_cycle_records(by_id[cid], cycle)
+    cycles = dedupe_cycles(list(by_id.values()))
+    # Discovery-first archive: high horizon first, then newest peak, then fit quality.
+    cycles.sort(key=lambda c: (float((c.get("event_horizon") or {}).get("max_score") or (c.get("event_horizon") or {}).get("score") or 0), c.get("peaked_at") or c.get("archived_at") or "", cycle_score(c)), reverse=True)
     return cycles[:500]
 
 
@@ -1405,7 +1519,7 @@ def build_output(history: List[Dict[str, Any]], sources: List[Dict[str, str]], e
             "observation_clock": "article.published_at, not GitHub Action run time",
             "history_role": "data/history.json retains raw article records and first_seen/last_seen provenance; topic_memory.json retains semantic identity; cycles.json retains completed S2 cycle summaries.",
             "comparison": "Delta AIC = AIC(exponential beta=1) - AIC(stretched S2 beta free)",
-            "cycle_archive_role": "data/cycles.json stores completed formal cycle summaries so prior S2 learning remains visible when a new wave resets the current topic.",
+            "cycle_archive_role": "data/cycles.json stores deduplicated completed formal cycle summaries so prior S2 learning remains visible when a new wave resets the current topic. Current waves are not archived until replaced by a new peak.",
         },
         "semantic_tracker": semantic_meta,
         "summary": {
@@ -1510,7 +1624,7 @@ def main() -> int:
 
     history = merge_history(existing, incoming, current_time)
     output, new_topic_memory = build_output(history, sources, errors, current_time, topic_memory)
-    cycles = update_cycle_archive(existing_cycles, previous_output, current_time)
+    cycles = update_cycle_archive(existing_cycles, previous_output, output, current_time)
     output["summary"]["cycle_count"] = len(cycles)
     output["summary"]["topic_memory_count"] = len(new_topic_memory)
     output["cycle_archive"] = {
