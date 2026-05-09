@@ -2636,8 +2636,8 @@
     "started_at": "2026-05-05T20:45:02.790178+00:00",
     "peaked_at": "2026-05-05T20:45:02.790178+00:00",
     "ended_at": "2026-05-06T11:45:02.790178+00:00",
-    "archived_at": "2026-05-09T19:21:28.330743+00:00",
-    "article_count": 11550,
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
+    "article_count": 11574,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -3230,7 +3230,7 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 39,
+    "duplicate_count": 40,
     "duplicate_cycle_ids": [
       "01bf073d009ea15ad5",
       "06d899f80d7bd2c6ff",
@@ -4319,8 +4319,8 @@
     "started_at": "2026-05-07T19:21:28.330743+00:00",
     "peaked_at": "2026-05-07T19:21:28.330743+00:00",
     "ended_at": "2026-05-09T16:21:28.330743+00:00",
-    "archived_at": "2026-05-09T19:21:28.330743+00:00",
-    "article_count": 34,
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
+    "article_count": 35,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 weak",
@@ -4684,14 +4684,15 @@
       }
     ],
     "max_stickiness": 92,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "093926d8888645534c",
       "435c0cd95c34220d82",
       "465b6b2c9780615ce4",
       "6a34f653d81c611fdc",
       "aa4e77e3ea12bc44c7",
-      "c5d639ac3dc6d505ef"
+      "c5d639ac3dc6d505ef",
+      "ce1f254076177553ed"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -17459,7 +17460,7 @@
     "started_at": "2026-05-08T05:11:03.257687+00:00",
     "peaked_at": "2026-05-08T05:11:03.257687+00:00",
     "ended_at": "2026-05-09T14:11:03.257687+00:00",
-    "archived_at": "2026-05-09T19:21:28.330743+00:00",
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -17737,8 +17738,9 @@
       }
     ],
     "max_stickiness": 31,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
+      "377f751c72e8c0dc07",
       "6fb3a1583c821bfe19",
       "8719dd45fbc0c144b1",
       "9764516bc347e20dad",
@@ -17781,7 +17783,7 @@
     "started_at": "2026-05-05T16:56:47.354991+00:00",
     "peaked_at": "2026-05-05T16:56:47.354991+00:00",
     "ended_at": "2026-05-08T04:56:47.354991+00:00",
-    "archived_at": "2026-05-09T19:21:28.330743+00:00",
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -18193,7 +18195,7 @@
       }
     ],
     "max_stickiness": 47,
-    "duplicate_count": 23,
+    "duplicate_count": 24,
     "duplicate_cycle_ids": [
       "09fb884be7d12af20c",
       "2a7fccff17df82d261",
@@ -24172,8 +24174,8 @@
     "started_at": "2026-05-05T17:11:03.257687+00:00",
     "peaked_at": "2026-05-05T17:11:03.257687+00:00",
     "ended_at": "2026-05-09T14:11:03.257687+00:00",
-    "archived_at": "2026-05-09T18:03:32.696547+00:00",
-    "article_count": 7,
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
+    "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -24751,6 +24753,25 @@
     ],
     "sticky_stories": [
       {
+        "id": "777e8327d243f3a3e3",
+        "title": "The Department of Labor is right to make union spending transparent",
+        "url": "https://thehill.com/opinion/congress-blog/labor/5870396-labor-union-dues-transparency/",
+        "source": "The Hill",
+        "published_at": "2026-05-09T18:00:00+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.447651,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 95.972,
+        "post_lambda_q": false,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.093546
+      },
+      {
         "id": "79a37ac62ceb6660de",
         "title": "News | AI expected to boost demand for US industrial, office, retail space by 12% in next decade - CoStar",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ2YtUjVHWk1Oa054VWIxeEtCb3dYbmpKR2ZoXy1UVXJYV29wT1FYUUNUOE9iZ0NNODBrU0tzcDZXckN1Rm9ic0diSG5INzF2cmpIVmVmNGlMdThiVUlSV2hkbmhiN2N5UkRyOHF2bExtWXc3TXNqa05OTmNGblF5NDVLYmk0UGtPWEx3WC1YYl92RW0ta1lGWU93a1V3RWJZb19TMUZDajFtbVdGcmxQejlZR3Y1TTVFSHFFUHFSRWd1M3JrVHlN?oc=5",
@@ -24771,11 +24792,12 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "251a1fd8041c14b9a0",
       "862c8530a440019843",
-      "b3936b2fa35ff969e5"
+      "b3936b2fa35ff969e5",
+      "fa58dd2f352fe9250c"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -28374,7 +28396,7 @@
     "started_at": "2026-05-04T04:53:20.463122+00:00",
     "peaked_at": "2026-05-04T04:53:20.463122+00:00",
     "ended_at": "2026-05-06T13:53:20.463122+00:00",
-    "archived_at": "2026-05-09T18:03:32.696547+00:00",
+    "archived_at": "2026-05-09T21:01:42.215414+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -28769,7 +28791,7 @@
       }
     ],
     "max_stickiness": 16,
-    "duplicate_count": 28,
+    "duplicate_count": 29,
     "duplicate_cycle_ids": [
       "583b8f941e788d535d",
       "a7bad5580fde38d713",
