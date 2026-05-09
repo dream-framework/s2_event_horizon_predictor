@@ -2173,8 +2173,8 @@
     "started_at": "2026-05-05T20:45:02.790178+00:00",
     "peaked_at": "2026-05-05T20:45:02.790178+00:00",
     "ended_at": "2026-05-06T11:45:02.790178+00:00",
-    "archived_at": "2026-05-08T23:09:03.118727+00:00",
-    "article_count": 10821,
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
+    "article_count": 11011,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -2767,7 +2767,7 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 28,
+    "duplicate_count": 29,
     "duplicate_cycle_ids": [
       "01bf073d009ea15ad5",
       "06d899f80d7bd2c6ff",
@@ -10316,7 +10316,7 @@
     "started_at": "2026-05-02T04:11:06.434221+00:00",
     "peaked_at": "2026-05-02T04:11:06.434221+00:00",
     "ended_at": "2026-05-08T19:11:06.434221+00:00",
-    "archived_at": "2026-05-08T22:11:06.434221+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -11327,7 +11327,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "05f37c6583dc4c1176",
       "552f18777fabced24f",
@@ -12231,7 +12231,7 @@
     "started_at": "2026-05-05T18:58:03.304710+00:00",
     "peaked_at": "2026-05-05T18:58:03.304710+00:00",
     "ended_at": "2026-05-07T15:58:03.304710+00:00",
-    "archived_at": "2026-05-08T23:09:03.118727+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -12596,7 +12596,7 @@
       }
     ],
     "max_stickiness": 56,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "b2346ff63177bec562",
       "cb1b9fead52e904448",
@@ -13633,7 +13633,7 @@
     "started_at": "2026-05-07T01:11:06.434221+00:00",
     "peaked_at": "2026-05-07T01:11:06.434221+00:00",
     "ended_at": "2026-05-08T19:11:06.434221+00:00",
-    "archived_at": "2026-05-08T22:11:06.434221+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -13923,8 +13923,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "178815f32814636b4f",
       "7702e28d07dd549838",
       "fab42acb1ebf6f520d"
     ],
@@ -18592,7 +18593,7 @@
     "started_at": "2026-05-03T03:44:40.147535+00:00",
     "peaked_at": "2026-05-03T03:44:40.147535+00:00",
     "ended_at": "2026-05-07T06:44:40.147535+00:00",
-    "archived_at": "2026-05-09T00:08:55.331044+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -19225,7 +19226,7 @@
       }
     ],
     "max_stickiness": 47,
-    "duplicate_count": 22,
+    "duplicate_count": 23,
     "duplicate_cycle_ids": [
       "106f39022892b1f306",
       "71aa062b8d70742dce",
@@ -25117,7 +25118,7 @@
     "started_at": "2026-05-05T16:44:19.691158+00:00",
     "peaked_at": "2026-05-05T16:44:19.691158+00:00",
     "ended_at": "2026-05-08T16:44:19.691158+00:00",
-    "archived_at": "2026-05-09T00:08:55.331044+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -25597,7 +25598,7 @@
       }
     ],
     "max_stickiness": 20,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "58b629816c44e30984",
       "688d26bdb6ee82eb90",
@@ -33978,7 +33979,7 @@
     "started_at": "2026-05-04T18:52:11.934569+00:00",
     "peaked_at": "2026-05-04T18:52:11.934569+00:00",
     "ended_at": "2026-05-08T12:52:11.934569+00:00",
-    "archived_at": "2026-05-08T22:11:06.434221+00:00",
+    "archived_at": "2026-05-09T03:53:35.563841+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -34579,7 +34580,7 @@
       }
     ],
     "max_stickiness": 13,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "1583dec652193574a1",
       "98e3d6ba212d91c974"
