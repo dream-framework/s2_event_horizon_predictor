@@ -2346,7 +2346,7 @@
     "started_at": "2026-05-03T22:35:57.390570+00:00",
     "peaked_at": "2026-05-03T22:35:57.390570+00:00",
     "ended_at": "2026-05-10T07:35:57.390570+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 13,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -3323,7 +3323,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "9633ccca0272f0e918",
       "aa45b508a700e7000b",
@@ -3659,7 +3659,7 @@
     "started_at": "2026-05-05T20:45:02.790178+00:00",
     "peaked_at": "2026-05-05T20:45:02.790178+00:00",
     "ended_at": "2026-05-06T11:45:02.790178+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 11615,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -4253,7 +4253,7 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 47,
+    "duplicate_count": 48,
     "duplicate_cycle_ids": [
       "01bf073d009ea15ad5",
       "06d899f80d7bd2c6ff",
@@ -5343,7 +5343,7 @@
     "started_at": "2026-05-07T19:21:28.330743+00:00",
     "peaked_at": "2026-05-07T19:21:28.330743+00:00",
     "ended_at": "2026-05-09T16:21:28.330743+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 35,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -5705,15 +5705,35 @@
         "horizon_index": 0.434891,
         "deviation_ratio": 1.277034,
         "cross_scale_coherence": 0.340548
+      },
+      {
+        "id": "1110fe8455cb21ec96",
+        "title": "El Clasico: Kylian Mbappe not in Real Madrid squad to face Barcelona",
+        "url": "https://www.aljazeera.com/sports/2026/5/10/el-clasico-kylian-mbappe-not-in-real-madrid-squad-to-face-barcelona?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-05-10T11:13:00+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.373359,
+        "observed_corrected": 0.306285,
+        "age_after_peak_hours": 71.189,
+        "post_lambda_q": false,
+        "role": "decays with baseline",
+        "horizon_score": 21,
+        "horizon_phase": "noise",
+        "horizon_index": 0.28152,
+        "deviation_ratio": 0.82035,
+        "cross_scale_coherence": 0.34317
       }
     ],
     "max_stickiness": 92,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "024ed10f953ff5a2d7",
       "093926d8888645534c",
       "435c0cd95c34220d82",
       "465b6b2c9780615ce4",
+      "6958d4f43f2d2bd000",
       "6a34f653d81c611fdc",
       "aa4e77e3ea12bc44c7",
       "c5d639ac3dc6d505ef",
@@ -10348,7 +10368,7 @@
     "started_at": "2026-05-08T09:59:50.822421+00:00",
     "peaked_at": "2026-05-08T09:59:50.822421+00:00",
     "ended_at": "2026-05-09T18:59:50.822421+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 12,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -10626,7 +10646,7 @@
       }
     ],
     "max_stickiness": 51,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "377f751c72e8c0dc07",
       "568912f1f4db54c1c5",
@@ -14462,7 +14482,7 @@
     "started_at": "2026-05-05T18:58:03.304710+00:00",
     "peaked_at": "2026-05-05T18:58:03.304710+00:00",
     "ended_at": "2026-05-07T15:58:03.304710+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -14827,7 +14847,7 @@
       }
     ],
     "max_stickiness": 56,
-    "duplicate_count": 31,
+    "duplicate_count": 32,
     "duplicate_cycle_ids": [
       "b2346ff63177bec562",
       "cb1b9fead52e904448",
@@ -17944,7 +17964,7 @@
     "started_at": "2026-05-05T16:56:47.354991+00:00",
     "peaked_at": "2026-05-05T16:56:47.354991+00:00",
     "ended_at": "2026-05-08T04:56:47.354991+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -18356,7 +18376,7 @@
       }
     ],
     "max_stickiness": 47,
-    "duplicate_count": 31,
+    "duplicate_count": 32,
     "duplicate_cycle_ids": [
       "09fb884be7d12af20c",
       "2a7fccff17df82d261",
@@ -22856,7 +22876,7 @@
     "started_at": "2026-05-07T12:01:10.332317+00:00",
     "peaked_at": "2026-05-07T12:01:10.332317+00:00",
     "ended_at": "2026-05-10T06:01:10.332317+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -23302,7 +23322,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "898115ae54d0e5384d",
       "f95469bb8a6ff4fc59"
@@ -28184,7 +28204,7 @@
     "started_at": "2026-05-05T17:03:31.162803+00:00",
     "peaked_at": "2026-05-05T17:03:31.162803+00:00",
     "ended_at": "2026-05-09T20:03:31.162803+00:00",
-    "archived_at": "2026-05-10T09:01:10.332317+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -28836,7 +28856,7 @@
       }
     ],
     "max_stickiness": 17,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "251a1fd8041c14b9a0",
       "862c8530a440019843",
@@ -30815,7 +30835,7 @@
     "started_at": "2026-05-07T12:52:11.934569+00:00",
     "peaked_at": "2026-05-07T12:52:11.934569+00:00",
     "ended_at": "2026-05-08T12:52:11.934569+00:00",
-    "archived_at": "2026-05-10T10:35:57.390570+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 5,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -31003,7 +31023,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "43ace35675ad0edf78",
       "545b908b2b93da2f15",
@@ -33653,7 +33673,7 @@
     "started_at": "2026-05-06T03:07:23.672993+00:00",
     "peaked_at": "2026-05-06T03:07:23.672993+00:00",
     "ended_at": "2026-05-08T03:07:23.672993+00:00",
-    "archived_at": "2026-05-10T09:01:10.332317+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 5,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -33977,7 +33997,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "189b12baead07a678f",
       "8e759d8543d0e564b8",
@@ -44736,7 +44756,7 @@
     "started_at": "2026-05-05T21:01:10.332317+00:00",
     "peaked_at": "2026-05-05T21:01:10.332317+00:00",
     "ended_at": "2026-05-10T06:01:10.332317+00:00",
-    "archived_at": "2026-05-10T09:01:10.332317+00:00",
+    "archived_at": "2026-05-10T12:01:39.661230+00:00",
     "article_count": 5,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -45383,7 +45403,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "ed2fe584f92f3872e7"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "92be45f38e8decf8a3",
