@@ -34,7 +34,7 @@
     "started_at": "2026-05-06T11:50:13.410421+00:00",
     "peaked_at": "2026-05-06T11:50:13.410421+00:00",
     "ended_at": "2026-05-09T05:50:13.410421+00:00",
-    "archived_at": "2026-05-09T08:50:13.410421+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -460,7 +460,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "73f832487fc1fcefda"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "dcf2c92ab66eb8e64c",
@@ -2346,8 +2350,8 @@
     "started_at": "2026-05-05T19:34:14.954880+00:00",
     "peaked_at": "2026-05-05T19:34:14.954880+00:00",
     "ended_at": "2026-05-11T01:34:14.954880+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
-    "article_count": 11638,
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
+    "article_count": 11666,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 likely",
@@ -3569,7 +3573,7 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 58,
+    "duplicate_count": 59,
     "duplicate_cycle_ids": [
       "01bf073d009ea15ad5",
       "06d899f80d7bd2c6ff",
@@ -5973,8 +5977,8 @@
     "started_at": "2026-05-07T19:21:28.330743+00:00",
     "peaked_at": "2026-05-07T19:21:28.330743+00:00",
     "ended_at": "2026-05-09T16:21:28.330743+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
-    "article_count": 37,
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
+    "article_count": 38,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 weak",
@@ -6413,6 +6417,25 @@
         "cross_scale_coherence": 0.351655
       },
       {
+        "id": "ec19d7e5e8bbe5af17",
+        "title": "Fans celebrate as Barcelona clinches LaLiga title",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/5/11/fans-celebrate-as-barcelona-clinches-laliga-title?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-05-11T07:13:37+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.339178,
+        "observed_corrected": 0.314254,
+        "age_after_peak_hours": 91.64,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 13,
+        "horizon_phase": "noise",
+        "horizon_index": 0.322307,
+        "deviation_ratio": 0.926516,
+        "cross_scale_coherence": 0.34787
+      },
+      {
         "id": "ba926b0b8e635a4f05",
         "title": "What next for Real Madrid after Barcelona’s La Liga and Clasico triumph?",
         "url": "https://www.aljazeera.com/sports/2026/5/11/what-next-for-real-madrid-after-barcelonas-la-liga-and-clasico-triumph?traffic_source=rss",
@@ -6433,7 +6456,7 @@
       }
     ],
     "max_stickiness": 92,
-    "duplicate_count": 24,
+    "duplicate_count": 25,
     "duplicate_cycle_ids": [
       "024ed10f953ff5a2d7",
       "093926d8888645534c",
@@ -6452,7 +6475,8 @@
       "c5d639ac3dc6d505ef",
       "cd3528d5ef46b9b7c8",
       "ce1f254076177553ed",
-      "de31fc2ef49fd2c1a8"
+      "de31fc2ef49fd2c1a8",
+      "eff35e903c343936bb"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -11082,7 +11106,7 @@
     "started_at": "2026-05-08T09:59:50.822421+00:00",
     "peaked_at": "2026-05-08T09:59:50.822421+00:00",
     "ended_at": "2026-05-09T18:59:50.822421+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 12,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -11360,7 +11384,7 @@
       }
     ],
     "max_stickiness": 51,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "11adef1ab5b638a34e",
       "377f751c72e8c0dc07",
@@ -16157,7 +16181,7 @@
     "started_at": "2026-05-05T18:58:03.304710+00:00",
     "peaked_at": "2026-05-05T18:58:03.304710+00:00",
     "ended_at": "2026-05-07T15:58:03.304710+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -16522,7 +16546,7 @@
       }
     ],
     "max_stickiness": 56,
-    "duplicate_count": 43,
+    "duplicate_count": 44,
     "duplicate_cycle_ids": [
       "b2346ff63177bec562",
       "cb1b9fead52e904448",
@@ -20857,7 +20881,7 @@
     "started_at": "2026-05-04T18:01:18.459388+00:00",
     "peaked_at": "2026-05-04T18:01:18.459388+00:00",
     "ended_at": "2026-05-05T21:01:18.459388+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -21101,7 +21125,7 @@
       }
     ],
     "max_stickiness": 20,
-    "duplicate_count": 19,
+    "duplicate_count": 20,
     "duplicate_cycle_ids": [
       "26daeca0cc789bd2b0",
       "45b87f463799186510",
@@ -23864,7 +23888,7 @@
     "started_at": "2026-05-07T12:01:10.332317+00:00",
     "peaked_at": "2026-05-07T12:01:10.332317+00:00",
     "ended_at": "2026-05-10T06:01:10.332317+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -24310,7 +24334,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 16,
+    "duplicate_count": 17,
     "duplicate_cycle_ids": [
       "898115ae54d0e5384d",
       "bdede9d5a931eeda61",
@@ -25830,8 +25854,8 @@
     "started_at": "2026-05-08T16:34:14.954880+00:00",
     "peaked_at": "2026-05-08T16:34:14.954880+00:00",
     "ended_at": "2026-05-11T01:34:14.954880+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
-    "article_count": 8,
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
+    "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -26224,6 +26248,25 @@
         "cross_scale_coherence": 0.397484
       },
       {
+        "id": "7efc38888a71ae9a2a",
+        "title": "WAVY Weather Night Update | May 10, 2026 - WAVY.com",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aTmZ1RFFrWWZvUFZtSUw2dHQyV1Y5STdaWFRPVkoyRkJZX3hFZXJzSVdXOUdhVzBPNkQxbGQxRFdnYmhiTWFER0Rxclh0enNFbFZHb2JOc1lQZC0xQVBmVjVCQW1EODlBZGFNLVY1VUFvLWFEaXJtSlA1eks0M2s?oc=5",
+        "source": "Google News Climate",
+        "published_at": "2026-05-11T04:41:59+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.574258,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 62.113,
+        "post_lambda_q": false,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.13281
+      },
+      {
         "id": "b46e0ab8f66f3a7b9e",
         "title": "WAVY Weather Morning Update | May 10, 2026 - WAVY.com",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbnNVZlJobjVmODVyQVBlOG5Lb0RfdUhHczZObkt2b0Rxa0hwT01rYzJTVEo4TVRNakRzTHgyNk1nYldLNXZlS1AyNzlYcjlOWV9jb3ZSam53eTVRTHlQdzZ2V1FwVWw3VGdMZklFbU0yUkZWZHN2LVVGblBoRTdYUmtB?oc=5",
@@ -26244,12 +26287,13 @@
       }
     ],
     "max_stickiness": 23,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "068ac90f39c2e08e81",
       "66fefa87f4280e8065",
       "b12baf9e05f5ccb7e6",
       "d43f6f289c18e2c937",
+      "dbd27e03b1f28d0dd2",
       "e783d5e19b6351b345"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -29650,7 +29694,7 @@
     "started_at": "2026-05-05T17:03:31.162803+00:00",
     "peaked_at": "2026-05-05T17:03:31.162803+00:00",
     "ended_at": "2026-05-09T20:03:31.162803+00:00",
-    "archived_at": "2026-05-11T00:07:06.004021+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -30302,7 +30346,7 @@
       }
     ],
     "max_stickiness": 17,
-    "duplicate_count": 19,
+    "duplicate_count": 20,
     "duplicate_cycle_ids": [
       "251a1fd8041c14b9a0",
       "862c8530a440019843",
@@ -32282,7 +32326,7 @@
     "started_at": "2026-05-07T12:52:11.934569+00:00",
     "peaked_at": "2026-05-07T12:52:11.934569+00:00",
     "ended_at": "2026-05-08T12:52:11.934569+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 5,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -32470,7 +32514,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 37,
+    "duplicate_count": 38,
     "duplicate_cycle_ids": [
       "43ace35675ad0edf78",
       "545b908b2b93da2f15",
@@ -35120,7 +35164,7 @@
     "started_at": "2026-05-06T03:07:23.672993+00:00",
     "peaked_at": "2026-05-06T03:07:23.672993+00:00",
     "ended_at": "2026-05-08T03:07:23.672993+00:00",
-    "archived_at": "2026-05-11T04:34:14.954880+00:00",
+    "archived_at": "2026-05-11T08:35:12.184872+00:00",
     "article_count": 5,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -35444,7 +35488,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 37,
+    "duplicate_count": 38,
     "duplicate_cycle_ids": [
       "189b12baead07a678f",
       "8e759d8543d0e564b8",
