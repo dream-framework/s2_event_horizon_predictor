@@ -501,7 +501,7 @@
     "started_at": "2026-05-05T20:10:03.930139+00:00",
     "peaked_at": "2026-05-05T20:10:03.930139+00:00",
     "ended_at": "2026-05-11T20:10:03.930139+00:00",
-    "archived_at": "2026-05-12T12:15:24.202936+00:00",
+    "archived_at": "2026-05-12T14:51:15.249875+00:00",
     "article_count": 11669,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1826,7 +1826,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 70,
+    "duplicate_count": 71,
     "duplicate_cycle_ids": [
       "01bf073d009ea15ad5",
       "06d899f80d7bd2c6ff",
@@ -1893,7 +1893,7 @@
     "started_at": "2026-05-05T17:02:28.871061+00:00",
     "peaked_at": "2026-05-05T17:02:28.871061+00:00",
     "ended_at": "2026-05-11T17:02:28.871061+00:00",
-    "archived_at": "2026-05-11T23:10:03.930139+00:00",
+    "archived_at": "2026-05-12T14:51:15.249875+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2761,8 +2761,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "0430789a6f450269cf",
       "b0dafb5ac7ad81a2f0"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -6991,7 +6992,7 @@
     "started_at": "2026-05-07T19:21:28.330743+00:00",
     "peaked_at": "2026-05-07T19:21:28.330743+00:00",
     "ended_at": "2026-05-09T16:21:28.330743+00:00",
-    "archived_at": "2026-05-12T12:15:24.202936+00:00",
+    "archived_at": "2026-05-12T14:51:15.249875+00:00",
     "article_count": 39,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -7469,6 +7470,25 @@
         "cross_scale_coherence": 0.351655
       },
       {
+        "id": "a733df17c41ffa73dd",
+        "title": "Can Manchester City overtake Arsenal to win the Premier League title?",
+        "url": "https://www.aljazeera.com/sports/2026/5/12/can-manchester-city-overtake-arsenal-to-win-the-premier-league-title?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-05-12T12:24:58+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.330902,
+        "observed_corrected": 0.254278,
+        "age_after_peak_hours": 120.562,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 20,
+        "horizon_phase": "noise",
+        "horizon_index": 0.261018,
+        "deviation_ratio": 0.768439,
+        "cross_scale_coherence": 0.339673
+      },
+      {
         "id": "0380c31e474ab4c501",
         "title": "Barcelona fans celebrate winning La Liga title in El Clasico",
         "url": "https://www.aljazeera.com/sports/2026/5/11/barcelona-fans-celebrate-winning-la-liga-title-in-el-clasico?traffic_source=rss",
@@ -7527,7 +7547,7 @@
       }
     ],
     "max_stickiness": 92,
-    "duplicate_count": 35,
+    "duplicate_count": 36,
     "duplicate_cycle_ids": [
       "024ed10f953ff5a2d7",
       "093926d8888645534c",
@@ -7542,6 +7562,7 @@
       "6a34f653d81c611fdc",
       "7da419cc38720dcb5d",
       "819a30b5d44d9a13ea",
+      "8733a110602dc4427d",
       "89d77ff46defee1a25",
       "93177bd2e7dc123960",
       "a3301be66495b5fe5e",
@@ -42663,7 +42684,7 @@
     "started_at": "2026-05-11T00:15:24.202936+00:00",
     "peaked_at": "2026-05-11T00:15:24.202936+00:00",
     "ended_at": "2026-05-12T09:15:24.202936+00:00",
-    "archived_at": "2026-05-12T12:15:24.202936+00:00",
+    "archived_at": "2026-05-12T14:51:15.249875+00:00",
     "article_count": 14,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -42922,7 +42943,12 @@
       }
     ],
     "max_stickiness": 18,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "c9ed9b4c2af49bfb70",
+      "f70f67397ba976906a"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "ddc3f867ab7ad06488",
