@@ -9644,7 +9644,7 @@
     "started_at": "2026-05-11T19:15:41.790919+00:00",
     "peaked_at": "2026-05-11T19:15:41.790919+00:00",
     "ended_at": "2026-05-15T01:15:41.790919+00:00",
-    "archived_at": "2026-05-15T04:15:41.790919+00:00",
+    "archived_at": "2026-05-15T07:33:12.373893+00:00",
     "article_count": 11750,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -10595,7 +10595,7 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "0eb5c6560abf41d10b",
       "23b3bad7da39cc97d9",
@@ -15154,7 +15154,7 @@
     "started_at": "2026-05-09T18:47:08.979135+00:00",
     "peaked_at": "2026-05-09T18:47:08.979135+00:00",
     "ended_at": "2026-05-12T03:47:08.979135+00:00",
-    "archived_at": "2026-05-15T00:08:33.352541+00:00",
+    "archived_at": "2026-05-15T07:33:12.373893+00:00",
     "article_count": 20,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -15644,7 +15644,7 @@
       }
     ],
     "max_stickiness": 61,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "26e712e5e4fa1f40e7",
       "43688a0f92a19c0ffe",
@@ -15652,7 +15652,8 @@
       "455a5c73af613e2cf9",
       "6aaa7b74c5c37216cc",
       "af0f420f98ebb666e3",
-      "c7bc3f3781ff452f31"
+      "c7bc3f3781ff452f31",
+      "d63fe5492b4c3c3017"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
