@@ -128623,7 +128623,7 @@
     "started_at": "2026-05-18T17:06:14.578004+00:00",
     "peaked_at": "2026-05-18T17:06:14.578004+00:00",
     "ended_at": "2026-05-22T17:06:14.578004+00:00",
-    "archived_at": "2026-05-23T04:06:21.971363+00:00",
+    "archived_at": "2026-05-23T06:44:24.913573+00:00",
     "article_count": 5,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -129239,8 +129239,9 @@
       }
     ],
     "max_stickiness": 9,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "b085b07d18a0e1e726",
       "d0f27adafd124f81ca",
       "db9a230279e2b616d9"
     ],
@@ -141663,7 +141664,7 @@
     "started_at": "2026-05-21T17:06:14.578004+00:00",
     "peaked_at": "2026-05-21T17:06:14.578004+00:00",
     "ended_at": "2026-05-22T17:06:14.578004+00:00",
-    "archived_at": "2026-05-23T04:06:21.971363+00:00",
+    "archived_at": "2026-05-23T06:44:24.913573+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -141871,8 +141872,9 @@
       }
     ],
     "max_stickiness": 18,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "5874c84fe89c07bb67",
       "b005b580a183cb3211",
       "f4b2850a62560d6e8c"
     ],
