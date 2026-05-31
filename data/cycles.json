@@ -34,7 +34,7 @@
     "started_at": "2026-05-27T17:44:55.398105+00:00",
     "peaked_at": "2026-05-27T17:44:55.398105+00:00",
     "ended_at": "2026-05-30T08:44:55.398105+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -482,7 +482,7 @@
       }
     ],
     "max_stickiness": 10,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "0524be35c719b3cd65",
       "3368d6ff3df740eda2",
@@ -531,7 +531,7 @@
     "started_at": "2026-05-27T03:44:50.970681+00:00",
     "peaked_at": "2026-05-27T03:44:50.970681+00:00",
     "ended_at": "2026-05-28T09:44:50.970681+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 42,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -887,13 +887,14 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 26,
+    "duplicate_count": 27,
     "duplicate_cycle_ids": [
       "23e35a572b566ba7e7",
       "47e7a23162f7659cc6",
       "6fe579ab928836d805",
       "7a1ea20fe9c5ed6983",
       "8c8d4bb241ae9e5bb6",
+      "9053cab6ac0f74cae9",
       "9783ac623f5d8ab234",
       "c791ad60dfdb7dace0",
       "ca101425dffa4cff1b",
@@ -51929,7 +51930,7 @@
     "started_at": "2026-05-26T18:34:50.330192+00:00",
     "peaked_at": "2026-05-26T18:34:50.330192+00:00",
     "ended_at": "2026-05-30T12:34:50.330192+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 10280,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -52948,7 +52949,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 27,
+    "duplicate_count": 28,
     "duplicate_cycle_ids": [
       "087ab47527e2c9ff66",
       "1d572b0cdc5f7cace1",
@@ -52998,7 +52999,7 @@
     "started_at": "2026-05-25T07:40:02.964934+00:00",
     "peaked_at": "2026-05-25T07:40:02.964934+00:00",
     "ended_at": "2026-05-30T16:40:02.964934+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -53801,7 +53802,7 @@
       }
     ],
     "max_stickiness": 35,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "17eb7fdd2a8b7e99ab",
       "5a0d11216b938194cb",
@@ -98516,7 +98517,7 @@
     "started_at": "2026-05-27T21:19:28.300382+00:00",
     "peaked_at": "2026-05-27T21:19:28.300382+00:00",
     "ended_at": "2026-05-31T09:19:28.300382+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 13,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -99102,7 +99103,7 @@
       }
     ],
     "max_stickiness": 46,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "04ed7016a5e8e934cb",
       "0ebec075115373e926",
@@ -99110,7 +99111,8 @@
       "5ce54f3a91ad18879f",
       "8cbcf14f9e331bab70",
       "cf31e589269c1ab5fd",
-      "ebb6ccb9f35ea2f676"
+      "ebb6ccb9f35ea2f676",
+      "fef56cf2ff838f18e0"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -106275,7 +106277,7 @@
     "started_at": "2026-05-26T14:05:35.903054+00:00",
     "peaked_at": "2026-05-26T14:05:35.903054+00:00",
     "ended_at": "2026-05-31T08:05:35.903054+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -106977,27 +106979,28 @@
         "title": "Nicola Sturgeon: I feel as if I’m serving a sentence for a crime I did not commit",
         "url": "https://www.theguardian.com/politics/2026/may/31/nicola-sturgeon-feel-serving-sentence-crime-did-not-commit",
         "source": "The Guardian World",
-        "published_at": "2026-05-31T08:02:09+00:00",
-        "stickiness_score": 0,
-        "residual_contribution": 0.0,
-        "expected_s2": 0.464882,
-        "observed_corrected": 0.0,
-        "age_after_peak_hours": 113.943,
+        "published_at": "2026-05-31T14:47:31+00:00",
+        "stickiness_score": 25,
+        "residual_contribution": 0.132152,
+        "expected_s2": 0.439826,
+        "observed_corrected": 0.571978,
+        "age_after_peak_hours": 121.102,
         "post_lambda_q": false,
-        "role": "decays with baseline",
-        "horizon_score": 0,
-        "horizon_phase": "noise",
-        "horizon_index": 0.0,
-        "deviation_ratio": 0.0,
-        "cross_scale_coherence": 0.104926
+        "role": "positive S2 residual",
+        "horizon_score": 43,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.46982,
+        "deviation_ratio": 1.300464,
+        "cross_scale_coherence": 0.361271
       }
     ],
-    "max_stickiness": 0,
-    "duplicate_count": 3,
+    "max_stickiness": 25,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "4d4e9039972ff26702",
       "8a5f67017523c81256",
-      "a0e589bac1d9e7adb0"
+      "a0e589bac1d9e7adb0",
+      "be0f7d08c71de37824"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -116010,7 +116013,7 @@
     "started_at": "2026-05-25T05:50:56.058288+00:00",
     "peaked_at": "2026-05-25T05:50:56.058288+00:00",
     "ended_at": "2026-05-29T05:50:56.058288+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 9,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -116702,7 +116705,7 @@
       }
     ],
     "max_stickiness": 50,
-    "duplicate_count": 29,
+    "duplicate_count": 30,
     "duplicate_cycle_ids": [
       "1d405877a43691d193",
       "7b828cdcbba3bceaad",
@@ -123290,7 +123293,7 @@
     "started_at": "2026-05-27T21:26:36.091751+00:00",
     "peaked_at": "2026-05-27T21:26:36.091751+00:00",
     "ended_at": "2026-05-29T09:26:36.091751+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -123585,7 +123588,7 @@
       }
     ],
     "max_stickiness": 36,
-    "duplicate_count": 23,
+    "duplicate_count": 24,
     "duplicate_cycle_ids": [
       "0c4993da0ed82d619f",
       "391ad55738091b7224",
@@ -162352,7 +162355,7 @@
     "started_at": "2026-05-27T02:55:07.187548+00:00",
     "peaked_at": "2026-05-27T02:55:07.187548+00:00",
     "ended_at": "2026-05-31T11:55:07.187548+00:00",
-    "archived_at": "2026-05-31T18:15:58.109914+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -163095,7 +163098,7 @@
       }
     ],
     "max_stickiness": 35,
-    "duplicate_count": 32,
+    "duplicate_count": 33,
     "duplicate_cycle_ids": [
       "0ffaa9ebcbf09d7d2a",
       "1cb1085175b85d9d8d",
@@ -187954,7 +187957,7 @@
     "started_at": "2026-05-30T02:21:49.849667+00:00",
     "peaked_at": "2026-05-30T02:21:49.849667+00:00",
     "ended_at": "2026-05-31T05:21:49.849667+00:00",
-    "archived_at": "2026-05-31T16:22:28.049928+00:00",
+    "archived_at": "2026-05-31T19:41:22.189957+00:00",
     "article_count": 13,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -188198,7 +188201,7 @@
       }
     ],
     "max_stickiness": 9,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "121d4968ccd4447987",
       "b00009200018e74e70"
