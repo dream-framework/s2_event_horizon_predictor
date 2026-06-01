@@ -100175,7 +100175,7 @@
     "started_at": "2026-05-27T21:19:28.300382+00:00",
     "peaked_at": "2026-05-27T21:19:28.300382+00:00",
     "ended_at": "2026-05-31T09:19:28.300382+00:00",
-    "archived_at": "2026-06-01T05:16:31.811223+00:00",
+    "archived_at": "2026-06-01T10:31:26.779484+00:00",
     "article_count": 13,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -100761,7 +100761,7 @@
       }
     ],
     "max_stickiness": 46,
-    "duplicate_count": 18,
+    "duplicate_count": 19,
     "duplicate_cycle_ids": [
       "04ed7016a5e8e934cb",
       "0ebec075115373e926",
@@ -125979,7 +125979,7 @@
     "started_at": "2026-05-27T21:26:36.091751+00:00",
     "peaked_at": "2026-05-27T21:26:36.091751+00:00",
     "ended_at": "2026-05-29T09:26:36.091751+00:00",
-    "archived_at": "2026-06-01T05:16:31.811223+00:00",
+    "archived_at": "2026-06-01T10:31:26.779484+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -126274,7 +126274,7 @@
       }
     ],
     "max_stickiness": 36,
-    "duplicate_count": 29,
+    "duplicate_count": 30,
     "duplicate_cycle_ids": [
       "0c4993da0ed82d619f",
       "391ad55738091b7224",
@@ -159677,7 +159677,7 @@
     "started_at": "2026-05-27T21:15:58.109914+00:00",
     "peaked_at": "2026-05-27T21:15:58.109914+00:00",
     "ended_at": "2026-05-31T15:15:58.109914+00:00",
-    "archived_at": "2026-05-31T22:13:12.550664+00:00",
+    "archived_at": "2026-06-01T10:31:26.779484+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -160239,9 +160239,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "3bba8d2680f4100e44",
+      "8198bd4f693ccad1cc",
       "9dd72ec6c5eca042cc"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -165065,7 +165066,7 @@
     "started_at": "2026-05-27T02:55:07.187548+00:00",
     "peaked_at": "2026-05-27T02:55:07.187548+00:00",
     "ended_at": "2026-05-31T11:55:07.187548+00:00",
-    "archived_at": "2026-06-01T05:16:31.811223+00:00",
+    "archived_at": "2026-06-01T10:31:26.779484+00:00",
     "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -165808,7 +165809,7 @@
       }
     ],
     "max_stickiness": 35,
-    "duplicate_count": 38,
+    "duplicate_count": 39,
     "duplicate_cycle_ids": [
       "0ffaa9ebcbf09d7d2a",
       "1cb1085175b85d9d8d",
