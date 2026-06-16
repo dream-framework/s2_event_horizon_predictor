@@ -34,7 +34,7 @@
     "started_at": "2026-06-12T03:00:49.198275+00:00",
     "peaked_at": "2026-06-12T03:00:49.198275+00:00",
     "ended_at": "2026-06-15T21:00:49.198275+00:00",
-    "archived_at": "2026-06-16T00:00:49.198275+00:00",
+    "archived_at": "2026-06-16T11:32:34.815722+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -596,9 +596,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "15282edee6f0ab021b",
+      "9b3260f19ec243c33e",
       "cab08dd0c88ee3514c"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -256960,8 +256961,8 @@
     "started_at": "2026-06-11T14:30:05.189960+00:00",
     "peaked_at": "2026-06-11T14:30:05.189960+00:00",
     "ended_at": "2026-06-16T02:30:05.189960+00:00",
-    "archived_at": "2026-06-16T05:30:05.189960+00:00",
-    "article_count": 6,
+    "archived_at": "2026-06-16T11:32:34.815722+00:00",
+    "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -257641,13 +257642,33 @@
         "horizon_index": 0.4354,
         "deviation_ratio": 1.30354,
         "cross_scale_coherence": 0.334014
+      },
+      {
+        "id": "f6d96238817548369c",
+        "title": "Develop smarter AI agents with data fabrics - InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZXBQaC1DeFJ6WHMzLVpxNm1ibENCZGxIallaNmxFVGRpU01VUmZ1UXdCWGhpNU00ejFyTTVpTDBjOWZ6YjlzTlRaMzJHQlRaUDFrRnc0anFxaHZ6bkJxN2NHZmRGQ0VOclNKbWV6WDE0S3ExUWFaV2tCMWpwZkYtSGljdXVrTjVXRmFreUktcFRPX3lS?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-06-16T09:04:45+00:00",
+        "stickiness_score": 10,
+        "residual_contribution": 0.055188,
+        "expected_s2": 0.514201,
+        "observed_corrected": 0.569389,
+        "age_after_peak_hours": 114.536,
+        "post_lambda_q": false,
+        "role": "positive S2 residual",
+        "horizon_score": 27,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.361532,
+        "deviation_ratio": 1.107328,
+        "cross_scale_coherence": 0.32649
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "1c64aaad35fd248f2f",
       "24423207993863df34",
+      "5d7b460fa0f378435f",
       "dfe25f054105c9dd5e"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
