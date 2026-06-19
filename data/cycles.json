@@ -62042,7 +62042,7 @@
     "started_at": "2026-06-16T19:04:19.628114+00:00",
     "peaked_at": "2026-06-16T19:04:19.628114+00:00",
     "ended_at": "2026-06-18T04:04:19.628114+00:00",
-    "archived_at": "2026-06-18T20:37:18.774480+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 10331,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -62738,7 +62738,7 @@
       }
     ],
     "max_stickiness": 49,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "64cfdb31408d49c64c",
       "8eef580836467e2030",
@@ -124627,7 +124627,7 @@
     "started_at": "2026-06-12T11:30:24.934182+00:00",
     "peaked_at": "2026-06-12T11:30:24.934182+00:00",
     "ended_at": "2026-06-13T05:30:24.934182+00:00",
-    "archived_at": "2026-06-18T20:37:18.774480+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -124801,7 +124801,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 30,
+    "duplicate_count": 31,
     "duplicate_cycle_ids": [
       "090c4003f724cf5503",
       "2f1ee8e31b52cf3cc2",
@@ -124811,6 +124811,7 @@
       "5fa59e0301b01f1725",
       "8a995f07c994d84b7c",
       "991a3eca9773cd88ab",
+      "abd10a3dd6bfd95e15",
       "c3f33f0dabdb594055",
       "ce111c4a3237a73b4a",
       "fddf427d35e67fbb37"
@@ -227697,7 +227698,7 @@
     "started_at": "2026-06-15T06:10:28.069932+00:00",
     "peaked_at": "2026-06-15T06:10:28.069932+00:00",
     "ended_at": "2026-06-18T15:10:28.069932+00:00",
-    "archived_at": "2026-06-18T20:37:18.774480+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 5,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -228228,10 +228229,11 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "595e7140a18345611d",
-      "acb0ceac7d589fd8d5"
+      "acb0ceac7d589fd8d5",
+      "bc345940f718806dfd"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -258142,7 +258144,7 @@
     "started_at": "2026-06-14T14:37:18.774480+00:00",
     "peaked_at": "2026-06-14T14:37:18.774480+00:00",
     "ended_at": "2026-06-18T17:37:18.774480+00:00",
-    "archived_at": "2026-06-18T20:37:18.774480+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 4,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -258775,7 +258777,12 @@
       }
     ],
     "max_stickiness": 48,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "a5f2058d0e05c9c5e7",
+      "e0e1e9b9ed4c5306b8"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "cc19443f7153d2d065",
@@ -281335,7 +281342,7 @@
     "started_at": "2026-06-13T18:10:28.069932+00:00",
     "peaked_at": "2026-06-13T18:10:28.069932+00:00",
     "ended_at": "2026-06-18T15:10:28.069932+00:00",
-    "archived_at": "2026-06-18T18:10:28.069932+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -282070,9 +282077,10 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "5cf8b4b32779b84598",
+      "6409435f7c75527063",
       "6e26c26d48e8e94541",
       "8ff41a679f3e8689cb"
     ],
@@ -329499,7 +329507,7 @@
     "started_at": "2026-06-14T04:04:19.628114+00:00",
     "peaked_at": "2026-06-14T04:04:19.628114+00:00",
     "ended_at": "2026-06-18T04:04:19.628114+00:00",
-    "archived_at": "2026-06-18T18:10:28.069932+00:00",
+    "archived_at": "2026-06-18T23:03:25.958563+00:00",
     "article_count": 9,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -330115,7 +330123,7 @@
       }
     ],
     "max_stickiness": 28,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "03b00e8fcac10a9117",
       "b411bdcd79d6aea2c8",
