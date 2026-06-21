@@ -88443,7 +88443,7 @@
     "started_at": "2026-06-17T18:44:01.685836+00:00",
     "peaked_at": "2026-06-17T18:44:01.685836+00:00",
     "ended_at": "2026-06-20T15:44:01.685836+00:00",
-    "archived_at": "2026-06-20T20:40:19.396573+00:00",
+    "archived_at": "2026-06-21T00:20:05.927351+00:00",
     "article_count": 10306,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -89343,10 +89343,11 @@
       }
     ],
     "max_stickiness": 19,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "029a20905eb0f0a54f",
       "0b1c0914ab682d6dbd",
+      "33d3a5457dd1ff8bfa",
       "34fd248fd923706a30",
       "48a3e276f1ac726379",
       "50d55766a33794fb26",
@@ -218125,7 +218126,7 @@
     "started_at": "2026-06-16T18:18:44.104279+00:00",
     "peaked_at": "2026-06-16T18:18:44.104279+00:00",
     "ended_at": "2026-06-19T21:18:44.104279+00:00",
-    "archived_at": "2026-06-20T22:21:29.915901+00:00",
+    "archived_at": "2026-06-21T00:20:05.927351+00:00",
     "article_count": 8,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -218660,10 +218661,11 @@
       }
     ],
     "max_stickiness": 50,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "2af0b50a132adf3ee6",
       "d4cb298d361a21bd92",
+      "d84b0b9b1db8e9034d",
       "eaa06ccb61b9406f3e",
       "efb2952d824c974640",
       "f6386a5e0d7dba55fc"
@@ -330170,7 +330172,7 @@
     "started_at": "2026-06-20T06:44:01.685836+00:00",
     "peaked_at": "2026-06-20T06:44:01.685836+00:00",
     "ended_at": "2026-06-20T15:44:01.685836+00:00",
-    "archived_at": "2026-06-20T18:44:01.685836+00:00",
+    "archived_at": "2026-06-21T00:20:05.927351+00:00",
     "article_count": 8,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -330331,7 +330333,11 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "96bccdb44b792deb37"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "8d932324a36fbfbb4e",
