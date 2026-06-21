@@ -88445,7 +88445,7 @@
     "started_at": "2026-06-17T18:44:01.685836+00:00",
     "peaked_at": "2026-06-17T18:44:01.685836+00:00",
     "ended_at": "2026-06-20T15:44:01.685836+00:00",
-    "archived_at": "2026-06-21T06:17:12.165941+00:00",
+    "archived_at": "2026-06-21T12:20:26.767076+00:00",
     "article_count": 10306,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -89345,7 +89345,7 @@
       }
     ],
     "max_stickiness": 21,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "029a20905eb0f0a54f",
       "0b1c0914ab682d6dbd",
@@ -149146,7 +149146,7 @@
     "started_at": "2026-06-17T17:12:56.745480+00:00",
     "peaked_at": "2026-06-17T17:12:56.745480+00:00",
     "ended_at": "2026-06-19T20:12:56.745480+00:00",
-    "archived_at": "2026-06-21T10:06:08.931609+00:00",
+    "archived_at": "2026-06-21T12:20:26.767076+00:00",
     "article_count": 9,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -149507,7 +149507,7 @@
       }
     ],
     "max_stickiness": 47,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "759cced624f9eabdc2",
       "7c4a83ae20c95e3854",
@@ -306429,7 +306429,7 @@
     "started_at": "2026-06-14T12:05:52.312325+00:00",
     "peaked_at": "2026-06-14T12:05:52.312325+00:00",
     "ended_at": "2026-06-19T15:05:52.312325+00:00",
-    "archived_at": "2026-06-21T10:06:08.931609+00:00",
+    "archived_at": "2026-06-21T12:20:26.767076+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -307198,7 +307198,7 @@
       }
     ],
     "max_stickiness": 15,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "2ea40d8019c9d163ab",
       "99ad11939ee28c750b",
@@ -312615,8 +312615,8 @@
     "started_at": "2026-06-20T06:17:12.165941+00:00",
     "peaked_at": "2026-06-20T06:17:12.165941+00:00",
     "ended_at": "2026-06-21T03:17:12.165941+00:00",
-    "archived_at": "2026-06-21T06:17:12.165941+00:00",
-    "article_count": 9,
+    "archived_at": "2026-06-21T12:20:26.767076+00:00",
+    "article_count": 13,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -312805,6 +312805,44 @@
         "cross_scale_coherence": 0.343473
       },
       {
+        "id": "2fd905c055f350e819",
+        "title": "Colombians to vote in presidential run-off pitting leftist against hardliner",
+        "url": "https://www.aljazeera.com/news/2026/6/21/colombians-to-vote-in-presidential-run-off-pitting-leftist-against-hardliner?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-06-21T09:38:58+00:00",
+        "stickiness_score": 2,
+        "residual_contribution": 0.015193,
+        "expected_s2": 0.469457,
+        "observed_corrected": 0.48465,
+        "age_after_peak_hours": 27.309,
+        "post_lambda_q": false,
+        "role": "positive S2 residual",
+        "horizon_score": 5,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.36398,
+        "deviation_ratio": 1.032363,
+        "cross_scale_coherence": 0.352569
+      },
+      {
+        "id": "08ed24fd2bcc4da9a2",
+        "title": "Colombia’s High-Stakes Election: What to Know About the Candidates, Issues and Expected Results",
+        "url": "https://www.nytimes.com/2026/06/21/world/americas/colombia-election-cepeda-espriella.html",
+        "source": "NYTimes World",
+        "published_at": "2026-06-21T09:01:06+00:00",
+        "stickiness_score": 2,
+        "residual_contribution": 0.015193,
+        "expected_s2": 0.469457,
+        "observed_corrected": 0.48465,
+        "age_after_peak_hours": 26.678,
+        "post_lambda_q": false,
+        "role": "positive S2 residual",
+        "horizon_score": 5,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.36398,
+        "deviation_ratio": 1.032363,
+        "cross_scale_coherence": 0.352569
+      },
+      {
         "id": "65f1eca2fd19083f68",
         "title": "How Ivan Cepeda emerged a frontrunner in Colombia’s presidential election",
         "url": "https://www.aljazeera.com/news/longform/2026/6/20/how-ivan-cepeda-emerged-a-frontrunner-in-colombias-presidential-election?traffic_source=rss",
@@ -312863,10 +312901,11 @@
       }
     ],
     "max_stickiness": 18,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "96bccdb44b792deb37",
-      "a1386f15d3d693e1cd"
+      "a1386f15d3d693e1cd",
+      "fdfb76fc422b314b7c"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
