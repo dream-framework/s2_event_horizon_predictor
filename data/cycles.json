@@ -34,7 +34,7 @@
     "started_at": "2026-06-23T14:05:06.690354+00:00",
     "peaked_at": "2026-06-23T14:05:06.690354+00:00",
     "ended_at": "2026-06-27T05:05:06.690354+00:00",
-    "archived_at": "2026-06-27T14:07:08.810925+00:00",
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -599,9 +599,10 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "1423877a86b26034aa",
+      "3fbf5cefc610b4de89",
       "70f69b235cb6d3544e"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -1597,7 +1598,7 @@
     "started_at": "2026-06-20T22:01:43.477313+00:00",
     "peaked_at": "2026-06-20T22:01:43.477313+00:00",
     "ended_at": "2026-06-26T16:01:43.477313+00:00",
-    "archived_at": "2026-06-27T15:37:33.627739+00:00",
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2431,8 +2432,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
+      "71a15deb314e1393ec",
       "78403e1f43d1da16c3",
       "baa828143810003484",
       "ce69ed38403bfbdb0a"
@@ -88682,8 +88684,8 @@
     "started_at": "2026-06-23T17:53:45.761152+00:00",
     "peaked_at": "2026-06-23T17:53:45.761152+00:00",
     "ended_at": "2026-06-26T17:53:45.761152+00:00",
-    "archived_at": "2026-06-27T15:37:33.627739+00:00",
-    "article_count": 10850,
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
+    "article_count": 10857,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -89599,7 +89601,7 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "0785dd0da671b138f8",
       "15ba862d80d31a38b9",
@@ -89609,6 +89611,7 @@
       "4e177fa3db32c42252",
       "58927775437a6f8dd7",
       "882be6bf3a63a632f9",
+      "914da573f24495e8a8",
       "aa301ff593f8dd32cb",
       "b008a872bba07a0020",
       "e3dfb71f784c76d3ac",
@@ -143034,7 +143037,7 @@
     "started_at": "2026-06-22T04:21:34.172415+00:00",
     "peaked_at": "2026-06-22T04:21:34.172415+00:00",
     "ended_at": "2026-06-27T07:21:34.172415+00:00",
-    "archived_at": "2026-06-27T15:37:33.627739+00:00",
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
     "article_count": 6,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -143803,7 +143806,7 @@
       }
     ],
     "max_stickiness": 52,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "054520efc200832ae3",
       "535304bbbbf0af84ba",
@@ -152769,7 +152772,7 @@
     "started_at": "2026-06-22T23:53:45.761152+00:00",
     "peaked_at": "2026-06-22T23:53:45.761152+00:00",
     "ended_at": "2026-06-26T17:53:45.761152+00:00",
-    "archived_at": "2026-06-27T14:07:08.810925+00:00",
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -153351,7 +153354,7 @@
       }
     ],
     "max_stickiness": 11,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "146a08e58430f77266",
       "240d4ab6f2d537d934",
@@ -256784,7 +256787,7 @@
     "started_at": "2026-06-25T20:07:08.810925+00:00",
     "peaked_at": "2026-06-25T20:07:08.810925+00:00",
     "ended_at": "2026-06-27T11:07:08.810925+00:00",
-    "archived_at": "2026-06-27T15:37:33.627739+00:00",
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -257057,7 +257060,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "2064c41ec05f221a93",
       "e7765b0badeafd13a4"
@@ -325844,8 +325847,8 @@
     "started_at": "2026-06-23T18:19:12.076164+00:00",
     "peaked_at": "2026-06-23T18:19:12.076164+00:00",
     "ended_at": "2026-06-26T21:19:12.076164+00:00",
-    "archived_at": "2026-06-27T08:05:06.690354+00:00",
-    "article_count": 7,
+    "archived_at": "2026-06-27T17:20:52.788062+00:00",
+    "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -326357,10 +326360,29 @@
         "horizon_index": 0.40389,
         "deviation_ratio": 1.131894,
         "cross_scale_coherence": 0.356827
+      },
+      {
+        "id": "db3bffd15ece3edbb7",
+        "title": "Pacific Power holds town hall after frequent power outages in Central Oregon - Oregon Public Broadcasting - OPB",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeDJORzFWUzN4S3hDTHBsQUlheFlYZThtMk9MMGQ5VFFCMDBnSE9icnU0cFhwYlJxcmtKUll6Sm42bzE5VEZ4R0k2T3JjbG95NS1DeE9Iamc4Vl8wWXJpbU85bGRYeHJQaS1jdDlvT0Zmem9LbnVlMzhXRDBIaFdGcVlZYTBsVnY3bUpPM2NzMA?oc=5",
+        "source": "Google News Climate",
+        "published_at": "2026-06-27T14:03:45+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.434134,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 92.715,
+        "post_lambda_q": false,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.094777
       }
     ],
     "max_stickiness": 18,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "7e60d1632db1517776",
       "cb7752fcc6e61cda85"
