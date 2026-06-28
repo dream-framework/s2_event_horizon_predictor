@@ -34,7 +34,7 @@
     "started_at": "2026-06-23T14:05:06.690354+00:00",
     "peaked_at": "2026-06-23T14:05:06.690354+00:00",
     "ended_at": "2026-06-27T05:05:06.690354+00:00",
-    "archived_at": "2026-06-27T23:15:35.588660+00:00",
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -599,11 +599,12 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "1423877a86b26034aa",
       "3fbf5cefc610b4de89",
-      "70f69b235cb6d3544e"
+      "70f69b235cb6d3544e",
+      "aab258250a0afdcead"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -88684,8 +88685,8 @@
     "started_at": "2026-06-23T17:53:45.761152+00:00",
     "peaked_at": "2026-06-23T17:53:45.761152+00:00",
     "ended_at": "2026-06-26T17:53:45.761152+00:00",
-    "archived_at": "2026-06-28T00:14:57.632371+00:00",
-    "article_count": 10918,
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
+    "article_count": 10919,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -89601,13 +89602,14 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "0785dd0da671b138f8",
       "15ba862d80d31a38b9",
       "1ae68d0e31a63fe168",
       "25b9d987eb6266d392",
       "3b74ab1d4ca8777ecf",
+      "4604f3e596371d8449",
       "4e177fa3db32c42252",
       "58927775437a6f8dd7",
       "882be6bf3a63a632f9",
@@ -134309,7 +134311,7 @@
     "started_at": "2026-06-22T13:00:47.112669+00:00",
     "peaked_at": "2026-06-22T13:00:47.112669+00:00",
     "ended_at": "2026-06-24T16:00:47.112669+00:00",
-    "archived_at": "2026-06-27T19:42:52.349601+00:00",
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -134650,7 +134652,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "a875670bcb3ea77378",
       "eb695fd94485775807",
@@ -143964,7 +143966,7 @@
     "started_at": "2026-06-22T04:21:34.172415+00:00",
     "peaked_at": "2026-06-22T04:21:34.172415+00:00",
     "ended_at": "2026-06-27T07:21:34.172415+00:00",
-    "archived_at": "2026-06-28T00:14:57.632371+00:00",
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
     "article_count": 6,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -144733,7 +144735,7 @@
       }
     ],
     "max_stickiness": 52,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "054520efc200832ae3",
       "535304bbbbf0af84ba",
@@ -153699,7 +153701,7 @@
     "started_at": "2026-06-22T23:53:45.761152+00:00",
     "peaked_at": "2026-06-22T23:53:45.761152+00:00",
     "ended_at": "2026-06-26T17:53:45.761152+00:00",
-    "archived_at": "2026-06-27T23:15:35.588660+00:00",
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -154281,7 +154283,7 @@
       }
     ],
     "max_stickiness": 11,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "146a08e58430f77266",
       "240d4ab6f2d537d934",
@@ -257715,7 +257717,7 @@
     "started_at": "2026-06-25T20:07:08.810925+00:00",
     "peaked_at": "2026-06-25T20:07:08.810925+00:00",
     "ended_at": "2026-06-27T11:07:08.810925+00:00",
-    "archived_at": "2026-06-28T00:14:57.632371+00:00",
+    "archived_at": "2026-06-28T04:50:12.818926+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -257988,7 +257990,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "2064c41ec05f221a93",
       "335f5f2fc14594cb79",
