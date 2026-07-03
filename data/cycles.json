@@ -99293,7 +99293,7 @@
     "started_at": "2026-06-30T17:36:19.483381+00:00",
     "peaked_at": "2026-06-30T17:36:19.483381+00:00",
     "ended_at": "2026-07-02T17:36:19.483381+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 10885,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -100074,7 +100074,7 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "03f8a7e5d105413a64",
       "0455c78b1a207efcab",
@@ -100084,6 +100084,7 @@
       "7d0823f19e0e8d4e97",
       "9402649c69b995f4f2",
       "a191237daa2a7f98a1",
+      "b54819fa685c4bea57",
       "c3882ca20e825daa9b",
       "efba1cdde88c80e2eb",
       "f23912377a2870f4f7"
@@ -117420,7 +117421,7 @@
     "started_at": "2026-06-25T23:40:41.663124+00:00",
     "peaked_at": "2026-06-25T23:40:41.663124+00:00",
     "ended_at": "2026-07-01T20:40:41.663124+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -118291,7 +118292,7 @@
       }
     ],
     "max_stickiness": 92,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "0ebf356222089c670b",
       "508c77094d3b42f9d9",
@@ -177748,7 +177749,7 @@
     "started_at": "2026-06-26T12:46:59.076773+00:00",
     "peaked_at": "2026-06-26T12:46:59.076773+00:00",
     "ended_at": "2026-07-02T15:46:59.076773+00:00",
-    "archived_at": "2026-07-02T18:46:59.076773+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -178633,7 +178634,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "6ca8e6448be488c761",
+      "aaf8a7159a98074dd9"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "d4d0f771775221c56d",
@@ -215317,8 +215323,8 @@
     "started_at": "2026-06-30T18:46:59.076773+00:00",
     "peaked_at": "2026-06-30T18:46:59.076773+00:00",
     "ended_at": "2026-07-02T15:46:59.076773+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
-    "article_count": 10,
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
+    "article_count": 11,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -215679,13 +215685,33 @@
         "horizon_index": 0.574014,
         "deviation_ratio": 1.613649,
         "cross_scale_coherence": 0.355725
+      },
+      {
+        "id": "49bcd6eeb5ab07905d",
+        "title": "Wimbledon 2026: Dimitrov beats Mensik; Zverev, Swiatek win; Fery carries British hopes – as it happened",
+        "url": "https://www.theguardian.com/sport/live/2026/jul/02/wimbledon-2026-swan-keys-swiatek-zverev-fritz-rybakina-day-four-live",
+        "source": "The Guardian US",
+        "published_at": "2026-07-02T20:36:38+00:00",
+        "stickiness_score": 25,
+        "residual_contribution": 0.161548,
+        "expected_s2": 0.471,
+        "observed_corrected": 0.632548,
+        "age_after_peak_hours": 49.318,
+        "post_lambda_q": false,
+        "role": "positive S2 residual",
+        "horizon_score": 25,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.461146,
+        "deviation_ratio": 1.342989,
+        "cross_scale_coherence": 0.343373
       }
     ],
     "max_stickiness": 50,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "1c9587dd051bbcc011",
-      "394dc87552f0da0627"
+      "394dc87552f0da0627",
+      "91971223625e1cb3fd"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -247253,7 +247279,7 @@
     "started_at": "2026-06-26T00:03:35.346145+00:00",
     "peaked_at": "2026-06-26T00:03:35.346145+00:00",
     "ended_at": "2026-06-30T18:03:35.346145+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -247971,7 +247997,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 27,
+    "duplicate_count": 28,
     "duplicate_cycle_ids": [
       "0a5fa64fdea07a5642",
       "13194f6a5b74b3fd99",
@@ -257412,7 +257438,7 @@
     "started_at": "2026-06-29T15:48:36.777949+00:00",
     "peaked_at": "2026-06-29T15:48:36.777949+00:00",
     "ended_at": "2026-07-01T12:48:36.777949+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 11,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -257758,12 +257784,13 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "11f39b70265408905f",
       "44d8a1ace5b1d3d0d8",
       "45a048597a7044268f",
       "4ea6185da02810d9c2",
+      "558040b6e1f03c7417",
       "70e34fc6e211b94c73",
       "78eceda80829df5012",
       "9211c78a50986a5117",
@@ -345754,7 +345781,7 @@
     "started_at": "2026-06-26T17:00:29.494239+00:00",
     "peaked_at": "2026-06-26T17:00:29.494239+00:00",
     "ended_at": "2026-07-02T14:00:29.494239+00:00",
-    "archived_at": "2026-07-02T20:36:19.483381+00:00",
+    "archived_at": "2026-07-02T22:17:32.803347+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -346605,10 +346632,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "42b1de666abf455c53",
       "55594afca70436469f",
+      "951361a6da8a0dca08",
       "baf9b427038a1e4e73"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
