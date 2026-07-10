@@ -139261,7 +139261,7 @@
     "started_at": "2026-07-08T20:16:55.793061+00:00",
     "peaked_at": "2026-07-08T20:16:55.793061+00:00",
     "ended_at": "2026-07-09T08:16:55.793061+00:00",
-    "archived_at": "2026-07-10T00:17:16.600880+00:00",
+    "archived_at": "2026-07-10T05:05:34.275372+00:00",
     "article_count": 10523,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -139838,10 +139838,11 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "56c3c68ce97823af57",
       "6d4e6e40550fd29561",
+      "753ee695e4c25a6811",
       "8f7d9dbf06c3439cc9",
       "a30c22fd21de378b72",
       "bb7991f2f3b1a3272a",
@@ -159571,7 +159572,7 @@
     "started_at": "2026-07-06T13:41:55.822745+00:00",
     "peaked_at": "2026-07-06T13:41:55.822745+00:00",
     "ended_at": "2026-07-09T19:41:55.822745+00:00",
-    "archived_at": "2026-07-10T00:17:16.600880+00:00",
+    "archived_at": "2026-07-10T05:05:34.275372+00:00",
     "article_count": 18,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -160085,9 +160086,10 @@
       }
     ],
     "max_stickiness": 25,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "3b9a2ddf8836b686b0",
+      "8464583b121c720834",
       "df27adf81029c57182",
       "fccaa459cd4e98b204"
     ],
@@ -230514,8 +230516,8 @@
     "started_at": "2026-07-06T08:05:03.944753+00:00",
     "peaked_at": "2026-07-06T08:05:03.944753+00:00",
     "ended_at": "2026-07-07T02:05:03.944753+00:00",
-    "archived_at": "2026-07-10T00:17:16.600880+00:00",
-    "article_count": 8,
+    "archived_at": "2026-07-10T05:05:34.275372+00:00",
+    "article_count": 13,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -230668,6 +230670,25 @@
     ],
     "sticky_stories": [
       {
+        "id": "4a4b73334220fc1336",
+        "title": "Expansion of electronic tagging in England and Wales will put public at risk, watchdog warns",
+        "url": "https://www.theguardian.com/society/2026/jul/10/expansion-electronic-tagging-public-risk-upgrade-watchdog",
+        "source": "The Guardian World",
+        "published_at": "2026-07-10T04:01:10+00:00",
+        "stickiness_score": 48,
+        "residual_contribution": 0.136985,
+        "expected_s2": 0.270979,
+        "observed_corrected": 0.407964,
+        "age_after_peak_hours": 91.927,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 44,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.454208,
+        "deviation_ratio": 1.505519,
+        "cross_scale_coherence": 0.301696
+      },
+      {
         "id": "2f799f0894286f807b",
         "title": "Riot in Sri Lanka’s Negombo prison leaves at least 23 dead",
         "url": "https://www.nytimes.com/2026/07/06/world/asia/sri-lanka-prison-riot-dead.html",
@@ -230707,13 +230728,14 @@
       }
     ],
     "max_stickiness": 48,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "067568ebf2bb7b6b58",
       "1a83c5305db067c680",
       "29adc4ec3c203e5a74",
       "3b3efd2295f58a94f1",
       "55451468b11b6f00b0",
+      "72d72c5591efae39a1",
       "ac8874886abd3dd499",
       "b1e564ebf921397834",
       "c230aca595e7335a14",
@@ -316791,7 +316813,7 @@
     "started_at": "2026-07-05T15:59:09.889580+00:00",
     "peaked_at": "2026-07-05T15:59:09.889580+00:00",
     "ended_at": "2026-07-09T15:59:09.889580+00:00",
-    "archived_at": "2026-07-09T22:41:55.822745+00:00",
+    "archived_at": "2026-07-10T05:05:34.275372+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -317387,10 +317409,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "510d5559a326056d1b",
       "93fefbd75d249543de",
+      "b5fa6268571aff5bed",
       "b633a6809609a2050c",
       "ee9869b391845b67b5"
     ],
@@ -325237,7 +325260,7 @@
     "started_at": "2026-07-08T07:41:55.822745+00:00",
     "peaked_at": "2026-07-08T07:41:55.822745+00:00",
     "ended_at": "2026-07-09T19:41:55.822745+00:00",
-    "archived_at": "2026-07-09T22:41:55.822745+00:00",
+    "archived_at": "2026-07-10T05:05:34.275372+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -325513,7 +325536,12 @@
       }
     ],
     "max_stickiness": 35,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "01e120ae876318c85a",
+      "53f871c850c0527f3b"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "4d8b6b6707233a17fd",
