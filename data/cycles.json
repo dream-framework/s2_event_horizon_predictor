@@ -1289,8 +1289,8 @@
     "started_at": "2026-07-05T17:40:55.156292+00:00",
     "peaked_at": "2026-07-05T17:40:55.156292+00:00",
     "ended_at": "2026-07-10T17:40:55.156292+00:00",
-    "archived_at": "2026-07-11T12:02:51.202005+00:00",
-    "article_count": 33,
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
+    "article_count": 34,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 likely",
@@ -2230,6 +2230,25 @@
         "cross_scale_coherence": 0.38802
       },
       {
+        "id": "bebf0f1a8eb31854ba",
+        "title": "Noskova defeats Muchova in Wimbledon final to record first Grand Slam title",
+        "url": "https://www.aljazeera.com/sports/2026/7/11/noskova-defeats-muchova-in-wimbledon-final-to-record-first-grand-slam-title?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-07-11T18:10:10+00:00",
+        "stickiness_score": 22,
+        "residual_contribution": 0.017461,
+        "expected_s2": 0.307646,
+        "observed_corrected": 0.325107,
+        "age_after_peak_hours": 144.126,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 30,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.375017,
+        "deviation_ratio": 1.056757,
+        "cross_scale_coherence": 0.354875
+      },
+      {
         "id": "d11d652ccf5a60dc72",
         "title": "Muchova beats Gauff in tie-break thriller to reach first Wimbledon final",
         "url": "https://www.aljazeera.com/sports/2026/7/10/muchova-beats-gauff-in-tie-break-thriller-to-reach-first-wimbledon-final?traffic_source=rss",
@@ -2288,7 +2307,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "0308caa9d68b237339",
       "3ad7a1dcf510845317",
@@ -143965,8 +143984,8 @@
     "started_at": "2026-07-08T20:16:55.793061+00:00",
     "peaked_at": "2026-07-08T20:16:55.793061+00:00",
     "ended_at": "2026-07-09T08:16:55.793061+00:00",
-    "archived_at": "2026-07-11T19:29:21.693736+00:00",
-    "article_count": 10937,
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
+    "article_count": 10983,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -144542,7 +144561,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 26,
+    "duplicate_count": 27,
     "duplicate_cycle_ids": [
       "035ae3316cad9034f2",
       "4855195add087847fd",
@@ -155496,7 +155515,7 @@
     "started_at": "2026-07-06T05:05:46.932423+00:00",
     "peaked_at": "2026-07-06T05:05:46.932423+00:00",
     "ended_at": "2026-07-10T14:05:46.932423+00:00",
-    "archived_at": "2026-07-11T19:29:21.693736+00:00",
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -156143,7 +156162,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "00af72f29d2d5139fc",
       "58b32abbbf63610f09",
@@ -186128,7 +186147,7 @@
     "started_at": "2026-07-05T09:07:30.830155+00:00",
     "peaked_at": "2026-07-05T09:07:30.830155+00:00",
     "ended_at": "2026-07-10T09:07:30.830155+00:00",
-    "archived_at": "2026-07-11T18:06:10.177090+00:00",
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
     "article_count": 10,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -186880,7 +186899,7 @@
       }
     ],
     "max_stickiness": 60,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "13e7c2aca980dd471e",
       "20bcd80e04af5ec7d1",
@@ -251755,7 +251774,7 @@
     "started_at": "2026-07-06T21:38:42.007509+00:00",
     "peaked_at": "2026-07-06T21:38:42.007509+00:00",
     "ended_at": "2026-07-11T00:38:42.007509+00:00",
-    "archived_at": "2026-07-11T17:13:43.581328+00:00",
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
     "article_count": 4,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -252388,7 +252407,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "37aee165e8f2cf4c5a",
       "eb18a67a86c84f8111"
@@ -290222,7 +290241,7 @@
     "started_at": "2026-07-06T21:07:30.830155+00:00",
     "peaked_at": "2026-07-06T21:07:30.830155+00:00",
     "ended_at": "2026-07-10T09:07:30.830155+00:00",
-    "archived_at": "2026-07-11T18:06:10.177090+00:00",
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -290770,7 +290789,7 @@
       }
     ],
     "max_stickiness": 42,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "01c610599e4104239c",
       "34e45e900ad0868448"
@@ -308225,7 +308244,7 @@
     "started_at": "2026-07-08T22:32:37.604193+00:00",
     "peaked_at": "2026-07-08T22:32:37.604193+00:00",
     "ended_at": "2026-07-11T07:32:37.604193+00:00",
-    "archived_at": "2026-07-11T19:29:21.693736+00:00",
+    "archived_at": "2026-07-11T21:02:34.738604+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -308600,7 +308619,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "71bc16546eca476c6f",
       "a907ef1d000a63163c",
