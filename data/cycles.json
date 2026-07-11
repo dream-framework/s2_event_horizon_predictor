@@ -143965,8 +143965,8 @@
     "started_at": "2026-07-08T20:16:55.793061+00:00",
     "peaked_at": "2026-07-08T20:16:55.793061+00:00",
     "ended_at": "2026-07-09T08:16:55.793061+00:00",
-    "archived_at": "2026-07-11T16:09:03.729923+00:00",
-    "article_count": 10863,
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
+    "article_count": 10893,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -144542,7 +144542,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 23,
+    "duplicate_count": 24,
     "duplicate_cycle_ids": [
       "035ae3316cad9034f2",
       "4855195add087847fd",
@@ -155496,7 +155496,7 @@
     "started_at": "2026-07-06T05:05:46.932423+00:00",
     "peaked_at": "2026-07-06T05:05:46.932423+00:00",
     "ended_at": "2026-07-10T14:05:46.932423+00:00",
-    "archived_at": "2026-07-11T16:09:03.729923+00:00",
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -156143,7 +156143,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "00af72f29d2d5139fc",
       "58b32abbbf63610f09",
@@ -251755,7 +251755,7 @@
     "started_at": "2026-07-06T21:38:42.007509+00:00",
     "peaked_at": "2026-07-06T21:38:42.007509+00:00",
     "ended_at": "2026-07-11T00:38:42.007509+00:00",
-    "archived_at": "2026-07-11T03:38:42.007509+00:00",
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
     "article_count": 4,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -252388,7 +252388,12 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "37aee165e8f2cf4c5a",
+      "eb18a67a86c84f8111"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "cb9fd7790b39b02a0f",
@@ -273920,7 +273925,7 @@
     "started_at": "2026-07-06T06:13:22.201014+00:00",
     "peaked_at": "2026-07-06T06:13:22.201014+00:00",
     "ended_at": "2026-07-11T12:13:22.201014+00:00",
-    "archived_at": "2026-07-11T15:13:22.201014+00:00",
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
     "article_count": 14,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -274763,11 +274768,12 @@
       }
     ],
     "max_stickiness": 49,
-    "duplicate_count": 34,
+    "duplicate_count": 35,
     "duplicate_cycle_ids": [
       "00c7c6d7fe6e03de89",
       "0193dcb262aa5aab2e",
       "067568ebf2bb7b6b58",
+      "177125d4aa4dc9b4b1",
       "1a83c5305db067c680",
       "1ca7d64d74ccb98f37",
       "29adc4ec3c203e5a74",
@@ -308219,7 +308225,7 @@
     "started_at": "2026-07-08T22:32:37.604193+00:00",
     "peaked_at": "2026-07-08T22:32:37.604193+00:00",
     "ended_at": "2026-07-11T07:32:37.604193+00:00",
-    "archived_at": "2026-07-11T16:09:03.729923+00:00",
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -308594,7 +308600,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "71bc16546eca476c6f",
       "a907ef1d000a63163c",
@@ -325785,7 +325791,7 @@
     "started_at": "2026-07-07T07:50:52.508127+00:00",
     "peaked_at": "2026-07-07T07:50:52.508127+00:00",
     "ended_at": "2026-07-11T10:50:52.508127+00:00",
-    "archived_at": "2026-07-11T16:09:03.729923+00:00",
+    "archived_at": "2026-07-11T17:13:43.581328+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -326418,8 +326424,9 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
+      "56f7acb736888ba5be",
       "7819904dce8ba3bff9",
       "aa6a2fe5c49af94fb2"
     ],
