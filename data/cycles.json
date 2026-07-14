@@ -275557,7 +275557,7 @@
     "started_at": "2026-07-11T00:44:39.461929+00:00",
     "peaked_at": "2026-07-11T00:44:39.461929+00:00",
     "ended_at": "2026-07-12T03:44:39.461929+00:00",
-    "archived_at": "2026-07-13T23:10:51.171426+00:00",
+    "archived_at": "2026-07-14T00:05:05.304455+00:00",
     "article_count": 6,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -275782,7 +275782,7 @@
       }
     ],
     "max_stickiness": 49,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "030e7990c5604967ed",
       "1fe49ca3aaa061d552",
