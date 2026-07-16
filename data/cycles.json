@@ -216156,7 +216156,7 @@
     "started_at": "2026-07-09T20:36:32.199608+00:00",
     "peaked_at": "2026-07-09T20:36:32.199608+00:00",
     "ended_at": "2026-07-15T14:36:32.199608+00:00",
-    "archived_at": "2026-07-15T23:10:28.202401+00:00",
+    "archived_at": "2026-07-16T03:33:46.404389+00:00",
     "article_count": 4,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -217010,7 +217010,7 @@
       }
     ],
     "max_stickiness": 71,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "15f267a73211dd2e96",
       "2c3b61ab8cd613b6a9",
