@@ -98467,7 +98467,7 @@
     "started_at": "2026-07-10T00:56:37.379279+00:00",
     "peaked_at": "2026-07-10T00:56:37.379279+00:00",
     "ended_at": "2026-07-13T00:56:37.379279+00:00",
-    "archived_at": "2026-07-16T18:18:10.392500+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -98985,7 +98985,7 @@
       }
     ],
     "max_stickiness": 63,
-    "duplicate_count": 31,
+    "duplicate_count": 32,
     "duplicate_cycle_ids": [
       "0c012dda0790d2afa7",
       "315a5f5bc04fabe49e",
@@ -103902,7 +103902,7 @@
     "started_at": "2026-07-14T17:46:33.375643+00:00",
     "peaked_at": "2026-07-14T17:46:33.375643+00:00",
     "ended_at": "2026-07-15T08:46:33.375643+00:00",
-    "archived_at": "2026-07-16T18:18:10.392500+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 11576,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -104496,7 +104496,7 @@
       }
     ],
     "max_stickiness": 49,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "1c7138fb68f2933f74",
       "23cebbdada0bd78a34",
@@ -104506,6 +104506,7 @@
       "464d6f8b75ed212878",
       "758008d0c4a9277855",
       "7d75aa7ae8f2128415",
+      "8d5f16263a1f4be95b",
       "a4b460d37a7360e21f",
       "b6399b9b6c1970d684",
       "cb9b1b1f6b26c66cb3",
@@ -139070,7 +139071,7 @@
     "started_at": "2026-07-11T00:19:56.661171+00:00",
     "peaked_at": "2026-07-11T00:19:56.661171+00:00",
     "ended_at": "2026-07-15T06:19:56.661171+00:00",
-    "archived_at": "2026-07-16T18:18:10.392500+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -139758,7 +139759,7 @@
       }
     ],
     "max_stickiness": 73,
-    "duplicate_count": 41,
+    "duplicate_count": 42,
     "duplicate_cycle_ids": [
       "030e7990c5604967ed",
       "1fe49ca3aaa061d552",
@@ -159261,7 +159262,7 @@
     "started_at": "2026-07-12T21:18:10.392500+00:00",
     "peaked_at": "2026-07-12T21:18:10.392500+00:00",
     "ended_at": "2026-07-16T15:18:10.392500+00:00",
-    "archived_at": "2026-07-16T18:18:10.392500+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 6,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -159843,7 +159844,12 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "20dc0ba78348e18e22",
+      "27171d9c13aab42c76"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "1b45f1186476a56b89",
@@ -247592,7 +247598,7 @@
     "started_at": "2026-07-14T03:18:10.392500+00:00",
     "peaked_at": "2026-07-14T03:18:10.392500+00:00",
     "ended_at": "2026-07-16T15:18:10.392500+00:00",
-    "archived_at": "2026-07-16T18:18:10.392500+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -248023,9 +248029,10 @@
       }
     ],
     "max_stickiness": 27,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "06c5ce9aedc6aebd4f",
+      "47f4dd2523f26d03be",
       "c1084d9d006323e2cb",
       "ec1eb55c10b2daa0ef"
     ],
@@ -277588,7 +277595,7 @@
     "started_at": "2026-07-09T18:07:37.850662+00:00",
     "peaked_at": "2026-07-09T18:07:37.850662+00:00",
     "ended_at": "2026-07-15T21:07:37.850662+00:00",
-    "archived_at": "2026-07-16T11:52:49.437626+00:00",
+    "archived_at": "2026-07-16T20:09:49.193637+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -278473,6 +278480,25 @@
     ],
     "sticky_stories": [
       {
+        "id": "3894a0eeeb5d2001bf",
+        "title": "Cherokee Nation, City of Tulsa sign agreement to advance community health initiatives - cherokeephoenix.org",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUkoxSmRHd1hha0tNaGxvZE5fajhSVWtFVnVtUzN5TTJHWm1lUGNWWHlpQTVjVUZSUGtKQ0pUMkFoX1lVNDdBM3RySGxOajkxOUVxc2RFcUtJRW1DSE1SV3BMOEtxeDluUDFBb1F3YnBoQ1h6dmRSSWxQQ1Y3bzhES1BMa0hWRVpvUDB6S2RBUmtZTW4wUmlOTnlsTEpHZ0pnRWVkZG93eXdHV3dMQ2xRcmY3UDJtczZHbTJfNnRHcFB3M2w5SFlINEtaRElrdEN6aVR5UGFfcUNmaUJVdlctSExJc3dDOXR5R0xidGhTaUZTUGtYZFJBU1ZnLTN0cjVzUG9Z?oc=5",
+        "source": "Google News Public Health",
+        "published_at": "2026-07-16T20:00:00+00:00",
+        "stickiness_score": 46,
+        "residual_contribution": 0.127359,
+        "expected_s2": 0.350347,
+        "observed_corrected": 0.477706,
+        "age_after_peak_hours": 167.836,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 45,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.479216,
+        "deviation_ratio": 1.363522,
+        "cross_scale_coherence": 0.351454
+      },
+      {
         "id": "d77ce4d70ba717a3a4",
         "title": "Tulsa, Cherokee Nation partner to expand public health efforts - News On 6",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON211RFBPZXQ4LUdrc0xkRGo0ajhBNFFHd3JJcGZ5d1pTNzhBWHBZUFNVYzBZMTZEUC1NN2hqZ010OTMwSUtfRlhkRkFHYlNEQVduLU9GMDNWejROOWc0LU1BLV9yMFhSQmNCbWZnaTFuNHFoc2JiQzM4LURYMm41ZUZRZkJfZUViN3c?oc=5",
@@ -278492,10 +278518,11 @@
         "cross_scale_coherence": 0.3772
       }
     ],
-    "max_stickiness": 38,
-    "duplicate_count": 2,
+    "max_stickiness": 46,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "778f0b14696b9c44ce",
+      "7a19c134b5387b6554",
       "85beabaf13ce738616"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
