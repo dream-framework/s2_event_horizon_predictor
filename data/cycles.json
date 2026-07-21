@@ -34,8 +34,8 @@
     "started_at": "2026-07-19T00:12:41.939639+00:00",
     "peaked_at": "2026-07-19T00:12:41.939639+00:00",
     "ended_at": "2026-07-19T12:12:41.939639+00:00",
-    "archived_at": "2026-07-21T00:07:51.706982+00:00",
-    "article_count": 21,
+    "archived_at": "2026-07-21T09:37:30.899404+00:00",
+    "article_count": 23,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -230,6 +230,25 @@
         "cross_scale_coherence": 0.723738
       },
       {
+        "id": "f71665d729efc7f6b2",
+        "title": "The best LED face masks in the UK, tested: 12 light therapy devices that are worth the hype",
+        "url": "https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks",
+        "source": "The Guardian Technology",
+        "published_at": "2026-07-21T09:00:08+00:00",
+        "stickiness_score": 25,
+        "residual_contribution": 0.032394,
+        "expected_s2": 0.083187,
+        "observed_corrected": 0.115581,
+        "age_after_peak_hours": 56.377,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 33,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.500888,
+        "deviation_ratio": 1.389412,
+        "cross_scale_coherence": 0.360504
+      },
+      {
         "id": "bd9df61982ef25e6cf",
         "title": "Tate brothers fight extradition to UK over rape and sex-trafficking charges",
         "url": "https://www.theguardian.com/us-news/2026/jul/20/andrew-tristan-tate-fight-charges-extradition",
@@ -250,7 +269,7 @@
       }
     ],
     "max_stickiness": 59,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "01fc8d76e2af60f490",
       "30a1a6b85fed088c50",
@@ -294,8 +313,8 @@
     "started_at": "2026-07-18T12:29:48.182579+00:00",
     "peaked_at": "2026-07-18T12:29:48.182579+00:00",
     "ended_at": "2026-07-20T18:29:48.182579+00:00",
-    "archived_at": "2026-07-20T21:29:48.182579+00:00",
-    "article_count": 7,
+    "archived_at": "2026-07-21T09:37:30.899404+00:00",
+    "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 weak",
@@ -650,9 +669,34 @@
         "source_tier_count": 0
       }
     ],
-    "sticky_stories": [],
-    "max_stickiness": 0,
-    "duplicate_count": 1
+    "sticky_stories": [
+      {
+        "id": "27e5909fa122c70b6c",
+        "title": "UK surrogacy law ‘creaking at seams’ as demand rises sharply",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/jul/21/uk-surrogacy-law-creaking-at-seams-as-demand-rises-sharply",
+        "source": "The Guardian World",
+        "published_at": "2026-07-21T05:00:02+00:00",
+        "stickiness_score": 33,
+        "residual_contribution": 0.069599,
+        "expected_s2": 0.167509,
+        "observed_corrected": 0.237108,
+        "age_after_peak_hours": 64.375,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 49,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.510419,
+        "deviation_ratio": 1.415494,
+        "cross_scale_coherence": 0.360594
+      }
+    ],
+    "max_stickiness": 33,
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "533e6b943c75d869ad",
+      "b53188b2bab1217997"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "23cebbdada0bd78a34",
@@ -689,7 +733,7 @@
     "started_at": "2026-07-14T18:29:48.182579+00:00",
     "peaked_at": "2026-07-14T18:29:48.182579+00:00",
     "ended_at": "2026-07-20T18:29:48.182579+00:00",
-    "archived_at": "2026-07-21T00:07:51.706982+00:00",
+    "archived_at": "2026-07-21T09:37:30.899404+00:00",
     "article_count": 11828,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -2014,7 +2058,7 @@
       }
     ],
     "max_stickiness": 81,
-    "duplicate_count": 63,
+    "duplicate_count": 64,
     "duplicate_cycle_ids": [
       "1c7138fb68f2933f74",
       "23cebbdada0bd78a34",
@@ -220219,7 +220263,7 @@
     "started_at": "2026-07-14T23:10:53.371590+00:00",
     "peaked_at": "2026-07-14T23:10:53.371590+00:00",
     "ended_at": "2026-07-20T08:10:53.371590+00:00",
-    "archived_at": "2026-07-20T23:12:52.317149+00:00",
+    "archived_at": "2026-07-21T09:37:30.899404+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -221022,7 +221066,7 @@
       }
     ],
     "max_stickiness": 48,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "4f1bfe9d193554de1f",
       "b7b8adae3c95a91294",
