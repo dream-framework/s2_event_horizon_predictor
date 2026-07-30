@@ -200041,8 +200041,8 @@
     "started_at": "2026-07-28T18:17:45.022356+00:00",
     "peaked_at": "2026-07-28T18:17:45.022356+00:00",
     "ended_at": "2026-07-29T09:17:45.022356+00:00",
-    "archived_at": "2026-07-29T23:11:53.844047+00:00",
-    "article_count": 11092,
+    "archived_at": "2026-07-30T00:08:23.888181+00:00",
+    "article_count": 11129,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -200635,12 +200635,13 @@
       }
     ],
     "max_stickiness": 40,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "1b310ec280583358db",
       "2e6a20d719eea958a5",
       "61ff97a8991fc9f8ce",
       "8276d52aace0acf019",
+      "aa6597818a32133e77",
       "e70b5da359446df2f6"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -405200,7 +405201,7 @@
     "started_at": "2026-07-22T23:35:25.977275+00:00",
     "peaked_at": "2026-07-22T23:35:25.977275+00:00",
     "ended_at": "2026-07-29T14:35:25.977275+00:00",
-    "archived_at": "2026-07-29T23:11:53.844047+00:00",
+    "archived_at": "2026-07-30T00:08:23.888181+00:00",
     "article_count": 5,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -406173,7 +406174,7 @@
       }
     ],
     "max_stickiness": 19,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "82c94264701fe451c9",
       "8fe77469dfc74eb284",
