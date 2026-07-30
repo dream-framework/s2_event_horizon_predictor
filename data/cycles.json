@@ -34,7 +34,7 @@
     "started_at": "2026-07-27T15:02:44.416488+00:00",
     "peaked_at": "2026-07-27T15:02:44.416488+00:00",
     "ended_at": "2026-07-30T09:02:44.416488+00:00",
-    "archived_at": "2026-07-30T14:28:40.251680+00:00",
+    "archived_at": "2026-07-30T16:45:53.262836+00:00",
     "article_count": 13,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -518,7 +518,7 @@
       }
     ],
     "max_stickiness": 24,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "2f461595df2d9c6f2b",
       "6088ea448c22d7b265",
@@ -200813,7 +200813,7 @@
     "started_at": "2026-07-24T03:47:29.054342+00:00",
     "peaked_at": "2026-07-24T03:47:29.054342+00:00",
     "ended_at": "2026-07-29T06:47:29.054342+00:00",
-    "archived_at": "2026-07-30T14:28:40.251680+00:00",
+    "archived_at": "2026-07-30T16:45:53.262836+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -201582,7 +201582,7 @@
       }
     ],
     "max_stickiness": 84,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "03aa7d82360331d84e",
       "62e6be0ae7e23bebee",
@@ -296781,7 +296781,7 @@
     "started_at": "2026-07-27T17:11:53.844047+00:00",
     "peaked_at": "2026-07-27T17:11:53.844047+00:00",
     "ended_at": "2026-07-29T20:11:53.844047+00:00",
-    "archived_at": "2026-07-30T14:28:40.251680+00:00",
+    "archived_at": "2026-07-30T16:45:53.262836+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -297142,7 +297142,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "0fe90100363674430d",
       "1ce9a7d1cbd984df3e",
@@ -310707,8 +310707,8 @@
     "started_at": "2026-07-29T20:28:40.251680+00:00",
     "peaked_at": "2026-07-29T20:28:40.251680+00:00",
     "ended_at": "2026-07-30T11:28:40.251680+00:00",
-    "archived_at": "2026-07-30T14:28:40.251680+00:00",
-    "article_count": 11374,
+    "archived_at": "2026-07-30T16:45:53.262836+00:00",
+    "article_count": 11396,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -311301,7 +311301,12 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "5010f7e9566a0883ed",
+      "cf62e28659c31bfe81"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "3adcf9b44241472c1e",
