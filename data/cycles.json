@@ -34,8 +34,8 @@
     "started_at": "2026-07-27T17:33:36.404470+00:00",
     "peaked_at": "2026-07-27T17:33:36.404470+00:00",
     "ended_at": "2026-07-31T11:33:36.404470+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
-    "article_count": 7,
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
+    "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -632,11 +632,31 @@
         "horizon_index": 0.857403,
         "deviation_ratio": 2.287882,
         "cross_scale_coherence": 0.374758
+      },
+      {
+        "id": "06213eac3ffc1f0de5",
+        "title": "Nancy Guthrie Ransom Notes Released by Sheriff’s Department Searching for New Leads",
+        "url": "https://www.nytimes.com/2026/07/31/us/savannah-nancy-guthrie-ransom-note.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-07-31T20:19:00+00:00",
+        "stickiness_score": 46,
+        "residual_contribution": 0.126886,
+        "expected_s2": 0.222582,
+        "observed_corrected": 0.349468,
+        "age_after_peak_hours": 98.691,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 36,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.538835,
+        "deviation_ratio": 1.570064,
+        "cross_scale_coherence": 0.343193
       }
     ],
     "max_stickiness": 89,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "34bc0386d401ac55e6",
       "6a18af133d49b98214",
       "8ab57848cf040613b6",
       "a9dec37db59eccd8e1"
@@ -678,7 +698,7 @@
     "started_at": "2026-07-27T16:17:00.832040+00:00",
     "peaked_at": "2026-07-27T16:17:00.832040+00:00",
     "ended_at": "2026-07-30T19:17:00.832040+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 14,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1232,7 +1252,7 @@
       }
     ],
     "max_stickiness": 36,
-    "duplicate_count": 22,
+    "duplicate_count": 23,
     "duplicate_cycle_ids": [
       "2f461595df2d9c6f2b",
       "6088ea448c22d7b265",
@@ -220253,7 +220273,7 @@
     "started_at": "2026-07-29T19:11:45.211165+00:00",
     "peaked_at": "2026-07-29T19:11:45.211165+00:00",
     "ended_at": "2026-07-31T04:11:45.211165+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 11690,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -220949,12 +220969,13 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "052f170bcd8c80d08d",
       "20984e16f9b0f81b5d",
       "30bfabe6b4861db5c7",
       "5010f7e9566a0883ed",
+      "51c35a8b5bc536adc0",
       "655fa03d1310099cb3",
       "8afc447578a352ca93",
       "ba57eb79793e6a68e0",
@@ -233502,7 +233523,7 @@
     "started_at": "2026-07-27T03:14:18.497760+00:00",
     "peaked_at": "2026-07-27T03:14:18.497760+00:00",
     "ended_at": "2026-07-31T09:14:18.497760+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -234132,7 +234153,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "14d8774914a381dfee",
       "859a13cd33af55ee8a",
@@ -267771,7 +267792,7 @@
     "started_at": "2026-07-27T19:17:00.832040+00:00",
     "peaked_at": "2026-07-27T19:17:00.832040+00:00",
     "ended_at": "2026-07-30T19:17:00.832040+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 9,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -268289,7 +268310,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "0fe90100363674430d",
       "1ce9a7d1cbd984df3e",
@@ -275083,7 +275104,7 @@
     "started_at": "2026-07-28T18:43:31.014727+00:00",
     "peaked_at": "2026-07-28T18:43:31.014727+00:00",
     "ended_at": "2026-07-31T15:43:31.014727+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -275546,7 +275567,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "4662ba6f293de422a5",
       "6795fbc25a2ec67815",
@@ -287602,7 +287623,7 @@
     "started_at": "2026-07-30T12:43:31.014727+00:00",
     "peaked_at": "2026-07-30T12:43:31.014727+00:00",
     "ended_at": "2026-07-31T15:43:31.014727+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -287827,11 +287848,12 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "4ff3a3536e9bc0dd9f",
       "523c6984e39dd8d90c",
-      "8af53fc77e45c6d0e8"
+      "8af53fc77e45c6d0e8",
+      "dd572364350c635ffd"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -423207,7 +423229,7 @@
     "started_at": "2026-07-27T09:47:03.371641+00:00",
     "peaked_at": "2026-07-27T09:47:03.371641+00:00",
     "ended_at": "2026-07-31T00:47:03.371641+00:00",
-    "archived_at": "2026-07-31T18:43:31.014727+00:00",
+    "archived_at": "2026-07-31T20:37:31.070356+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -423752,8 +423774,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
+      "307f4f8de87a2a356c",
       "c45d3d4c73880f0db2",
       "dc8eff94a7f258097d"
     ],
