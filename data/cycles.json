@@ -34,7 +34,7 @@
     "started_at": "2026-07-27T17:33:36.404470+00:00",
     "peaked_at": "2026-07-27T17:33:36.404470+00:00",
     "ended_at": "2026-07-31T11:33:36.404470+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -638,23 +638,23 @@
         "title": "Nancy Guthrie Ransom Notes Released by Sheriff’s Department Searching for New Leads",
         "url": "https://www.nytimes.com/2026/07/31/us/savannah-nancy-guthrie-ransom-note.html",
         "source": "NYTimes Home",
-        "published_at": "2026-07-31T20:19:00+00:00",
-        "stickiness_score": 46,
-        "residual_contribution": 0.126886,
-        "expected_s2": 0.222582,
-        "observed_corrected": 0.349468,
-        "age_after_peak_hours": 98.691,
+        "published_at": "2026-07-31T22:21:40+00:00",
+        "stickiness_score": 50,
+        "residual_contribution": 0.144378,
+        "expected_s2": 0.240547,
+        "observed_corrected": 0.384925,
+        "age_after_peak_hours": 101.112,
         "post_lambda_q": true,
         "role": "post-lambda_q survivor",
-        "horizon_score": 36,
+        "horizon_score": 51,
         "horizon_phase": "local anomaly",
-        "horizon_index": 0.538835,
-        "deviation_ratio": 1.570064,
-        "cross_scale_coherence": 0.343193
+        "horizon_index": 0.58067,
+        "deviation_ratio": 1.600207,
+        "cross_scale_coherence": 0.362872
       }
     ],
     "max_stickiness": 89,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "10cd12a8c035caa2ab",
       "34bc0386d401ac55e6",
@@ -699,7 +699,7 @@
     "started_at": "2026-07-27T16:14:14.888320+00:00",
     "peaked_at": "2026-07-27T16:14:14.888320+00:00",
     "ended_at": "2026-07-31T19:14:14.888320+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 15,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1317,18 +1317,18 @@
         "url": "https://www.nytimes.com/2026/07/31/us/why-mitch-mcconnell-isnt-giving-up-his-senate-seat.html",
         "source": "NYTimes Home",
         "published_at": "2026-07-31T20:23:41+00:00",
-        "stickiness_score": 38,
-        "residual_contribution": 0.090164,
-        "expected_s2": 0.193574,
-        "observed_corrected": 0.283738,
-        "age_after_peak_hours": 100.157,
+        "stickiness_score": 40,
+        "residual_contribution": 0.099512,
+        "expected_s2": 0.275722,
+        "observed_corrected": 0.375234,
+        "age_after_peak_hours": 99.146,
         "post_lambda_q": true,
         "role": "post-lambda_q survivor",
-        "horizon_score": 51,
+        "horizon_score": 46,
         "horizon_phase": "local anomaly",
-        "horizon_index": 0.526663,
-        "deviation_ratio": 1.465786,
-        "cross_scale_coherence": 0.359304
+        "horizon_index": 0.489078,
+        "deviation_ratio": 1.360914,
+        "cross_scale_coherence": 0.359375
       },
       {
         "id": "3dffd548622973e7bb",
@@ -1407,8 +1407,8 @@
         "cross_scale_coherence": 0.350203
       }
     ],
-    "max_stickiness": 38,
-    "duplicate_count": 24,
+    "max_stickiness": 40,
+    "duplicate_count": 25,
     "duplicate_cycle_ids": [
       "2f461595df2d9c6f2b",
       "6088ea448c22d7b265",
@@ -220429,7 +220429,7 @@
     "started_at": "2026-07-29T19:11:45.211165+00:00",
     "peaked_at": "2026-07-29T19:11:45.211165+00:00",
     "ended_at": "2026-07-31T04:11:45.211165+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 11690,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -221125,7 +221125,7 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "052f170bcd8c80d08d",
       "20984e16f9b0f81b5d",
@@ -275261,7 +275261,7 @@
     "started_at": "2026-07-28T18:43:31.014727+00:00",
     "peaked_at": "2026-07-28T18:43:31.014727+00:00",
     "ended_at": "2026-07-31T15:43:31.014727+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -275724,11 +275724,12 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "4662ba6f293de422a5",
       "6795fbc25a2ec67815",
-      "d2a71ecdd5263cd0ae"
+      "d2a71ecdd5263cd0ae",
+      "f90e1f5185873baaad"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -275767,7 +275768,7 @@
     "started_at": "2026-07-27T11:32:43.050513+00:00",
     "peaked_at": "2026-07-27T11:32:43.050513+00:00",
     "ended_at": "2026-07-30T17:32:43.050513+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -276261,7 +276262,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "3761e78141fd7f1ac6",
       "779b2a1952985f3d81",
@@ -287780,7 +287781,7 @@
     "started_at": "2026-07-30T12:43:31.014727+00:00",
     "peaked_at": "2026-07-30T12:43:31.014727+00:00",
     "ended_at": "2026-07-31T15:43:31.014727+00:00",
-    "archived_at": "2026-07-31T22:14:14.888320+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -288005,7 +288006,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "1762acef3138425bda",
       "4ff3a3536e9bc0dd9f",
@@ -288050,7 +288051,7 @@
     "started_at": "2026-07-24T23:18:35.625406+00:00",
     "peaked_at": "2026-07-24T23:18:35.625406+00:00",
     "ended_at": "2026-07-30T20:18:35.625406+00:00",
-    "archived_at": "2026-07-30T23:18:35.625406+00:00",
+    "archived_at": "2026-07-31T23:14:55.088780+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -288901,7 +288902,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "ba4a12728ceb32ccc8"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "f517845ef984fe8a82",
