@@ -222079,8 +222079,8 @@
     "started_at": "2026-07-29T19:11:45.211165+00:00",
     "peaked_at": "2026-07-29T19:11:45.211165+00:00",
     "ended_at": "2026-07-31T04:11:45.211165+00:00",
-    "archived_at": "2026-08-02T00:09:20.824040+00:00",
-    "article_count": 12004,
+    "archived_at": "2026-08-02T03:49:31.891355+00:00",
+    "article_count": 12025,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -222775,7 +222775,7 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 29,
+    "duplicate_count": 30,
     "duplicate_cycle_ids": [
       "052f170bcd8c80d08d",
       "20984e16f9b0f81b5d",
@@ -222788,6 +222788,7 @@
       "8afc447578a352ca93",
       "a2a2f201a227b3903e",
       "ba57eb79793e6a68e0",
+      "bd62a8378ae793bc9a",
       "bf695b1210b430938f",
       "c1f1404a97a38b633b",
       "cf62e28659c31bfe81",
