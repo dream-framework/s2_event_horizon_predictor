@@ -758,8 +758,8 @@
     "started_at": "2026-07-27T15:07:28.618925+00:00",
     "peaked_at": "2026-07-27T15:07:28.618925+00:00",
     "ended_at": "2026-08-01T18:07:28.618925+00:00",
-    "archived_at": "2026-08-01T23:08:48.331666+00:00",
-    "article_count": 16,
+    "archived_at": "2026-08-02T09:18:54.971357+00:00",
+    "article_count": 17,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 likely",
@@ -1622,7 +1622,7 @@
       }
     ],
     "max_stickiness": 44,
-    "duplicate_count": 36,
+    "duplicate_count": 37,
     "duplicate_cycle_ids": [
       "2f461595df2d9c6f2b",
       "4cf7e72e493772cde8",
@@ -187777,8 +187777,8 @@
     "started_at": "2026-07-28T18:07:28.618925+00:00",
     "peaked_at": "2026-07-28T18:07:28.618925+00:00",
     "ended_at": "2026-08-01T18:07:28.618925+00:00",
-    "archived_at": "2026-08-02T00:09:20.824040+00:00",
-    "article_count": 11,
+    "archived_at": "2026-08-02T09:18:54.971357+00:00",
+    "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 weak",
@@ -188373,6 +188373,25 @@
     ],
     "sticky_stories": [
       {
+        "id": "f95d78030d73dea50d",
+        "title": "Rhode Island FC vs. Birmingham Legion FC Postponed Due to Inclement Weather - Rhode Island FC",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXU1Zk1pZXVLYmVTLU1lTVJjZS1YMkttZm1wYUpyb0dNWDZsQl8tSktEWmVRMkFJZUtWT1hqazcxYWd3SEFaUzFUa1M5ejg2WVRRaDBScWVQRV81Qm4xU0F5dXdEakpydmwtSVI2YS1fWlVmMGdyNXNjbTMwM2FrVGg2Q2FBb1h4QWw1MGRUbm1yMlZtN3VWY3k0TFhIaGx4TUxYcUdJeGs1dHR5dWJ3?oc=5",
+        "source": "Google News Climate",
+        "published_at": "2026-08-02T02:31:04+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.268429,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 104.203,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.093225
+      },
+      {
         "id": "bcd6d0771efa2e523f",
         "title": "Rhode Island placed in bottom half of US News' overall states ranking - The Providence Journal",
         "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOU0xPTWpGYlNBNFBFS2I0UW1rOXN5aWdORVRDdXNGUXpqOUVKcTJRYjZIVmQyQWhOMl9zUnNId2dUaWJzTFFZYlVKeUpHZzZRaEV5SnFVZk9QYjZrTlU5RjcteS1xUUhMNjBhdUd0UHFyTU02QVBTZ0lla2tOdW9fYWo2Ty1DRXdNUHhTbmZUOWdfTWYwcWdhLUdEbGRBbEVBOC1uV2hoc1k5elZod1VtYWtyS1FGQkE0Xzc0WXRSM3dNYkJpYmgzZjB0c2RqTm8wa2NQQWZ6VE5hQmxCMThHcGw5SmpycXV2dGprNGxCNVA0UGc?oc=5",
@@ -188393,7 +188412,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "4662ba6f293de422a5",
       "4a9407c988f6ca72bd",
@@ -194295,7 +194314,7 @@
     "started_at": "2026-07-27T21:15:47.185940+00:00",
     "peaked_at": "2026-07-27T21:15:47.185940+00:00",
     "ended_at": "2026-08-01T12:15:47.185940+00:00",
-    "archived_at": "2026-08-02T00:09:20.824040+00:00",
+    "archived_at": "2026-08-02T09:18:54.971357+00:00",
     "article_count": 9,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -195015,7 +195034,7 @@
       }
     ],
     "max_stickiness": 75,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "3db3bb2c96b31a4f20",
       "4ae2ac1aa67e88881d",
@@ -222079,8 +222098,8 @@
     "started_at": "2026-07-29T19:11:45.211165+00:00",
     "peaked_at": "2026-07-29T19:11:45.211165+00:00",
     "ended_at": "2026-07-31T04:11:45.211165+00:00",
-    "archived_at": "2026-08-02T06:43:17.011951+00:00",
-    "article_count": 12032,
+    "archived_at": "2026-08-02T09:18:54.971357+00:00",
+    "article_count": 12040,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -222775,11 +222794,12 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 31,
+    "duplicate_count": 32,
     "duplicate_cycle_ids": [
       "052f170bcd8c80d08d",
       "20984e16f9b0f81b5d",
       "30bfabe6b4861db5c7",
+      "32e8c1ed2eee8eed4e",
       "5010f7e9566a0883ed",
       "50fe60f728fecc6697",
       "51c35a8b5bc536adc0",
@@ -288998,7 +289018,7 @@
     "started_at": "2026-07-30T12:43:31.014727+00:00",
     "peaked_at": "2026-07-30T12:43:31.014727+00:00",
     "ended_at": "2026-07-31T15:43:31.014727+00:00",
-    "archived_at": "2026-08-02T00:09:20.824040+00:00",
+    "archived_at": "2026-08-02T09:18:54.971357+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -289223,7 +289243,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 19,
+    "duplicate_count": 20,
     "duplicate_cycle_ids": [
       "1762acef3138425bda",
       "4ff3a3536e9bc0dd9f",
