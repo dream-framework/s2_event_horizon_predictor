@@ -34,7 +34,7 @@
     "started_at": "2026-07-27T17:33:36.404470+00:00",
     "peaked_at": "2026-07-27T17:33:36.404470+00:00",
     "ended_at": "2026-07-31T11:33:36.404470+00:00",
-    "archived_at": "2026-08-02T17:13:48.781109+00:00",
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
     "article_count": 13,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -711,7 +711,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "10cd12a8c035caa2ab",
       "34bc0386d401ac55e6",
@@ -758,7 +758,7 @@
     "started_at": "2026-07-27T15:07:28.618925+00:00",
     "peaked_at": "2026-07-27T15:07:28.618925+00:00",
     "ended_at": "2026-08-01T18:07:28.618925+00:00",
-    "archived_at": "2026-08-02T22:08:06.871250+00:00",
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
     "article_count": 17,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1622,7 +1622,7 @@
       }
     ],
     "max_stickiness": 44,
-    "duplicate_count": 46,
+    "duplicate_count": 47,
     "duplicate_cycle_ids": [
       "2f461595df2d9c6f2b",
       "4cf7e72e493772cde8",
@@ -194317,7 +194317,7 @@
     "started_at": "2026-07-27T21:15:47.185940+00:00",
     "peaked_at": "2026-07-27T21:15:47.185940+00:00",
     "ended_at": "2026-08-01T12:15:47.185940+00:00",
-    "archived_at": "2026-08-02T22:08:06.871250+00:00",
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
     "article_count": 9,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -195037,7 +195037,7 @@
       }
     ],
     "max_stickiness": 75,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "3db3bb2c96b31a4f20",
       "4ae2ac1aa67e88881d",
@@ -222101,8 +222101,8 @@
     "started_at": "2026-07-29T19:11:45.211165+00:00",
     "peaked_at": "2026-07-29T19:11:45.211165+00:00",
     "ended_at": "2026-07-31T04:11:45.211165+00:00",
-    "archived_at": "2026-08-02T22:08:06.871250+00:00",
-    "article_count": 12167,
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
+    "article_count": 12180,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -222797,7 +222797,7 @@
       }
     ],
     "max_stickiness": 29,
-    "duplicate_count": 41,
+    "duplicate_count": 42,
     "duplicate_cycle_ids": [
       "052f170bcd8c80d08d",
       "20984e16f9b0f81b5d",
@@ -277008,7 +277008,7 @@
     "started_at": "2026-07-27T11:32:43.050513+00:00",
     "peaked_at": "2026-07-27T11:32:43.050513+00:00",
     "ended_at": "2026-07-30T17:32:43.050513+00:00",
-    "archived_at": "2026-08-02T22:08:06.871250+00:00",
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -277502,7 +277502,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 26,
+    "duplicate_count": 27,
     "duplicate_cycle_ids": [
       "3761e78141fd7f1ac6",
       "779b2a1952985f3d81",
@@ -316795,7 +316795,7 @@
     "started_at": "2026-07-27T12:17:11.242718+00:00",
     "peaked_at": "2026-07-27T12:17:11.242718+00:00",
     "ended_at": "2026-08-02T12:17:11.242718+00:00",
-    "archived_at": "2026-08-02T22:08:06.871250+00:00",
+    "archived_at": "2026-08-02T23:08:45.902792+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -317683,8 +317683,9 @@
       }
     ],
     "max_stickiness": 44,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
+      "40a4ab1d93db3be4f5",
       "4159e8ece56caf9d25",
       "8e6d4149662370e6a9"
     ],
