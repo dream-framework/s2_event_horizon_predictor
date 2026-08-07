@@ -34,7 +34,7 @@
     "started_at": "2026-08-03T09:43:40.584278+00:00",
     "peaked_at": "2026-08-03T09:43:40.584278+00:00",
     "ended_at": "2026-08-06T21:43:40.584278+00:00",
-    "archived_at": "2026-08-07T00:43:40.584278+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -562,7 +562,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "73afc1c387f64787a9",
+      "f89a9dfd9e24abe035"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "c6986f2fff877476aa",
@@ -123567,7 +123572,7 @@
     "started_at": "2026-08-01T21:16:23.797956+00:00",
     "peaked_at": "2026-08-01T21:16:23.797956+00:00",
     "ended_at": "2026-08-06T09:16:23.797956+00:00",
-    "archived_at": "2026-08-06T14:35:13.020231+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 11,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -124289,7 +124294,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 15,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "2371ce69067ff81dbd",
       "27b3d000e52fb45ba4",
@@ -149451,7 +149456,7 @@
     "started_at": "2026-08-02T16:18:25.769431+00:00",
     "peaked_at": "2026-08-02T16:18:25.769431+00:00",
     "ended_at": "2026-08-05T19:18:25.769431+00:00",
-    "archived_at": "2026-08-07T00:43:40.584278+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -149928,11 +149933,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "10be50e16248b368a1",
       "166145287a16bfb9d9",
-      "6fc43453e6ea4f3469"
+      "6fc43453e6ea4f3469",
+      "769bb925c53910fafe"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -198626,7 +198632,7 @@
     "started_at": "2026-08-04T01:02:46.291455+00:00",
     "peaked_at": "2026-08-04T01:02:46.291455+00:00",
     "ended_at": "2026-08-07T01:02:46.291455+00:00",
-    "archived_at": "2026-08-07T04:02:46.291455+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -199086,8 +199092,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "2bbc79948445e50e49",
       "3991e1304261ddcfa4",
       "9e6e5353c3788fca01"
     ],
@@ -199128,7 +199135,7 @@
     "started_at": "2026-07-31T15:43:40.584278+00:00",
     "peaked_at": "2026-07-31T15:43:40.584278+00:00",
     "ended_at": "2026-08-06T21:43:40.584278+00:00",
-    "archived_at": "2026-08-07T04:02:46.291455+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -200030,8 +200037,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "e67719e2402a4739a0",
       "f974b120a078a253e8",
       "fbc50ab1ff1256fa33"
     ],
@@ -226106,7 +226114,7 @@
     "started_at": "2026-08-04T19:02:46.291455+00:00",
     "peaked_at": "2026-08-04T19:02:46.291455+00:00",
     "ended_at": "2026-08-07T01:02:46.291455+00:00",
-    "archived_at": "2026-08-07T04:02:46.291455+00:00",
+    "archived_at": "2026-08-07T05:48:59.074905+00:00",
     "article_count": 11364,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -226921,7 +226929,7 @@
       }
     ],
     "max_stickiness": 16,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "0e2caa2a8d368ba045",
       "1bc6ab37d4f45e3e3f",
