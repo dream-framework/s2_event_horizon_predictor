@@ -34,8 +34,8 @@
     "started_at": "2026-08-03T09:43:40.584278+00:00",
     "peaked_at": "2026-08-03T09:43:40.584278+00:00",
     "ended_at": "2026-08-06T21:43:40.584278+00:00",
-    "archived_at": "2026-08-08T08:57:14.172487+00:00",
-    "article_count": 14,
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
+    "article_count": 15,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -560,11 +560,32 @@
         "source_tier_count": 0
       }
     ],
-    "sticky_stories": [],
-    "max_stickiness": 0,
-    "duplicate_count": 15,
+    "sticky_stories": [
+      {
+        "id": "3a0117cfe780bcd143",
+        "title": "Christopher Harry on a summer of devastating wildfires – cartoon",
+        "url": "https://www.theguardian.com/commentisfree/picture/2026/aug/08/christopher-harry-on-a-summer-of-devastating-wildfires-cartoon",
+        "source": "The Guardian Environment",
+        "published_at": "2026-08-08T10:00:43+00:00",
+        "stickiness_score": 60,
+        "residual_contribution": 0.193001,
+        "expected_s2": 0.197009,
+        "observed_corrected": 0.39001,
+        "age_after_peak_hours": 122.194,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 76,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.691406,
+        "deviation_ratio": 1.979656,
+        "cross_scale_coherence": 0.349256
+      }
+    ],
+    "max_stickiness": 60,
+    "duplicate_count": 16,
     "duplicate_cycle_ids": [
       "00570384c92f55ab44",
+      "49a580e09979297aff",
       "73afc1c387f64787a9",
       "e613fabad3881182fd",
       "f89a9dfd9e24abe035"
@@ -606,7 +627,7 @@
     "started_at": "2026-08-01T19:57:02.879623+00:00",
     "peaked_at": "2026-08-01T19:57:02.879623+00:00",
     "ended_at": "2026-08-08T04:57:02.879623+00:00",
-    "archived_at": "2026-08-08T07:57:02.879623+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 18,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1525,7 +1546,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "b9a6f0f21130d0d5df"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "72c82f522e8e0b184c",
@@ -126565,7 +126590,7 @@
     "started_at": "2026-08-01T21:16:23.797956+00:00",
     "peaked_at": "2026-08-01T21:16:23.797956+00:00",
     "ended_at": "2026-08-06T09:16:23.797956+00:00",
-    "archived_at": "2026-08-08T08:57:14.172487+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 13,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -127287,7 +127312,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 28,
+    "duplicate_count": 29,
     "duplicate_cycle_ids": [
       "2371ce69067ff81dbd",
       "27b3d000e52fb45ba4",
@@ -152453,7 +152478,7 @@
     "started_at": "2026-08-02T16:18:25.769431+00:00",
     "peaked_at": "2026-08-02T16:18:25.769431+00:00",
     "ended_at": "2026-08-05T19:18:25.769431+00:00",
-    "archived_at": "2026-08-08T09:51:57.147550+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -152930,7 +152955,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "10be50e16248b368a1",
       "166145287a16bfb9d9",
@@ -203404,7 +203429,7 @@
     "started_at": "2026-08-04T01:02:46.291455+00:00",
     "peaked_at": "2026-08-04T01:02:46.291455+00:00",
     "ended_at": "2026-08-07T01:02:46.291455+00:00",
-    "archived_at": "2026-08-08T09:51:57.147550+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -203864,7 +203889,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 21,
+    "duplicate_count": 22,
     "duplicate_cycle_ids": [
       "2bbc79948445e50e49",
       "3991e1304261ddcfa4",
@@ -205606,7 +205631,7 @@
     "started_at": "2026-08-03T11:56:13.556555+00:00",
     "peaked_at": "2026-08-03T11:56:13.556555+00:00",
     "ended_at": "2026-08-07T17:56:13.556555+00:00",
-    "archived_at": "2026-08-08T09:51:57.147550+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -206236,11 +206261,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "72dae72a14cabac018",
       "a0a5c30c5ba3894a04",
       "af4a4c2c12e7007057",
+      "e7a24c6ef357e3b84d",
       "ec2507092369dbe063",
       "fc85f5c59cf0e703ab"
     ],
@@ -396060,7 +396086,7 @@
     "started_at": "2026-08-05T08:56:13.556555+00:00",
     "peaked_at": "2026-08-05T08:56:13.556555+00:00",
     "ended_at": "2026-08-07T17:56:13.556555+00:00",
-    "archived_at": "2026-08-08T09:51:57.147550+00:00",
+    "archived_at": "2026-08-08T10:49:04.070023+00:00",
     "article_count": 8,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -396455,7 +396481,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "0a0828e1fd90d6a32e",
       "5d74750583ca6c89f5",
