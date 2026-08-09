@@ -34,7 +34,7 @@
     "started_at": "2026-08-03T09:43:40.584278+00:00",
     "peaked_at": "2026-08-03T09:43:40.584278+00:00",
     "ended_at": "2026-08-06T21:43:40.584278+00:00",
-    "archived_at": "2026-08-09T09:00:04.787780+00:00",
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
     "article_count": 15,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -582,7 +582,7 @@
       }
     ],
     "max_stickiness": 60,
-    "duplicate_count": 35,
+    "duplicate_count": 36,
     "duplicate_cycle_ids": [
       "00570384c92f55ab44",
       "49a580e09979297aff",
@@ -138790,8 +138790,8 @@
     "started_at": "2026-08-07T16:42:37.003762+00:00",
     "peaked_at": "2026-08-07T16:42:37.003762+00:00",
     "ended_at": "2026-08-08T16:42:37.003762+00:00",
-    "archived_at": "2026-08-09T09:00:04.787780+00:00",
-    "article_count": 11399,
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
+    "article_count": 11417,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -139435,7 +139435,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "0f89e90761d4d0951d",
       "216fc4e41209414a77",
@@ -139450,6 +139450,7 @@
       "b98f2990280c80cb0c",
       "c9252ab7c3d1a8b7db",
       "c9aab12d2c981aeb7b",
+      "e92d7c24929c3cec29",
       "f4a5f6d14874034359",
       "f7ee81df0706606635"
     ],
@@ -154235,7 +154236,7 @@
     "started_at": "2026-08-02T16:18:25.769431+00:00",
     "peaked_at": "2026-08-02T16:18:25.769431+00:00",
     "ended_at": "2026-08-05T19:18:25.769431+00:00",
-    "archived_at": "2026-08-09T09:00:04.787780+00:00",
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -154712,7 +154713,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 34,
+    "duplicate_count": 35,
     "duplicate_cycle_ids": [
       "10be50e16248b368a1",
       "166145287a16bfb9d9",
@@ -205186,7 +205187,7 @@
     "started_at": "2026-08-04T01:02:46.291455+00:00",
     "peaked_at": "2026-08-04T01:02:46.291455+00:00",
     "ended_at": "2026-08-07T01:02:46.291455+00:00",
-    "archived_at": "2026-08-09T07:59:47.015389+00:00",
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -205646,7 +205647,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 37,
+    "duplicate_count": 38,
     "duplicate_cycle_ids": [
       "2bbc79948445e50e49",
       "3991e1304261ddcfa4",
@@ -205689,7 +205690,7 @@
     "started_at": "2026-08-03T11:47:57.463848+00:00",
     "peaked_at": "2026-08-03T11:47:57.463848+00:00",
     "ended_at": "2026-08-08T11:47:57.463848+00:00",
-    "archived_at": "2026-08-09T09:00:04.787780+00:00",
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -206421,7 +206422,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 33,
+    "duplicate_count": 34,
     "duplicate_cycle_ids": [
       "72dae72a14cabac018",
       "a0a5c30c5ba3894a04",
@@ -366789,7 +366790,7 @@
     "started_at": "2026-08-04T05:55:42.787075+00:00",
     "peaked_at": "2026-08-04T05:55:42.787075+00:00",
     "ended_at": "2026-08-09T02:55:42.787075+00:00",
-    "archived_at": "2026-08-09T07:59:47.015389+00:00",
+    "archived_at": "2026-08-09T09:54:00.960406+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -367504,9 +367505,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "46222bf715060de9bd",
+      "4f5b9b86bbd223ddeb",
       "b47dc2945cf870f855"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
