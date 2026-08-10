@@ -138790,8 +138790,8 @@
     "started_at": "2026-08-07T16:42:37.003762+00:00",
     "peaked_at": "2026-08-07T16:42:37.003762+00:00",
     "ended_at": "2026-08-08T16:42:37.003762+00:00",
-    "archived_at": "2026-08-10T06:21:10.350987+00:00",
-    "article_count": 11608,
+    "archived_at": "2026-08-10T08:48:58.478325+00:00",
+    "article_count": 11616,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -139435,7 +139435,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 35,
+    "duplicate_count": 36,
     "duplicate_cycle_ids": [
       "0f89e90761d4d0951d",
       "1cf15f308f5d478896",
@@ -139446,6 +139446,7 @@
       "4674625c84c8d13060",
       "52af1eb9d69b6af23b",
       "64d45ecac74a0ee0c8",
+      "6b200d98c3e6137205",
       "6b66bf9b88c6584409",
       "6c9e1456fb620a9671",
       "6cbcb6fd21a059dedb",
@@ -179191,7 +179192,7 @@
     "started_at": "2026-08-04T01:51:58.944951+00:00",
     "peaked_at": "2026-08-04T01:51:58.944951+00:00",
     "ended_at": "2026-08-09T13:51:58.944951+00:00",
-    "archived_at": "2026-08-10T06:21:10.350987+00:00",
+    "archived_at": "2026-08-10T08:48:58.478325+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -179991,7 +179992,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 53,
+    "duplicate_count": 54,
     "duplicate_cycle_ids": [
       "2bbc79948445e50e49",
       "3991e1304261ddcfa4",
@@ -400109,7 +400110,7 @@
     "started_at": "2026-08-03T08:50:10.810152+00:00",
     "peaked_at": "2026-08-03T08:50:10.810152+00:00",
     "ended_at": "2026-08-09T11:50:10.810152+00:00",
-    "archived_at": "2026-08-10T06:21:10.350987+00:00",
+    "archived_at": "2026-08-10T08:48:58.478325+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -401014,7 +401015,7 @@
       }
     ],
     "max_stickiness": 39,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "2f1a5778a63c4699c9",
       "7110669269541bf285",
