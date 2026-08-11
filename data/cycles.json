@@ -139930,7 +139930,7 @@
     "started_at": "2026-08-04T13:54:46.192091+00:00",
     "peaked_at": "2026-08-04T13:54:46.192091+00:00",
     "ended_at": "2026-08-10T19:54:46.192091+00:00",
-    "archived_at": "2026-08-11T13:39:24.906996+00:00",
+    "archived_at": "2026-08-11T15:13:56.094012+00:00",
     "article_count": 10,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -140852,7 +140852,7 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "2cbcda7183e81ab98c",
       "36952632f6c52d3846",
@@ -284983,8 +284983,8 @@
     "started_at": "2026-08-10T20:02:31.005332+00:00",
     "peaked_at": "2026-08-10T20:02:31.005332+00:00",
     "ended_at": "2026-08-11T08:02:31.005332+00:00",
-    "archived_at": "2026-08-11T13:39:24.906996+00:00",
-    "article_count": 12587,
+    "archived_at": "2026-08-11T15:13:56.094012+00:00",
+    "article_count": 12627,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -285560,8 +285560,9 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "01e01e3397c0a54c7f",
       "37076b1265aa49e7ea",
       "ba5e63ed00a489e90d",
       "ebb92c41a38ce7b226"
@@ -296758,7 +296759,7 @@
     "started_at": "2026-08-04T22:34:26.624958+00:00",
     "peaked_at": "2026-08-04T22:34:26.624958+00:00",
     "ended_at": "2026-08-10T07:34:26.624958+00:00",
-    "archived_at": "2026-08-11T13:39:24.906996+00:00",
+    "archived_at": "2026-08-11T15:13:56.094012+00:00",
     "article_count": 5,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -297561,7 +297562,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 19,
+    "duplicate_count": 20,
     "duplicate_cycle_ids": [
       "6a628a7f7113b9e8f4",
       "da0accfcf799189a0a",
