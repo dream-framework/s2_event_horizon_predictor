@@ -1024,7 +1024,7 @@
     "started_at": "2026-08-05T16:33:30.398350+00:00",
     "peaked_at": "2026-08-05T16:33:30.398350+00:00",
     "ended_at": "2026-08-11T04:33:30.398350+00:00",
-    "archived_at": "2026-08-11T07:33:30.398350+00:00",
+    "archived_at": "2026-08-11T17:10:20.302254+00:00",
     "article_count": 18,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1844,12 +1844,13 @@
       }
     ],
     "max_stickiness": 18,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "78c0154522af045a58",
       "b4115e68d4235d8403",
       "baafd69e616ca8999f",
-      "e9de4341a5f2d3cbaf"
+      "e9de4341a5f2d3cbaf",
+      "eb0c5a69ae63ce6236"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -284983,8 +284984,8 @@
     "started_at": "2026-08-10T20:02:31.005332+00:00",
     "peaked_at": "2026-08-10T20:02:31.005332+00:00",
     "ended_at": "2026-08-11T08:02:31.005332+00:00",
-    "archived_at": "2026-08-11T16:09:50.841860+00:00",
-    "article_count": 12716,
+    "archived_at": "2026-08-11T17:10:20.302254+00:00",
+    "article_count": 12765,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -285560,12 +285561,13 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "01e01e3397c0a54c7f",
       "37076b1265aa49e7ea",
       "9fe714945e3ede399e",
       "ba5e63ed00a489e90d",
+      "dd3067babe6c7e6974",
       "ebb92c41a38ce7b226"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -296760,7 +296762,7 @@
     "started_at": "2026-08-04T22:34:26.624958+00:00",
     "peaked_at": "2026-08-04T22:34:26.624958+00:00",
     "ended_at": "2026-08-10T07:34:26.624958+00:00",
-    "archived_at": "2026-08-11T16:09:50.841860+00:00",
+    "archived_at": "2026-08-11T17:10:20.302254+00:00",
     "article_count": 5,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -297563,7 +297565,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 21,
+    "duplicate_count": 22,
     "duplicate_cycle_ids": [
       "6a628a7f7113b9e8f4",
       "da0accfcf799189a0a",
