@@ -34,7 +34,7 @@
     "started_at": "2026-08-10T13:18:05.391653+00:00",
     "peaked_at": "2026-08-10T13:18:05.391653+00:00",
     "ended_at": "2026-08-12T07:18:05.391653+00:00",
-    "archived_at": "2026-08-12T19:17:20.582084+00:00",
+    "archived_at": "2026-08-12T21:00:35.469108+00:00",
     "article_count": 17,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -420,9 +420,10 @@
       }
     ],
     "max_stickiness": 68,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "5edb44bcf0c501ab59",
+      "7e681c286db82f013e",
       "a2df99de7ff519d5d3",
       "b1a60ee0c4d27e7332",
       "cfae1a682e177ffbae"
@@ -287372,8 +287373,8 @@
     "started_at": "2026-08-10T20:02:31.005332+00:00",
     "peaked_at": "2026-08-10T20:02:31.005332+00:00",
     "ended_at": "2026-08-11T08:02:31.005332+00:00",
-    "archived_at": "2026-08-12T19:17:20.582084+00:00",
-    "article_count": 13561,
+    "archived_at": "2026-08-12T21:00:35.469108+00:00",
+    "article_count": 13602,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -287949,9 +287950,10 @@
       }
     ],
     "max_stickiness": 32,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "01e01e3397c0a54c7f",
+      "2e50ae034d9256a7ea",
       "2fe74c137de3cdd34d",
       "37076b1265aa49e7ea",
       "453ea1073d29487e41",
