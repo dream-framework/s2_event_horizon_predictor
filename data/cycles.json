@@ -287351,8 +287351,8 @@
     "started_at": "2026-08-10T20:02:31.005332+00:00",
     "peaked_at": "2026-08-10T20:02:31.005332+00:00",
     "ended_at": "2026-08-11T08:02:31.005332+00:00",
-    "archived_at": "2026-08-12T13:42:57.573204+00:00",
-    "article_count": 13316,
+    "archived_at": "2026-08-12T15:12:25.585342+00:00",
+    "article_count": 13396,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -287928,7 +287928,7 @@
       }
     ],
     "max_stickiness": 30,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "01e01e3397c0a54c7f",
       "2fe74c137de3cdd34d",
@@ -287936,6 +287936,7 @@
       "453ea1073d29487e41",
       "4d69f12cd0ea948793",
       "5018fc78ca4ef22fb6",
+      "51b87db8224af094e8",
       "985f0bd78773b4e946",
       "9fe714945e3ede399e",
       "a9eb525ac746b2a11a",
