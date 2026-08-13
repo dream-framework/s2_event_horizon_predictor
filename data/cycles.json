@@ -142557,7 +142557,7 @@
     "started_at": "2026-08-12T04:43:22.912744+00:00",
     "peaked_at": "2026-08-12T04:43:22.912744+00:00",
     "ended_at": "2026-08-13T10:43:22.912744+00:00",
-    "archived_at": "2026-08-13T21:00:07.210065+00:00",
+    "archived_at": "2026-08-13T22:00:27.962407+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -142799,7 +142799,7 @@
       }
     ],
     "max_stickiness": 46,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "2195e005d0f8d1221d",
       "5c48c370d84ef3c644",
@@ -182715,8 +182715,8 @@
     "started_at": "2026-08-12T11:56:54.100643+00:00",
     "peaked_at": "2026-08-12T11:56:54.100643+00:00",
     "ended_at": "2026-08-13T08:56:54.100643+00:00",
-    "archived_at": "2026-08-13T21:00:07.210065+00:00",
-    "article_count": 14322,
+    "archived_at": "2026-08-13T22:00:27.962407+00:00",
+    "article_count": 14369,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -183343,13 +183343,14 @@
       }
     ],
     "max_stickiness": 58,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "0f3a3174153d71e47b",
       "1959a6752ba7062882",
       "1de24d9d4d32c21bd0",
       "7293756bff9f9dac6a",
       "8ddae95cd81424fb19",
+      "aa7f0dbb26f1b840e5",
       "ae974862b107829895",
       "d3059b1b231750c59d",
       "d4663b17fb01ad844d"
@@ -256288,8 +256289,8 @@
     "started_at": "2026-08-12T06:42:33.222358+00:00",
     "peaked_at": "2026-08-12T06:42:33.222358+00:00",
     "ended_at": "2026-08-13T03:42:33.222358+00:00",
-    "archived_at": "2026-08-13T18:05:22.834047+00:00",
-    "article_count": 22,
+    "archived_at": "2026-08-13T22:00:27.962407+00:00",
+    "article_count": 23,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -256497,6 +256498,25 @@
         "cross_scale_coherence": 0.385163
       },
       {
+        "id": "330b2d0a13e9ed7231",
+        "title": "Polls close in Clacton byelection where Nigel Farage faces slew of fringe candidates",
+        "url": "https://www.theguardian.com/politics/2026/aug/13/clacton-byelection-polls-open",
+        "source": "The Guardian World",
+        "published_at": "2026-08-13T21:37:58+00:00",
+        "stickiness_score": 21,
+        "residual_contribution": 0.015399,
+        "expected_s2": 0.34442,
+        "observed_corrected": 0.359819,
+        "age_after_peak_hours": 38.625,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 14,
+        "horizon_phase": "noise",
+        "horizon_index": 0.363008,
+        "deviation_ratio": 1.04471,
+        "cross_scale_coherence": 0.347473
+      },
+      {
         "id": "8b59f4092cc53d99f7",
         "title": "Polls open in Clacton, where Farage spent more than £10,000 in byelection against Count Binface – UK politics live",
         "url": "https://www.theguardian.com/politics/live/2026/aug/13/clacton-byelection-nigel-farage-count-binface-reform-latest-news-updates",
@@ -256517,11 +256537,12 @@
       }
     ],
     "max_stickiness": 68,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "31b5dd8e0c362129c0",
       "b59f1e596cf4f9777c",
-      "b6285f2b1b226c6a1b"
+      "b6285f2b1b226c6a1b",
+      "c7e7c998d725ee831c"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -310833,7 +310854,7 @@
     "started_at": "2026-08-08T16:19:46.075505+00:00",
     "peaked_at": "2026-08-08T16:19:46.075505+00:00",
     "ended_at": "2026-08-13T07:19:46.075505+00:00",
-    "archived_at": "2026-08-13T19:17:33.942776+00:00",
+    "archived_at": "2026-08-13T22:00:27.962407+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -311514,7 +311535,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "0d5da3f3a5338a1209",
       "28a3d4386abc217427",
@@ -344787,7 +344808,7 @@
     "started_at": "2026-08-12T14:09:32.933166+00:00",
     "peaked_at": "2026-08-12T14:09:32.933166+00:00",
     "ended_at": "2026-08-13T14:09:32.933166+00:00",
-    "archived_at": "2026-08-13T21:00:07.210065+00:00",
+    "archived_at": "2026-08-13T22:00:27.962407+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -344995,11 +345016,12 @@
       }
     ],
     "max_stickiness": 38,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "07e78d8de5cf1e25c1",
       "4b552317ef4f1901a9",
-      "e3074af233ce1eb9b7"
+      "e3074af233ce1eb9b7",
+      "e7f053b330a2ca5570"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
