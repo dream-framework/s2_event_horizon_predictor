@@ -142955,8 +142955,8 @@
     "started_at": "2026-08-12T04:43:22.912744+00:00",
     "peaked_at": "2026-08-12T04:43:22.912744+00:00",
     "ended_at": "2026-08-13T10:43:22.912744+00:00",
-    "archived_at": "2026-08-15T18:45:24.685772+00:00",
-    "article_count": 8,
+    "archived_at": "2026-08-15T19:31:13.844636+00:00",
+    "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 weak",
@@ -143177,6 +143177,25 @@
     ],
     "sticky_stories": [
       {
+        "id": "1d3c16419868a04a5b",
+        "title": "Death toll from Zimbabwe ferry disaster rises to 69",
+        "url": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-15T19:10:06+00:00",
+        "stickiness_score": 51,
+        "residual_contribution": 0.151414,
+        "expected_s2": 0.191573,
+        "observed_corrected": 0.342987,
+        "age_after_peak_hours": 86.648,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 70,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.666805,
+        "deviation_ratio": 1.790372,
+        "cross_scale_coherence": 0.372439
+      },
+      {
         "id": "769001af99bcf15bea",
         "title": "More Than 40 Dead After a Ferry Capsizes on Zimbabwe’s Lake Kariba",
         "url": "https://www.nytimes.com/2026/08/12/world/africa/-zimbabwe-lake-kariba-ferry-capsize.html",
@@ -143196,11 +143215,12 @@
         "cross_scale_coherence": 0.383657
       }
     ],
-    "max_stickiness": 48,
-    "duplicate_count": 49,
+    "max_stickiness": 51,
+    "duplicate_count": 50,
     "duplicate_cycle_ids": [
       "2195e005d0f8d1221d",
       "5c48c370d84ef3c644",
+      "7f5560382337886b22",
       "84dea35147e7926391",
       "c17adc3f90a3e9ad17",
       "caf831386c61c84d09",
@@ -183355,8 +183375,8 @@
     "started_at": "2026-08-12T11:56:54.100643+00:00",
     "peaked_at": "2026-08-12T11:56:54.100643+00:00",
     "ended_at": "2026-08-13T08:56:54.100643+00:00",
-    "archived_at": "2026-08-15T18:45:24.685772+00:00",
-    "article_count": 14617,
+    "archived_at": "2026-08-15T19:31:13.844636+00:00",
+    "article_count": 14620,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -183983,7 +184003,7 @@
       }
     ],
     "max_stickiness": 58,
-    "duplicate_count": 44,
+    "duplicate_count": 45,
     "duplicate_cycle_ids": [
       "03c984b1c25fcc8a76",
       "0f3a3174153d71e47b",
@@ -257583,7 +257603,7 @@
     "started_at": "2026-08-10T15:33:06.809924+00:00",
     "peaked_at": "2026-08-10T15:33:06.809924+00:00",
     "ended_at": "2026-08-15T12:33:06.809924+00:00",
-    "archived_at": "2026-08-15T18:45:24.685772+00:00",
+    "archived_at": "2026-08-15T19:31:13.844636+00:00",
     "article_count": 16,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -258298,7 +258318,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "61562e683b0772a273",
       "8f2d93a9e3e2fa6026",
@@ -272512,7 +272532,7 @@
     "started_at": "2026-08-11T12:51:20.220108+00:00",
     "peaked_at": "2026-08-11T12:51:20.220108+00:00",
     "ended_at": "2026-08-15T00:51:20.220108+00:00",
-    "archived_at": "2026-08-15T18:45:24.685772+00:00",
+    "archived_at": "2026-08-15T19:31:13.844636+00:00",
     "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -273060,7 +273080,7 @@
       }
     ],
     "max_stickiness": 20,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "009377bd7d5c89fd61",
       "1ac2fd16304b7bfac0",
@@ -350461,7 +350481,7 @@
     "started_at": "2026-08-12T14:09:32.933166+00:00",
     "peaked_at": "2026-08-12T14:09:32.933166+00:00",
     "ended_at": "2026-08-13T14:09:32.933166+00:00",
-    "archived_at": "2026-08-15T18:45:24.685772+00:00",
+    "archived_at": "2026-08-15T19:31:13.844636+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -350669,7 +350689,7 @@
       }
     ],
     "max_stickiness": 38,
-    "duplicate_count": 41,
+    "duplicate_count": 42,
     "duplicate_cycle_ids": [
       "07e78d8de5cf1e25c1",
       "4b552317ef4f1901a9",
