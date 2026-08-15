@@ -142955,7 +142955,7 @@
     "started_at": "2026-08-12T04:43:22.912744+00:00",
     "peaked_at": "2026-08-12T04:43:22.912744+00:00",
     "ended_at": "2026-08-13T10:43:22.912744+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -143197,7 +143197,7 @@
       }
     ],
     "max_stickiness": 48,
-    "duplicate_count": 41,
+    "duplicate_count": 42,
     "duplicate_cycle_ids": [
       "2195e005d0f8d1221d",
       "5c48c370d84ef3c644",
@@ -183355,8 +183355,8 @@
     "started_at": "2026-08-12T11:56:54.100643+00:00",
     "peaked_at": "2026-08-12T11:56:54.100643+00:00",
     "ended_at": "2026-08-13T08:56:54.100643+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
-    "article_count": 14584,
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
+    "article_count": 14593,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "tied / mixed",
@@ -183983,7 +183983,7 @@
       }
     ],
     "max_stickiness": 58,
-    "duplicate_count": 36,
+    "duplicate_count": 37,
     "duplicate_cycle_ids": [
       "03c984b1c25fcc8a76",
       "0f3a3174153d71e47b",
@@ -184003,6 +184003,7 @@
       "aa7f0dbb26f1b840e5",
       "ae974862b107829895",
       "b38b965d8e9f54e37e",
+      "bf3d0cb0fb57b7b93d",
       "d3059b1b231750c59d",
       "d4663b17fb01ad844d",
       "f491dd4da76b32e525"
@@ -271751,7 +271752,7 @@
     "started_at": "2026-08-11T12:51:20.220108+00:00",
     "peaked_at": "2026-08-11T12:51:20.220108+00:00",
     "ended_at": "2026-08-15T00:51:20.220108+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
     "article_count": 10,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -272299,7 +272300,7 @@
       }
     ],
     "max_stickiness": 20,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "009377bd7d5c89fd61",
       "1ac2fd16304b7bfac0",
@@ -313822,7 +313823,7 @@
     "started_at": "2026-08-10T15:37:17.775108+00:00",
     "peaked_at": "2026-08-10T15:37:17.775108+00:00",
     "ended_at": "2026-08-15T06:37:17.775108+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
     "article_count": 16,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -314503,9 +314504,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "61562e683b0772a273",
+      "8f2d93a9e3e2fa6026",
       "b8bec69785fd4ff808"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -314545,7 +314547,7 @@
     "started_at": "2026-08-08T16:19:46.075505+00:00",
     "peaked_at": "2026-08-08T16:19:46.075505+00:00",
     "ended_at": "2026-08-13T07:19:46.075505+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -315246,7 +315248,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 33,
+    "duplicate_count": 34,
     "duplicate_cycle_ids": [
       "0d5da3f3a5338a1209",
       "28a3d4386abc217427",
@@ -350423,7 +350425,7 @@
     "started_at": "2026-08-12T14:09:32.933166+00:00",
     "peaked_at": "2026-08-12T14:09:32.933166+00:00",
     "ended_at": "2026-08-13T14:09:32.933166+00:00",
-    "archived_at": "2026-08-15T10:36:08.304650+00:00",
+    "archived_at": "2026-08-15T11:32:19.034878+00:00",
     "article_count": 7,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -350631,7 +350633,7 @@
       }
     ],
     "max_stickiness": 38,
-    "duplicate_count": 33,
+    "duplicate_count": 34,
     "duplicate_cycle_ids": [
       "07e78d8de5cf1e25c1",
       "4b552317ef4f1901a9",
