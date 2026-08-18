@@ -34,8 +34,8 @@
     "started_at": "2026-08-16T08:37:50.089389+00:00",
     "peaked_at": "2026-08-16T08:37:50.089389+00:00",
     "ended_at": "2026-08-18T17:37:50.089389+00:00",
-    "archived_at": "2026-08-18T20:37:50.089389+00:00",
-    "article_count": 24,
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
+    "article_count": 25,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 weak",
@@ -521,10 +521,29 @@
         "horizon_index": 0.559843,
         "deviation_ratio": 1.650102,
         "cross_scale_coherence": 0.339278
+      },
+      {
+        "id": "ae6cfbd6948b6b28ab",
+        "title": "Jose Mourinho returns to Real Madrid in closed-door ceremony",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/jose-mourinho-returns-to-real-madrid-in-closed-door-ceremony?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-18T20:41:50+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.210144,
+        "observed_corrected": 0.19847,
+        "age_after_peak_hours": 59.101,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.313591,
+        "deviation_ratio": 0.944448,
+        "cross_scale_coherence": 0.332036
       }
     ],
     "max_stickiness": 68,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "141cd68a198233c6f5",
       "162ab3cd4b019f7713",
@@ -532,6 +551,7 @@
       "3ef91f74172d9e1638",
       "6547597ee90d193a48",
       "bde776219a350fb178",
+      "db9b1bc44837f7e307",
       "e6330a01159ea9b39e"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -571,7 +591,7 @@
     "started_at": "2026-08-14T09:37:35.247658+00:00",
     "peaked_at": "2026-08-14T09:37:35.247658+00:00",
     "ended_at": "2026-08-17T18:37:35.247658+00:00",
-    "archived_at": "2026-08-18T20:37:50.089389+00:00",
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
     "article_count": 12,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1102,7 +1122,7 @@
       }
     ],
     "max_stickiness": 50,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "11a1f5b1edb1c53cf9",
       "1a2d736426e6870246",
@@ -1150,7 +1170,7 @@
     "started_at": "2026-08-13T11:51:00.656792+00:00",
     "peaked_at": "2026-08-13T11:51:00.656792+00:00",
     "ended_at": "2026-08-18T05:51:00.656792+00:00",
-    "archived_at": "2026-08-18T20:37:50.089389+00:00",
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
     "article_count": 51,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1868,7 +1888,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "09d5075da29430d299",
       "5d0c5bc6ccf4bb948b",
@@ -200509,7 +200529,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-18T20:37:50.089389+00:00",
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -201086,8 +201106,9 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
+      "15129850ffdc639411",
       "17849ce8bca0fabaee",
       "1ae47e5d8911e2eac9",
       "3cb0560ff7938be3af",
@@ -254978,7 +254999,7 @@
     "started_at": "2026-08-14T23:32:18.475808+00:00",
     "peaked_at": "2026-08-14T23:32:18.475808+00:00",
     "ended_at": "2026-08-16T14:32:18.475808+00:00",
-    "archived_at": "2026-08-18T18:53:58.216209+00:00",
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -255271,7 +255292,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "0361475241fb80ebbb",
       "120233d8b940eff5ae",
@@ -316616,7 +316637,7 @@
     "started_at": "2026-08-15T03:11:04.352102+00:00",
     "peaked_at": "2026-08-15T03:11:04.352102+00:00",
     "ended_at": "2026-08-16T00:11:04.352102+00:00",
-    "archived_at": "2026-08-18T20:37:50.089389+00:00",
+    "archived_at": "2026-08-18T21:35:47.480120+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -316826,7 +316847,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 61,
+    "duplicate_count": 62,
     "duplicate_cycle_ids": [
       "0d409135c072de7e92",
       "1e2dd61485cfccc46f",
