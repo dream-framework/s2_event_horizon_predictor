@@ -856,7 +856,7 @@
     "started_at": "2026-08-16T10:49:19.283493+00:00",
     "peaked_at": "2026-08-16T10:49:19.283493+00:00",
     "ended_at": "2026-08-21T13:49:19.283493+00:00",
-    "archived_at": "2026-08-21T17:42:26.361582+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 27,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1700,6 +1700,44 @@
         "cross_scale_coherence": 0.422086
       },
       {
+        "id": "ac99fc672dbe9195c8",
+        "title": "Arsenal sign Konsa from Villa as Premier League holders bolster defence",
+        "url": "https://www.aljazeera.com/sports/2026/8/21/arsenal-sign-konsa-from-villa-as-premier-league-holders-bolster-defence?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-21T17:38:06+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.32958,
+        "expected_s2": 0.167509,
+        "observed_corrected": 0.497089,
+        "age_after_peak_hours": 127.751,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 75,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 1.025635,
+        "deviation_ratio": 2.967536,
+        "cross_scale_coherence": 0.345619
+      },
+      {
+        "id": "4a1af569727477b95e",
+        "title": "LIVE: Arsenal vs Coventry: Premier League",
+        "url": "https://www.aljazeera.com/sports/liveblog/2026/8/21/arsenal-vs-coventry-live-premier-league?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-21T16:15:39+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.32958,
+        "expected_s2": 0.167509,
+        "observed_corrected": 0.497089,
+        "age_after_peak_hours": 126.377,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 75,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 1.025635,
+        "deviation_ratio": 2.967536,
+        "cross_scale_coherence": 0.345619
+      },
+      {
         "id": "263aa640062c841e46",
         "title": "Premier League what to know: Schedule, prediction, transfers and more",
         "url": "https://www.aljazeera.com/sports/2026/8/18/premier-league-football-what-to-know-schedule-prediction-transfers-2026-27-season?traffic_source=rss",
@@ -1834,7 +1872,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 34,
+    "duplicate_count": 35,
     "duplicate_cycle_ids": [
       "141cd68a198233c6f5",
       "162ab3cd4b019f7713",
@@ -1845,6 +1883,7 @@
       "5686ef57b8b13e2f1a",
       "648a2a8fb6f80ef565",
       "6547597ee90d193a48",
+      "6aa52c93491962c24b",
       "6e6dc4e1c8e3b2aeaa",
       "7978d9be7f65fb5e32",
       "bde776219a350fb178",
@@ -1890,7 +1929,7 @@
     "started_at": "2026-08-16T04:54:22.262306+00:00",
     "peaked_at": "2026-08-16T04:54:22.262306+00:00",
     "ended_at": "2026-08-21T04:54:22.262306+00:00",
-    "archived_at": "2026-08-21T17:42:26.361582+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -2661,7 +2700,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "a70cabc2c72d079a22",
       "b686febce4f013516f",
@@ -2704,7 +2743,7 @@
     "started_at": "2026-08-15T04:49:19.283493+00:00",
     "peaked_at": "2026-08-15T04:49:19.283493+00:00",
     "ended_at": "2026-08-21T13:49:19.283493+00:00",
-    "archived_at": "2026-08-21T16:49:19.283493+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 16,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -3662,7 +3701,12 @@
       }
     ],
     "max_stickiness": 69,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "7895801b6e851aa036",
+      "ad728eb788ea907409"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "40f62009f7bb998a81",
@@ -174301,7 +174345,7 @@
     "started_at": "2026-08-16T11:38:29.157157+00:00",
     "peaked_at": "2026-08-16T11:38:29.157157+00:00",
     "ended_at": "2026-08-21T08:38:29.157157+00:00",
-    "archived_at": "2026-08-21T17:42:26.361582+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 19,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -175055,7 +175099,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "31a08836df52f00541",
       "679d01b0fbbf01c0b5",
@@ -207832,7 +207876,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-21T17:42:26.361582+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -208409,7 +208453,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 68,
+    "duplicate_count": 69,
     "duplicate_cycle_ids": [
       "140de425e0c731a50f",
       "15129850ffdc639411",
@@ -331777,7 +331821,7 @@
     "started_at": "2026-08-15T03:11:04.352102+00:00",
     "peaked_at": "2026-08-15T03:11:04.352102+00:00",
     "ended_at": "2026-08-16T00:11:04.352102+00:00",
-    "archived_at": "2026-08-21T17:42:26.361582+00:00",
+    "archived_at": "2026-08-21T18:53:02.943165+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -331987,7 +332031,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 124,
+    "duplicate_count": 125,
     "duplicate_cycle_ids": [
       "0d409135c072de7e92",
       "1e2dd61485cfccc46f",
