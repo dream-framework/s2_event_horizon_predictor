@@ -856,7 +856,7 @@
     "started_at": "2026-08-16T10:49:19.283493+00:00",
     "peaked_at": "2026-08-16T10:49:19.283493+00:00",
     "ended_at": "2026-08-21T13:49:19.283493+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 27,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1852,6 +1852,25 @@
         "cross_scale_coherence": 0.339278
       },
       {
+        "id": "69e98c2ba712f056a6",
+        "title": "Arsenal rout Coventry 3-0 to begin Premier League title defence in style",
+        "url": "https://www.aljazeera.com/sports/2026/8/21/arsenal-rout-coventry-3-0-to-begin-premier-league-title-defence-in-style?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-21T21:15:40+00:00",
+        "stickiness_score": 21,
+        "residual_contribution": 0.015366,
+        "expected_s2": 0.188973,
+        "observed_corrected": 0.204339,
+        "age_after_peak_hours": 131.66,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 2,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.37398,
+        "deviation_ratio": 1.081313,
+        "cross_scale_coherence": 0.345858
+      },
+      {
         "id": "ae6cfbd6948b6b28ab",
         "title": "Jose Mourinho returns to Real Madrid in closed-door ceremony",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/jose-mourinho-returns-to-real-madrid-in-closed-door-ceremony?traffic_source=rss",
@@ -1872,7 +1891,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 37,
+    "duplicate_count": 38,
     "duplicate_cycle_ids": [
       "141cd68a198233c6f5",
       "152855f65d50ba6ee0",
@@ -1888,6 +1907,7 @@
       "6e6dc4e1c8e3b2aeaa",
       "7978d9be7f65fb5e32",
       "bde776219a350fb178",
+      "d63deef71af776df2d",
       "db9b1bc44837f7e307",
       "e6330a01159ea9b39e",
       "f5d347677153bef117",
@@ -1930,7 +1950,7 @@
     "started_at": "2026-08-16T04:54:22.262306+00:00",
     "peaked_at": "2026-08-16T04:54:22.262306+00:00",
     "ended_at": "2026-08-21T04:54:22.262306+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -2701,7 +2721,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "a70cabc2c72d079a22",
       "b686febce4f013516f",
@@ -2744,7 +2764,7 @@
     "started_at": "2026-08-15T04:34:58.658809+00:00",
     "peaked_at": "2026-08-15T04:34:58.658809+00:00",
     "ended_at": "2026-08-21T16:34:58.658809+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 18,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -3757,11 +3777,12 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "7895801b6e851aa036",
       "ad728eb788ea907409",
-      "db1e46cb7d714a4eb8"
+      "db1e46cb7d714a4eb8",
+      "e7e89f41a0d2714d71"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -174402,7 +174423,7 @@
     "started_at": "2026-08-16T11:38:29.157157+00:00",
     "peaked_at": "2026-08-16T11:38:29.157157+00:00",
     "ended_at": "2026-08-21T08:38:29.157157+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 19,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -175156,7 +175177,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "31a08836df52f00541",
       "679d01b0fbbf01c0b5",
@@ -207933,7 +207954,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -208510,7 +208531,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 71,
+    "duplicate_count": 72,
     "duplicate_cycle_ids": [
       "140de425e0c731a50f",
       "15129850ffdc639411",
@@ -331878,7 +331899,7 @@
     "started_at": "2026-08-15T03:11:04.352102+00:00",
     "peaked_at": "2026-08-15T03:11:04.352102+00:00",
     "ended_at": "2026-08-16T00:11:04.352102+00:00",
-    "archived_at": "2026-08-21T20:38:05.911248+00:00",
+    "archived_at": "2026-08-21T21:36:04.142038+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -332088,7 +332109,7 @@
       }
     ],
     "max_stickiness": 53,
-    "duplicate_count": 127,
+    "duplicate_count": 128,
     "duplicate_cycle_ids": [
       "0d409135c072de7e92",
       "1e2dd61485cfccc46f",
