@@ -856,7 +856,7 @@
     "started_at": "2026-08-18T08:32:53.697183+00:00",
     "peaked_at": "2026-08-18T08:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T11:32:53.697183+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 26,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1452,7 +1452,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "b394caecceecf931a0"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "1a5578d222d32e8e1c",
@@ -2194,7 +2198,7 @@
     "started_at": "2026-08-16T10:49:19.283493+00:00",
     "peaked_at": "2026-08-16T10:49:19.283493+00:00",
     "ended_at": "2026-08-21T13:49:19.283493+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 27,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -3264,10 +3268,29 @@
         "horizon_index": 0.369753,
         "deviation_ratio": 1.053709,
         "cross_scale_coherence": 0.350906
+      },
+      {
+        "id": "d3c659bf7d49435f7b",
+        "title": "Man Utd humiliated at Hull to open Premier League account",
+        "url": "https://www.aljazeera.com/sports/2026/8/22/man-utd-slump-to-opening-day-premier-league-defeat-at-hull-city?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-22T13:54:02+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.212178,
+        "observed_corrected": 0.186488,
+        "age_after_peak_hours": 149.312,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.300352,
+        "deviation_ratio": 0.878922,
+        "cross_scale_coherence": 0.341727
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 53,
+    "duplicate_count": 54,
     "duplicate_cycle_ids": [
       "09f29c81835be289b5",
       "141cd68a198233c6f5",
@@ -149714,7 +149737,7 @@
     "started_at": "2026-08-18T02:32:53.697183+00:00",
     "peaked_at": "2026-08-18T02:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 11,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -150383,7 +150406,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 18,
+    "duplicate_count": 19,
     "duplicate_cycle_ids": [
       "2120a408c6cdefc4b3",
       "220bc915f97faf8f52",
@@ -173714,7 +173737,7 @@
     "started_at": "2026-08-20T20:39:31.201653+00:00",
     "peaked_at": "2026-08-20T20:39:31.201653+00:00",
     "ended_at": "2026-08-22T02:39:31.201653+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -173956,7 +173979,7 @@
       }
     ],
     "max_stickiness": 63,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "10dcd26045d57a3875",
       "15cc08c36e3abcfb22",
@@ -177840,7 +177863,7 @@
     "started_at": "2026-08-16T11:38:29.157157+00:00",
     "peaked_at": "2026-08-16T11:38:29.157157+00:00",
     "ended_at": "2026-08-21T08:38:29.157157+00:00",
-    "archived_at": "2026-08-22T12:58:06.739334+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 19,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -178594,7 +178617,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "31a08836df52f00541",
       "679d01b0fbbf01c0b5",
@@ -198682,7 +198705,7 @@
     "started_at": "2026-08-15T18:53:35.672391+00:00",
     "peaked_at": "2026-08-15T18:53:35.672391+00:00",
     "ended_at": "2026-08-22T00:53:35.672391+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -199584,7 +199607,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "78d5d6667564b2ca0a",
       "ac1b957499a3143253",
@@ -212070,7 +212093,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -212647,7 +212670,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 87,
+    "duplicate_count": 88,
     "duplicate_cycle_ids": [
       "02fbd347cee7153813",
       "140de425e0c731a50f",
@@ -356797,7 +356820,7 @@
     "started_at": "2026-08-15T16:42:49.382891+00:00",
     "peaked_at": "2026-08-15T16:42:49.382891+00:00",
     "ended_at": "2026-08-22T10:42:49.382891+00:00",
-    "archived_at": "2026-08-22T13:42:49.382891+00:00",
+    "archived_at": "2026-08-22T14:35:18.005200+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -357767,7 +357790,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "8df730992940669728",
+      "f872063e15eb3cd554"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "9bb716886ebeeb31e7",
