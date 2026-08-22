@@ -856,7 +856,7 @@
     "started_at": "2026-08-18T08:32:53.697183+00:00",
     "peaked_at": "2026-08-18T08:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T18:46:38.091736+00:00",
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
     "article_count": 26,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1452,10 +1452,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "7feb8b29a5c7db84d9",
-      "b394caecceecf931a0"
+      "b394caecceecf931a0",
+      "e0b68fdd01863e49d6"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -149738,7 +149739,7 @@
     "started_at": "2026-08-18T02:32:53.697183+00:00",
     "peaked_at": "2026-08-18T02:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T17:33:46.081066+00:00",
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
     "article_count": 11,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -150407,7 +150408,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 22,
+    "duplicate_count": 23,
     "duplicate_cycle_ids": [
       "2120a408c6cdefc4b3",
       "220bc915f97faf8f52",
@@ -173738,7 +173739,7 @@
     "started_at": "2026-08-20T20:39:31.201653+00:00",
     "peaked_at": "2026-08-20T20:39:31.201653+00:00",
     "ended_at": "2026-08-22T02:39:31.201653+00:00",
-    "archived_at": "2026-08-22T18:46:38.091736+00:00",
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -173980,7 +173981,7 @@
       }
     ],
     "max_stickiness": 63,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "10dcd26045d57a3875",
       "15cc08c36e3abcfb22",
@@ -191815,7 +191816,7 @@
     "started_at": "2026-08-15T18:33:18.504113+00:00",
     "peaked_at": "2026-08-15T18:33:18.504113+00:00",
     "ended_at": "2026-08-22T12:33:18.504113+00:00",
-    "archived_at": "2026-08-22T18:46:38.091736+00:00",
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -192785,7 +192786,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 17,
+    "duplicate_count": 18,
     "duplicate_cycle_ids": [
       "78d5d6667564b2ca0a",
       "ac1b957499a3143253",
@@ -206859,8 +206860,8 @@
     "started_at": "2026-08-20T19:38:45.323841+00:00",
     "peaked_at": "2026-08-20T19:38:45.323841+00:00",
     "ended_at": "2026-08-21T19:38:45.323841+00:00",
-    "archived_at": "2026-08-22T08:45:15.952835+00:00",
-    "article_count": 14,
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
+    "article_count": 15,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -207102,14 +207103,34 @@
         "horizon_index": 0.787467,
         "deviation_ratio": 1.95129,
         "cross_scale_coherence": 0.403562
+      },
+      {
+        "id": "b8e4d36377771f3445",
+        "title": "‘Not a small issue’: People deported by US to Liberia face uncertain future",
+        "url": "https://www.aljazeera.com/news/2026/8/22/not-a-small-issue-people-deported-by-us-to-liberia-face-uncertain-future?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-08-22T17:47:02+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.339178,
+        "observed_corrected": 0.334719,
+        "age_after_peak_hours": 46.241,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 26,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.35736,
+        "deviation_ratio": 0.986854,
+        "cross_scale_coherence": 0.36212
       }
     ],
     "max_stickiness": 69,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "273999035b2e1eb8c0",
       "bd4042c7ead4abb529",
       "c919d01dc87ba2be4e",
+      "dab4070f34de114496",
       "fc1409e963f4b3c4dd"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -212162,7 +212183,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-22T18:46:38.091736+00:00",
+    "archived_at": "2026-08-22T19:32:32.990515+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -212739,7 +212760,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 92,
+    "duplicate_count": 93,
     "duplicate_cycle_ids": [
       "02fbd347cee7153813",
       "140de425e0c731a50f",
