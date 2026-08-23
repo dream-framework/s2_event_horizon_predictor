@@ -856,7 +856,7 @@
     "started_at": "2026-08-18T08:32:53.697183+00:00",
     "peaked_at": "2026-08-18T08:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T23:32:56.309293+00:00",
+    "archived_at": "2026-08-23T01:57:43.892687+00:00",
     "article_count": 26,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1452,7 +1452,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "7feb8b29a5c7db84d9",
       "b394caecceecf931a0",
@@ -149739,7 +149739,7 @@
     "started_at": "2026-08-18T02:32:53.697183+00:00",
     "peaked_at": "2026-08-18T02:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-22T23:32:56.309293+00:00",
+    "archived_at": "2026-08-23T01:57:43.892687+00:00",
     "article_count": 11,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -150408,7 +150408,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 27,
+    "duplicate_count": 28,
     "duplicate_cycle_ids": [
       "2120a408c6cdefc4b3",
       "220bc915f97faf8f52",
@@ -173739,8 +173739,8 @@
     "started_at": "2026-08-20T20:39:31.201653+00:00",
     "peaked_at": "2026-08-20T20:39:31.201653+00:00",
     "ended_at": "2026-08-22T02:39:31.201653+00:00",
-    "archived_at": "2026-08-22T23:32:56.309293+00:00",
-    "article_count": 7,
+    "archived_at": "2026-08-23T01:57:43.892687+00:00",
+    "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 weak",
@@ -173978,10 +173978,29 @@
         "horizon_index": 0.729603,
         "deviation_ratio": 1.947782,
         "cross_scale_coherence": 0.374582
+      },
+      {
+        "id": "9046c8645588219e15",
+        "title": "'God of War' casts Dave Bautista as Kratos after Ryan Hurst's on-set injury - Porterville Recorder",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQeFI5b1Nvem5yWkJza0VxaGpULV9lc1g4UFdqY04ySFJINE1vMWhzdWpsME9fTXI3OU03bnd0RDQyMDJNS2tHbEhZbzlfZy1VUjUzVEFBV1F6MFZMOWg5cWFXejlpckx1OG1jOGY1TkxaaWtKQUZyVUlBQkJFWlhjd25nVXl0dkZKWmQ5RmVpd0oyRmNsbTB1Qm1UdExITVJvSlhyNUNJWW5tdC0zZm1uSUxGQ3BWWnBickJMN19hTFl4QV93Uzh3U2FfT3RIS1JqaVZHcXgzc2pJaDI1cWJsaXBPeDZScGJFaUFsdnA2Mk1qbzQwVFdmQWdQSXE3TGpVTm9EdVV5ZDJJdkxrVkE?oc=5",
+        "source": "Google News Geopolitics",
+        "published_at": "2026-08-22T22:56:00+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.147732,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 50.971,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.117203
       }
     ],
     "max_stickiness": 63,
-    "duplicate_count": 22,
+    "duplicate_count": 23,
     "duplicate_cycle_ids": [
       "10dcd26045d57a3875",
       "15cc08c36e3abcfb22",
@@ -177865,7 +177884,7 @@
     "started_at": "2026-08-16T11:38:29.157157+00:00",
     "peaked_at": "2026-08-16T11:38:29.157157+00:00",
     "ended_at": "2026-08-21T08:38:29.157157+00:00",
-    "archived_at": "2026-08-22T23:32:56.309293+00:00",
+    "archived_at": "2026-08-23T01:57:43.892687+00:00",
     "article_count": 19,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -178619,7 +178638,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 27,
+    "duplicate_count": 28,
     "duplicate_cycle_ids": [
       "31a08836df52f00541",
       "679d01b0fbbf01c0b5",
@@ -212183,7 +212202,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-22T23:32:56.309293+00:00",
+    "archived_at": "2026-08-23T01:57:43.892687+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -212760,7 +212779,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 97,
+    "duplicate_count": 98,
     "duplicate_cycle_ids": [
       "02fbd347cee7153813",
       "140de425e0c731a50f",
