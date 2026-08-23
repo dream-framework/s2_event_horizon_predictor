@@ -34,7 +34,7 @@
     "started_at": "2026-08-20T21:58:24.739564+00:00",
     "peaked_at": "2026-08-20T21:58:24.739564+00:00",
     "ended_at": "2026-08-23T00:58:24.739564+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -433,7 +433,7 @@
       }
     ],
     "max_stickiness": 64,
-    "duplicate_count": 32,
+    "duplicate_count": 33,
     "duplicate_cycle_ids": [
       "10dcd26045d57a3875",
       "15cc08c36e3abcfb22",
@@ -1304,7 +1304,7 @@
     "started_at": "2026-08-18T08:32:53.697183+00:00",
     "peaked_at": "2026-08-18T08:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 26,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1900,7 +1900,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 18,
+    "duplicate_count": 19,
     "duplicate_cycle_ids": [
       "7feb8b29a5c7db84d9",
       "91fa112400c7770b3a",
@@ -2649,7 +2649,7 @@
     "started_at": "2026-08-17T01:37:03.772889+00:00",
     "peaked_at": "2026-08-17T01:37:03.772889+00:00",
     "ended_at": "2026-08-23T07:37:03.772889+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -3571,7 +3571,7 @@
       }
     ],
     "max_stickiness": 38,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "33408543a41d38fc16",
       "34f587ea75e7b31e69",
@@ -151153,7 +151153,7 @@
     "started_at": "2026-08-18T02:32:53.697183+00:00",
     "peaked_at": "2026-08-18T02:32:53.697183+00:00",
     "ended_at": "2026-08-22T08:32:53.697183+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 11,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -151822,7 +151822,7 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 34,
+    "duplicate_count": 35,
     "duplicate_cycle_ids": [
       "2120a408c6cdefc4b3",
       "220bc915f97faf8f52",
@@ -178994,7 +178994,7 @@
     "started_at": "2026-08-16T11:38:29.157157+00:00",
     "peaked_at": "2026-08-16T11:38:29.157157+00:00",
     "ended_at": "2026-08-21T08:38:29.157157+00:00",
-    "archived_at": "2026-08-23T09:40:24.904717+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 19,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -179748,7 +179748,7 @@
       }
     ],
     "max_stickiness": 98,
-    "duplicate_count": 35,
+    "duplicate_count": 36,
     "duplicate_cycle_ids": [
       "31a08836df52f00541",
       "679d01b0fbbf01c0b5",
@@ -213313,7 +213313,7 @@
     "started_at": "2026-08-17T20:37:04.735919+00:00",
     "peaked_at": "2026-08-17T20:37:04.735919+00:00",
     "ended_at": "2026-08-18T08:37:04.735919+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 14939,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -213890,7 +213890,7 @@
       }
     ],
     "max_stickiness": 41,
-    "duplicate_count": 107,
+    "duplicate_count": 108,
     "duplicate_cycle_ids": [
       "02fbd347cee7153813",
       "140de425e0c731a50f",
@@ -322594,7 +322594,7 @@
     "started_at": "2026-08-20T17:46:13.261711+00:00",
     "peaked_at": "2026-08-20T17:46:13.261711+00:00",
     "ended_at": "2026-08-23T05:46:13.261711+00:00",
-    "archived_at": "2026-08-23T10:37:03.772889+00:00",
+    "archived_at": "2026-08-23T11:32:52.188751+00:00",
     "article_count": 17,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -323025,7 +323025,7 @@
       }
     ],
     "max_stickiness": 60,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "393ad652e3f9838ad7",
       "6cd4bb18ba83a7e78f",
