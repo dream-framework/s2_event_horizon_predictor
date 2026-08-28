@@ -1103,7 +1103,7 @@
     "started_at": "2026-08-22T05:47:06.509959+00:00",
     "peaked_at": "2026-08-22T05:47:06.509959+00:00",
     "ended_at": "2026-08-27T20:47:06.509959+00:00",
-    "archived_at": "2026-08-27T23:47:06.509959+00:00",
+    "archived_at": "2026-08-28T11:19:36.768286+00:00",
     "article_count": 20,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1918,9 +1918,34 @@
         "source_tier_count": 0
       }
     ],
-    "sticky_stories": [],
+    "sticky_stories": [
+      {
+        "id": "c3c48e82810ed1a1fa",
+        "title": "ADHD and autism costs in England ‘running out of control’, NHS leaders warn",
+        "url": "https://www.theguardian.com/society/2026/aug/28/adhd-autism-costs-england-running-out-of-control-nhs-alliance",
+        "source": "The Guardian World",
+        "published_at": "2026-08-28T09:29:37+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.386453,
+        "observed_corrected": 0.368676,
+        "age_after_peak_hours": 148.167,
+        "post_lambda_q": false,
+        "role": "decays with baseline",
+        "horizon_score": 22,
+        "horizon_phase": "noise",
+        "horizon_index": 0.293909,
+        "deviation_ratio": 0.954,
+        "cross_scale_coherence": 0.308081
+      }
+    ],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "b49411f145e6b5423c",
+      "e146be91d8fa712c1e"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "d40af06fbb79b8bca6",
@@ -174986,7 +175011,7 @@
     "started_at": "2026-08-22T15:16:47.129129+00:00",
     "peaked_at": "2026-08-22T15:16:47.129129+00:00",
     "ended_at": "2026-08-27T00:16:47.129129+00:00",
-    "archived_at": "2026-08-27T14:14:40.258107+00:00",
+    "archived_at": "2026-08-28T11:19:36.768286+00:00",
     "article_count": 30,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -175691,8 +175716,9 @@
       }
     ],
     "max_stickiness": 90,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
+      "2b2cb54d7ca354677c",
       "30eaabf7067d0fda84",
       "79ffe1e37b15714709",
       "a5f5fa1b86512c773a",
@@ -181529,8 +181555,8 @@
     "started_at": "2026-08-23T14:47:06.509959+00:00",
     "peaked_at": "2026-08-23T14:47:06.509959+00:00",
     "ended_at": "2026-08-27T20:47:06.509959+00:00",
-    "archived_at": "2026-08-27T23:47:06.509959+00:00",
-    "article_count": 11,
+    "archived_at": "2026-08-28T11:19:36.768286+00:00",
+    "article_count": 15,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -182233,10 +182259,34 @@
         "horizon_index": 0.813372,
         "deviation_ratio": 2.278511,
         "cross_scale_coherence": 0.356975
+      },
+      {
+        "id": "d4db265b495d189fdc",
+        "title": "What we know after the big Grand Theft Auto 6 preview",
+        "url": "https://www.bbc.co.uk/news/articles/c3d7exngd5no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-28T11:04:11+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.242116,
+        "observed_corrected": 0.152887,
+        "age_after_peak_hours": 116.743,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.215861,
+        "deviation_ratio": 0.631462,
+        "cross_scale_coherence": 0.341844
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "131904f634f969642d",
+      "7152c3cc61653b3645"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "c717a31e0300a97328",
@@ -184633,7 +184683,7 @@
     "started_at": "2026-08-24T20:14:40.258107+00:00",
     "peaked_at": "2026-08-24T20:14:40.258107+00:00",
     "ended_at": "2026-08-27T11:14:40.258107+00:00",
-    "archived_at": "2026-08-27T23:47:06.509959+00:00",
+    "archived_at": "2026-08-28T11:19:36.768286+00:00",
     "article_count": 12516,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -185499,13 +185549,14 @@
       }
     ],
     "max_stickiness": 14,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "013855a984792cc844",
       "250a9b62edb7970683",
       "33aba96989d88bf8d2",
       "414802fa66a1654088",
       "8a4720c11f30bd6e02",
+      "a7df449918455153a7",
       "b78097437af48da0fe",
       "b98f0243d2d87abca0"
     ],
@@ -303652,7 +303703,7 @@
     "started_at": "2026-08-22T02:47:06.509959+00:00",
     "peaked_at": "2026-08-22T02:47:06.509959+00:00",
     "ended_at": "2026-08-27T20:47:06.509959+00:00",
-    "archived_at": "2026-08-27T23:47:06.509959+00:00",
+    "archived_at": "2026-08-28T11:19:36.768286+00:00",
     "article_count": 10,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -304486,7 +304537,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "d91b3c731adf1d165c",
+      "e71306cb468ba9a77e"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "9b294a25a6d5d6d415",
