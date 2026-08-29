@@ -34,8 +34,8 @@
     "started_at": "2026-08-28T08:02:34.317123+00:00",
     "peaked_at": "2026-08-28T08:02:34.317123+00:00",
     "ended_at": "2026-08-29T08:02:34.317123+00:00",
-    "archived_at": "2026-08-29T15:36:42.870443+00:00",
-    "article_count": 20,
+    "archived_at": "2026-08-29T19:23:18.065671+00:00",
+    "article_count": 21,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 weak",
@@ -241,6 +241,25 @@
         "cross_scale_coherence": 0.347641
       },
       {
+        "id": "b8ad37a8f53213752a",
+        "title": "Norway's new king remembers 'my dear father' in first speech",
+        "url": "https://www.bbc.co.uk/news/articles/cvgy79wmv4jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-08-29T19:06:28+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.303744,
+        "observed_corrected": 0.286935,
+        "age_after_peak_hours": 35.719,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 22,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.330914,
+        "deviation_ratio": 0.944661,
+        "cross_scale_coherence": 0.3503
+      },
+      {
         "id": "21b3f33e739963ead9",
         "title": "‘The whole country’s grandfather:’ Norway’s King Harald V dies aged 89",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/29/the-whole-countrys-grandfather-norways-king-harald-v-dies-aged-89?traffic_source=rss",
@@ -261,8 +280,9 @@
       }
     ],
     "max_stickiness": 27,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "7b78a1ce62175f36a4",
       "7d79e8a33ba1492768",
       "b72c4855129afbeb3e"
     ],
@@ -210993,7 +211013,7 @@
     "started_at": "2026-08-24T19:15:50.599942+00:00",
     "peaked_at": "2026-08-24T19:15:50.599942+00:00",
     "ended_at": "2026-08-28T19:15:50.599942+00:00",
-    "archived_at": "2026-08-29T15:36:42.870443+00:00",
+    "archived_at": "2026-08-29T19:23:18.065671+00:00",
     "article_count": 12516,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -212046,9 +212066,10 @@
       }
     ],
     "max_stickiness": 69,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "013855a984792cc844",
+      "025ee3ed4d1eb9ca74",
       "250a9b62edb7970683",
       "33aba96989d88bf8d2",
       "414802fa66a1654088",
