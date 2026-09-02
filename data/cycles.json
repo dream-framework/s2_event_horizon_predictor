@@ -1262,7 +1262,7 @@
     "started_at": "2026-08-26T20:02:53.087207+00:00",
     "peaked_at": "2026-08-26T20:02:53.087207+00:00",
     "ended_at": "2026-09-01T02:02:53.087207+00:00",
-    "archived_at": "2026-09-02T09:34:23.244807+00:00",
+    "archived_at": "2026-09-02T14:26:56.235058+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2048,11 +2048,12 @@
       }
     ],
     "max_stickiness": 36,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "29b7a964304ca000b7",
       "377fafcfd634ae7a27",
       "3fad0b49ad76c42787",
+      "6da0b322982eb64b77",
       "924a94c4ce7c3d3634"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -171834,7 +171835,7 @@
     "started_at": "2026-08-28T08:51:00.711647+00:00",
     "peaked_at": "2026-08-28T08:51:00.711647+00:00",
     "ended_at": "2026-09-01T11:51:00.711647+00:00",
-    "archived_at": "2026-09-02T09:34:23.244807+00:00",
+    "archived_at": "2026-09-02T14:26:56.235058+00:00",
     "article_count": 23,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -172543,7 +172544,7 @@
       }
     ],
     "max_stickiness": 31,
-    "duplicate_count": 20,
+    "duplicate_count": 21,
     "duplicate_cycle_ids": [
       "067ab5edfdfd4d31fa",
       "1d98dc1e84ece2bd9e",
@@ -331583,7 +331584,7 @@
     "started_at": "2026-08-29T08:26:14.566672+00:00",
     "peaked_at": "2026-08-29T08:26:14.566672+00:00",
     "ended_at": "2026-08-30T14:26:14.566672+00:00",
-    "archived_at": "2026-09-02T09:34:23.244807+00:00",
+    "archived_at": "2026-09-02T14:26:56.235058+00:00",
     "article_count": 30,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -331881,6 +331882,25 @@
         "cross_scale_coherence": 0.303172
       },
       {
+        "id": "46b478937cbd9b151d",
+        "title": "Summer transfers 2026: All to know as Premier League signings break records",
+        "url": "https://www.aljazeera.com/sports/2026/9/2/summer-transfers-2026-all-to-know-as-premier-league-signings-break-records?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-02T13:58:49+00:00",
+        "stickiness_score": 23,
+        "residual_contribution": 0.02184,
+        "expected_s2": 0.21899,
+        "observed_corrected": 0.24083,
+        "age_after_peak_hours": 101.531,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 31,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.374764,
+        "deviation_ratio": 1.099731,
+        "cross_scale_coherence": 0.340778
+      },
+      {
         "id": "5a1c589929b5351414",
         "title": "Barcelona sign Gabriel Jesus from Arsenal for a reported $11.6m",
         "url": "https://www.aljazeera.com/sports/2026/9/1/barcelona-sign-gabriel-jesus-from-arsenal-for-a-reported-11-5m?traffic_source=rss",
@@ -331920,7 +331940,7 @@
       }
     ],
     "max_stickiness": 37,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "4cd29fb7521f113702",
       "4efb690922b8f32a5e",
@@ -331928,6 +331948,7 @@
       "5753273e4713dd5aa4",
       "71531f2865fe0550c1",
       "9a91c7885ca7bb5a3f",
+      "ac53f5ea208c5fbdd7",
       "b16819aae6d7f9f261",
       "c2b959eec8182d4408",
       "d5cc3fd74580dad937",
