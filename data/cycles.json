@@ -223759,7 +223759,7 @@
     "started_at": "2026-08-29T06:35:39.629673+00:00",
     "peaked_at": "2026-08-29T06:35:39.629673+00:00",
     "ended_at": "2026-09-04T06:35:39.629673+00:00",
-    "archived_at": "2026-09-04T14:19:13.537531+00:00",
+    "archived_at": "2026-09-04T21:25:52.624403+00:00",
     "article_count": 30,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -224703,6 +224703,25 @@
         "cross_scale_coherence": 0.299369
       },
       {
+        "id": "1713c9396f7f548b11",
+        "title": "Liverpool beat Ipswich as Isak goals hand Iraola first Premier League win",
+        "url": "https://www.aljazeera.com/sports/2026/9/4/liverpool-beat-ipswich-as-isak-goals-hand-iraola-first-premier-league-win?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-04T20:55:16+00:00",
+        "stickiness_score": 35,
+        "residual_contribution": 0.077801,
+        "expected_s2": 0.145818,
+        "observed_corrected": 0.223619,
+        "age_after_peak_hours": 158.49,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 34,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.514733,
+        "deviation_ratio": 1.533549,
+        "cross_scale_coherence": 0.335649
+      },
+      {
         "id": "48e269ef2d22fd3979",
         "title": "Chelsea beat Brighton 4-3 to extend perfect start under Xabi Alonso",
         "url": "https://www.aljazeera.com/sports/2026/8/30/chelsea-beat-brighton-4-3-to-extend-perfect-start-under-xabi-alonso?traffic_source=rss",
@@ -224799,7 +224818,7 @@
       }
     ],
     "max_stickiness": 38,
-    "duplicate_count": 25,
+    "duplicate_count": 26,
     "duplicate_cycle_ids": [
       "35a4cf4ce09155b3b6",
       "4cd29fb7521f113702",
@@ -345954,8 +345973,8 @@
     "started_at": "2026-08-31T16:26:51.681914+00:00",
     "peaked_at": "2026-08-31T16:26:51.681914+00:00",
     "ended_at": "2026-09-04T01:26:51.681914+00:00",
-    "archived_at": "2026-09-04T14:19:13.537531+00:00",
-    "article_count": 15,
+    "archived_at": "2026-09-04T21:25:52.624403+00:00",
+    "article_count": 16,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 likely",
@@ -346465,9 +346484,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "31e13193a7c5465665",
+      "659bb1fd33c21468e6",
       "962e2c6f71647fb798",
       "e756e46a8d49b7ce7f"
     ],
