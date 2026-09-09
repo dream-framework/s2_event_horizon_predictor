@@ -2002,7 +2002,7 @@
     "started_at": "2026-09-03T16:36:56.273169+00:00",
     "peaked_at": "2026-09-03T16:36:56.273169+00:00",
     "ended_at": "2026-09-09T01:36:56.273169+00:00",
-    "archived_at": "2026-09-09T04:36:56.273169+00:00",
+    "archived_at": "2026-09-09T09:41:17.603336+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2785,7 +2785,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "a895faec07f8b9c7dd",
+      "c0bbaa8c584a0c39f4"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "cb3f076434725492a1",
@@ -2822,7 +2827,7 @@
     "started_at": "2026-09-02T18:49:14.013266+00:00",
     "peaked_at": "2026-09-02T18:49:14.013266+00:00",
     "ended_at": "2026-09-08T18:49:14.013266+00:00",
-    "archived_at": "2026-09-09T04:36:56.273169+00:00",
+    "archived_at": "2026-09-09T09:41:17.603336+00:00",
     "article_count": 11140,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -4147,7 +4152,7 @@
       }
     ],
     "max_stickiness": 59,
-    "duplicate_count": 18,
+    "duplicate_count": 19,
     "duplicate_cycle_ids": [
       "0cc6ba5d6662c13218",
       "19747e178235b1012f",
@@ -326786,7 +326791,7 @@
     "started_at": "2026-09-06T18:49:14.013266+00:00",
     "peaked_at": "2026-09-06T18:49:14.013266+00:00",
     "ended_at": "2026-09-08T18:49:14.013266+00:00",
-    "archived_at": "2026-09-09T00:11:51.689874+00:00",
+    "archived_at": "2026-09-09T09:41:17.603336+00:00",
     "article_count": 42,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -327110,6 +327115,82 @@
     ],
     "sticky_stories": [
       {
+        "id": "f219578fdb326eba03",
+        "title": "US Open 2026 quarter-final: Ben Shelton stuns Carlos Alcaraz in thriller after latest ever finish – as it happened",
+        "url": "https://www.theguardian.com/sport/live/2026/sep/08/ben-shelton-v-carlos-alcaraz-us-open-2026-quarter-final-live-updates",
+        "source": "The Guardian US",
+        "published_at": "2026-09-09T08:07:14+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.331109,
+        "expected_s2": 0.322078,
+        "observed_corrected": 0.653187,
+        "age_after_peak_hours": 61.432,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 51,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.753496,
+        "deviation_ratio": 2.02804,
+        "cross_scale_coherence": 0.371539
+      },
+      {
+        "id": "f1f5481f7c881a3c1e",
+        "title": "Ben Shelton dethrones Carlos Alcaraz in five-set thriller after latest US Open finish",
+        "url": "https://www.theguardian.com/sport/2026/sep/09/ben-shelton-dethrones-carlos-alcaraz-five-set-thriller-latest-us-open-tennis-finish",
+        "source": "The Guardian US",
+        "published_at": "2026-09-09T08:04:18+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.331109,
+        "expected_s2": 0.322078,
+        "observed_corrected": 0.653187,
+        "age_after_peak_hours": 61.383,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 51,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.753496,
+        "deviation_ratio": 2.02804,
+        "cross_scale_coherence": 0.371539
+      },
+      {
+        "id": "46574440d2c6fceef3",
+        "title": "Ben Shelton shocks Carlos Alcaraz in five sets to win US Open quarterfinal",
+        "url": "https://www.aljazeera.com/sports/2026/9/9/ben-shelton-shocks-carlos-alcaraz-in-five-sets-to-win-us-open-quarterfinal?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-09T07:55:20+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.331109,
+        "expected_s2": 0.322078,
+        "observed_corrected": 0.653187,
+        "age_after_peak_hours": 61.234,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 51,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.753496,
+        "deviation_ratio": 2.02804,
+        "cross_scale_coherence": 0.371539
+      },
+      {
+        "id": "ceb68b0754b20e0cca",
+        "title": "Jessica Pegula beats Emma Navarro to set up Sabalenka semifinal at US Open",
+        "url": "https://www.aljazeera.com/sports/2026/9/9/jessica-pegula-beats-emma-navarro-to-set-up-sabalenka-semifinal-at-us-open?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-09T05:20:15+00:00",
+        "stickiness_score": 91,
+        "residual_contribution": 0.331109,
+        "expected_s2": 0.322078,
+        "observed_corrected": 0.653187,
+        "age_after_peak_hours": 58.649,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 51,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.753496,
+        "deviation_ratio": 2.02804,
+        "cross_scale_coherence": 0.371539
+      },
+      {
         "id": "fe8d2cc272bd59a4b4",
         "title": "US Open 2026 quarter-finals: Tiafoe beats Michelsen in five sets; Sabalenka survives – as it happened",
         "url": "https://www.theguardian.com/sport/live/2026/sep/08/us-open-tennis-2026-quarter-finals-sabalenka-noskova-tiafoe-michelsen-live",
@@ -327167,11 +327248,12 @@
         "cross_scale_coherence": 0.329831
       }
     ],
-    "max_stickiness": 74,
-    "duplicate_count": 2,
+    "max_stickiness": 91,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "11b7ef035a10b56ffb",
-      "ce330000c6499b441a"
+      "ce330000c6499b441a",
+      "e6dc54de4f774826c4"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -371854,7 +371936,7 @@
     "started_at": "2026-09-02T19:02:05.610230+00:00",
     "peaked_at": "2026-09-02T19:02:05.610230+00:00",
     "ended_at": "2026-09-05T13:02:05.610230+00:00",
-    "archived_at": "2026-09-09T04:36:56.273169+00:00",
+    "archived_at": "2026-09-09T09:41:17.603336+00:00",
     "article_count": 11,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -372280,7 +372362,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 26,
+    "duplicate_count": 27,
     "duplicate_cycle_ids": [
       "1dbc6a9fef3a8fc265",
       "4dd17c85b157b18997",
