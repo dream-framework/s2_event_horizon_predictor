@@ -34,7 +34,7 @@
     "started_at": "2026-09-04T19:36:56.273169+00:00",
     "peaked_at": "2026-09-04T19:36:56.273169+00:00",
     "ended_at": "2026-09-09T01:36:56.273169+00:00",
-    "archived_at": "2026-09-09T14:33:17.036618+00:00",
+    "archived_at": "2026-09-10T04:37:02.252674+00:00",
     "article_count": 44,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -683,6 +683,25 @@
         "cross_scale_coherence": 0.330416
       },
       {
+        "id": "44c658fa92187c7c4c",
+        "title": "Coco Gauff draws on Tiafoe and ‘delusional’ self-belief in US Open escape",
+        "url": "https://www.theguardian.com/sport/2026/sep/09/coco-gauff-belief-mirra-andreeva-us-open-semi-finals",
+        "source": "The Guardian US",
+        "published_at": "2026-09-10T01:26:48+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.273484,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 125.829,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.039366
+      },
+      {
         "id": "0456e5474732745243",
         "title": "Ben Shelton wins a night of vomit, sweat and home hopes to triumph at US Open",
         "url": "https://www.theguardian.com/sport/2026/sep/09/ben-shelton-carlos-alcaraz-us-open",
@@ -741,8 +760,9 @@
       }
     ],
     "max_stickiness": 62,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "0268c3eb7c505a264d",
       "18a25f8d62db5dda9c",
       "57c78bb950b7723745"
     ],
@@ -783,7 +803,7 @@
     "started_at": "2026-09-04T18:40:01.305745+00:00",
     "peaked_at": "2026-09-04T18:40:01.305745+00:00",
     "ended_at": "2026-09-09T18:40:01.305745+00:00",
-    "archived_at": "2026-09-09T21:40:01.305745+00:00",
+    "archived_at": "2026-09-10T04:37:02.252674+00:00",
     "article_count": 11113,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1972,8 +1992,9 @@
       }
     ],
     "max_stickiness": 79,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "4c618d9e5e831ffa90",
       "b2e79507b202dd9b49",
       "f8817ecd1216d7ea4e"
     ],
@@ -3261,7 +3282,7 @@
     "started_at": "2026-09-03T16:36:56.273169+00:00",
     "peaked_at": "2026-09-03T16:36:56.273169+00:00",
     "ended_at": "2026-09-09T01:36:56.273169+00:00",
-    "archived_at": "2026-09-10T00:12:05.730126+00:00",
+    "archived_at": "2026-09-10T04:37:02.252674+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -4044,8 +4065,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "7a9fa965cfedb0d47a",
       "a895faec07f8b9c7dd",
       "c0bbaa8c584a0c39f4",
       "d44fc0a6ad438cfb0a"
