@@ -331444,7 +331444,7 @@
     "started_at": "2026-09-06T18:49:14.013266+00:00",
     "peaked_at": "2026-09-06T18:49:14.013266+00:00",
     "ended_at": "2026-09-08T18:49:14.013266+00:00",
-    "archived_at": "2026-09-10T09:40:09.282841+00:00",
+    "archived_at": "2026-09-10T21:35:49.612153+00:00",
     "article_count": 42,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -331901,6 +331901,25 @@
         "cross_scale_coherence": 0.329831
       },
       {
+        "id": "f9976043b48c1ba897",
+        "title": "A U.S. Open Match Ended at 3:30 a.m. It Wasn’t Over for the Workers.",
+        "url": "https://www.nytimes.com/2026/09/10/nyregion/us-open-late-night-workers.html",
+        "source": "NYTimes Home",
+        "published_at": "2026-09-10T18:12:34+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.330902,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 95.612,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.039891
+      },
+      {
         "id": "9eed9aa8c6243e3d49",
         "title": "Gauff beats Andreeva to reach US Open semifinals in comeback win",
         "url": "https://www.aljazeera.com/sports/2026/9/9/gauff-beats-andreeva-to-reach-us-open-semifinals-in-comeback-win?traffic_source=rss",
@@ -331978,7 +331997,7 @@
       }
     ],
     "max_stickiness": 91,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "11b7ef035a10b56ffb",
       "bb5fd9c1561ff0ee2d",
@@ -388037,7 +388056,7 @@
     "started_at": "2026-09-09T17:23:56.345117+00:00",
     "peaked_at": "2026-09-09T17:23:56.345117+00:00",
     "ended_at": "2026-09-10T11:23:56.345117+00:00",
-    "archived_at": "2026-09-10T14:23:56.345117+00:00",
+    "archived_at": "2026-09-10T21:35:49.612153+00:00",
     "article_count": 10669,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -388648,7 +388667,12 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "267c7e5d154734474d",
+      "8a057f549a6ed6f78f"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "c79bd8b6dec23a49b7",
