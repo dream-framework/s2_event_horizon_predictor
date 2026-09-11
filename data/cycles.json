@@ -686,7 +686,7 @@
     "started_at": "2026-09-04T21:07:25.888971+00:00",
     "peaked_at": "2026-09-04T21:07:25.888971+00:00",
     "ended_at": "2026-09-10T21:07:25.888971+00:00",
-    "archived_at": "2026-09-11T04:34:46.843417+00:00",
+    "archived_at": "2026-09-11T09:37:31.663222+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1574,7 +1574,7 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "a3c2f4bad1db26894f",
       "ab5e1a796413e63000"
@@ -212340,7 +212340,7 @@
     "started_at": "2026-09-08T15:07:25.888971+00:00",
     "peaked_at": "2026-09-08T15:07:25.888971+00:00",
     "ended_at": "2026-09-10T21:07:25.888971+00:00",
-    "archived_at": "2026-09-11T04:34:46.843417+00:00",
+    "archived_at": "2026-09-11T09:37:31.663222+00:00",
     "article_count": 18,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -212698,8 +212698,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
+      "4c440cba7148e45696",
       "70d5347ac368d6b54e",
       "b41eaa6167299364df"
     ],
@@ -333505,8 +333506,8 @@
     "started_at": "2026-09-06T18:49:14.013266+00:00",
     "peaked_at": "2026-09-06T18:49:14.013266+00:00",
     "ended_at": "2026-09-08T18:49:14.013266+00:00",
-    "archived_at": "2026-09-11T00:07:25.888971+00:00",
-    "article_count": 42,
+    "archived_at": "2026-09-11T09:37:31.663222+00:00",
+    "article_count": 47,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 likely",
@@ -333962,6 +333963,44 @@
         "cross_scale_coherence": 0.329831
       },
       {
+        "id": "c7e9ae3a680a0f05e6",
+        "title": "Five-set tennis is under attack. Killing it would be a colossal unforced error | Andrew Lawrence",
+        "url": "https://www.theguardian.com/sport/2026/sep/11/us-open-five-set-tennis-shelton-alcaraz-late-night-matches",
+        "source": "The Guardian US",
+        "published_at": "2026-09-11T08:00:05+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.264953,
+        "observed_corrected": 0.218027,
+        "age_after_peak_hours": 109.376,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.284936,
+        "deviation_ratio": 0.822889,
+        "cross_scale_coherence": 0.346263
+      },
+      {
+        "id": "b34d5d9c9904b2e8d7",
+        "title": "Sabalenka beats Pegula to set up Rybakina epic in US Open final",
+        "url": "https://www.aljazeera.com/sports/2026/9/11/sabalenka-beats-pegula-to-set-up-rybakina-epic-in-us-open-final?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-11T04:56:48+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.268429,
+        "observed_corrected": 0.24653,
+        "age_after_peak_hours": 106.321,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.318014,
+        "deviation_ratio": 0.918418,
+        "cross_scale_coherence": 0.346263
+      },
+      {
         "id": "f62c012c352bc02462",
         "title": "US Open tennis 2026 women’s semi-finals: Sabalenka v Pegula, Gauff v Rybakina – live",
         "url": "https://www.theguardian.com/sport/live/2026/sep/10/us-open-womens-semifinals-sabalenka-pegula-gauff-rybakina-live-updates",
@@ -334077,7 +334116,7 @@
       }
     ],
     "max_stickiness": 91,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "11b7ef035a10b56ffb",
       "bb5fd9c1561ff0ee2d",
@@ -390136,7 +390175,7 @@
     "started_at": "2026-09-09T17:23:56.345117+00:00",
     "peaked_at": "2026-09-09T17:23:56.345117+00:00",
     "ended_at": "2026-09-10T11:23:56.345117+00:00",
-    "archived_at": "2026-09-11T00:07:25.888971+00:00",
+    "archived_at": "2026-09-11T09:37:31.663222+00:00",
     "article_count": 10669,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -390747,7 +390786,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "267c7e5d154734474d",
       "2dd0ca075bacdd50aa",
