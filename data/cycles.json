@@ -686,7 +686,7 @@
     "started_at": "2026-09-04T21:07:25.888971+00:00",
     "peaked_at": "2026-09-04T21:07:25.888971+00:00",
     "ended_at": "2026-09-10T21:07:25.888971+00:00",
-    "archived_at": "2026-09-11T09:37:31.663222+00:00",
+    "archived_at": "2026-09-11T14:23:39.788241+00:00",
     "article_count": 5,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -1574,8 +1574,9 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "689f121dc0659405f9",
       "a3c2f4bad1db26894f",
       "ab5e1a796413e63000"
     ],
@@ -212340,7 +212341,7 @@
     "started_at": "2026-09-08T15:07:25.888971+00:00",
     "peaked_at": "2026-09-08T15:07:25.888971+00:00",
     "ended_at": "2026-09-10T21:07:25.888971+00:00",
-    "archived_at": "2026-09-11T09:37:31.663222+00:00",
+    "archived_at": "2026-09-11T14:23:39.788241+00:00",
     "article_count": 18,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -212698,8 +212699,9 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "0e04c0f99bba504ace",
       "4c440cba7148e45696",
       "70d5347ac368d6b54e",
       "b41eaa6167299364df"
@@ -390175,7 +390177,7 @@
     "started_at": "2026-09-09T17:23:56.345117+00:00",
     "peaked_at": "2026-09-09T17:23:56.345117+00:00",
     "ended_at": "2026-09-10T11:23:56.345117+00:00",
-    "archived_at": "2026-09-11T09:37:31.663222+00:00",
+    "archived_at": "2026-09-11T14:23:39.788241+00:00",
     "article_count": 10669,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -390786,11 +390788,12 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "267c7e5d154734474d",
       "2dd0ca075bacdd50aa",
-      "8a057f549a6ed6f78f"
+      "8a057f549a6ed6f78f",
+      "9d8904127c3e85dc2d"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
