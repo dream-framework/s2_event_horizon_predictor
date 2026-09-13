@@ -535,7 +535,7 @@
     "started_at": "2026-09-08T15:52:39.590019+00:00",
     "peaked_at": "2026-09-08T15:52:39.590019+00:00",
     "ended_at": "2026-09-12T09:52:39.590019+00:00",
-    "archived_at": "2026-09-12T21:25:27.766484+00:00",
+    "archived_at": "2026-09-12T23:59:09.333867+00:00",
     "article_count": 18,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1117,7 +1117,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "0e04c0f99bba504ace",
       "4c440cba7148e45696",
@@ -258761,7 +258761,7 @@
     "started_at": "2026-09-06T04:17:09.054028+00:00",
     "peaked_at": "2026-09-06T04:17:09.054028+00:00",
     "ended_at": "2026-09-12T13:17:09.054028+00:00",
-    "archived_at": "2026-09-12T21:25:27.766484+00:00",
+    "archived_at": "2026-09-12T23:59:09.333867+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -259719,8 +259719,9 @@
       }
     ],
     "max_stickiness": 89,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
+      "32d62ab960bc021db2",
       "5f8609d3db82b984ab",
       "fbb2241eff1da6902a"
     ],
@@ -394298,7 +394299,7 @@
     "started_at": "2026-09-09T17:23:56.345117+00:00",
     "peaked_at": "2026-09-09T17:23:56.345117+00:00",
     "ended_at": "2026-09-10T11:23:56.345117+00:00",
-    "archived_at": "2026-09-12T21:25:27.766484+00:00",
+    "archived_at": "2026-09-12T23:59:09.333867+00:00",
     "article_count": 10749,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -394909,7 +394910,7 @@
       }
     ],
     "max_stickiness": 34,
-    "duplicate_count": 13,
+    "duplicate_count": 14,
     "duplicate_cycle_ids": [
       "1916614d756ef7045a",
       "267c7e5d154734474d",
@@ -394917,7 +394918,8 @@
       "6bb0a11c523d3e226e",
       "8a057f549a6ed6f78f",
       "9d8904127c3e85dc2d",
-      "b0423b7f947a8a93c8"
+      "b0423b7f947a8a93c8",
+      "ca0a5a1c183cf6a818"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
