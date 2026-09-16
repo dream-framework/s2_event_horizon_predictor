@@ -242887,7 +242887,7 @@
     "started_at": "2026-09-10T20:46:05.880057+00:00",
     "peaked_at": "2026-09-10T20:46:05.880057+00:00",
     "ended_at": "2026-09-13T17:46:05.880057+00:00",
-    "archived_at": "2026-09-15T13:30:18.675879+00:00",
+    "archived_at": "2026-09-16T04:45:17.917620+00:00",
     "article_count": 15,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -243330,7 +243330,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "08f1cb2a8df8127c5f",
       "4802498fdf8a4f51f7",
@@ -386721,7 +386721,7 @@
     "started_at": "2026-09-13T20:31:54.920048+00:00",
     "peaked_at": "2026-09-13T20:31:54.920048+00:00",
     "ended_at": "2026-09-15T20:31:54.920048+00:00",
-    "archived_at": "2026-09-15T23:31:54.920048+00:00",
+    "archived_at": "2026-09-16T04:45:17.917620+00:00",
     "article_count": 64,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -387045,7 +387045,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "145ce25c5e274d1a91",
+      "da33ba659b6b3482d5"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "198a40f4d8629aee26",
@@ -403040,7 +403045,7 @@
     "started_at": "2026-09-09T20:21:47.352497+00:00",
     "peaked_at": "2026-09-09T20:21:47.352497+00:00",
     "ended_at": "2026-09-13T11:21:47.352497+00:00",
-    "archived_at": "2026-09-15T23:31:54.920048+00:00",
+    "archived_at": "2026-09-16T04:45:17.917620+00:00",
     "article_count": 6,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -403585,7 +403590,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "0cbe42e30c82e7a4ec",
       "27bd6b031c88bd8790",
