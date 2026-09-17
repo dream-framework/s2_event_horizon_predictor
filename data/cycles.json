@@ -34,7 +34,7 @@
     "started_at": "2026-09-16T20:36:30.026871+00:00",
     "peaked_at": "2026-09-16T20:36:30.026871+00:00",
     "ended_at": "2026-09-17T08:36:30.026871+00:00",
-    "archived_at": "2026-09-17T11:36:30.026871+00:00",
+    "archived_at": "2026-09-17T20:18:32.422650+00:00",
     "article_count": 11054,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -611,7 +611,12 @@
       }
     ],
     "max_stickiness": 86,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "758f2e3444bca13924",
+      "9bb5cb2b8cb741aac9"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "1f307783e8188585d1",
@@ -648,8 +653,8 @@
     "started_at": "2026-09-14T18:53:05.694202+00:00",
     "peaked_at": "2026-09-14T18:53:05.694202+00:00",
     "ended_at": "2026-09-16T15:53:05.694202+00:00",
-    "archived_at": "2026-09-17T16:57:01.565991+00:00",
-    "article_count": 29,
+    "archived_at": "2026-09-17T20:18:32.422650+00:00",
+    "article_count": 30,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -1165,10 +1170,11 @@
       }
     ],
     "max_stickiness": 37,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "1682663acdbfa600d4",
       "1f307783e8188585d1",
+      "4661f3c10354325258",
       "51c2939016286eb554",
       "8d8d2c138e521ec833",
       "b993b0e5e36abb5037",
@@ -363395,7 +363401,7 @@
     "started_at": "2026-09-11T05:31:54.920048+00:00",
     "peaked_at": "2026-09-11T05:31:54.920048+00:00",
     "ended_at": "2026-09-15T20:31:54.920048+00:00",
-    "archived_at": "2026-09-17T00:28:00.681752+00:00",
+    "archived_at": "2026-09-17T20:18:32.422650+00:00",
     "article_count": 15,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -364074,11 +364080,32 @@
         "source_tier_count": 0
       }
     ],
-    "sticky_stories": [],
-    "max_stickiness": 0,
-    "duplicate_count": 2,
+    "sticky_stories": [
+      {
+        "id": "e9f57113fccb32c709",
+        "title": "English FA calls for Infantino to release FIFA World Cup sell-off documents",
+        "url": "https://www.aljazeera.com/sports/2026/9/17/english-fa-calls-for-infantino-to-release-fifa-world-cup-sell-off-documents?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-17T18:15:23+00:00",
+        "stickiness_score": 36,
+        "residual_contribution": 0.083462,
+        "expected_s2": 0.340251,
+        "observed_corrected": 0.423713,
+        "age_after_peak_hours": 156.947,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 39,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.431178,
+        "deviation_ratio": 1.245295,
+        "cross_scale_coherence": 0.346246
+      }
+    ],
+    "max_stickiness": 36,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "2204b6e0a4f3e3ee32",
+      "b0cd7219b8f891b199",
       "b201808a5d380391ef"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
