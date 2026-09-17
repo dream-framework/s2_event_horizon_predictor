@@ -34,8 +34,8 @@
     "started_at": "2026-09-14T18:53:05.694202+00:00",
     "peaked_at": "2026-09-14T18:53:05.694202+00:00",
     "ended_at": "2026-09-16T15:53:05.694202+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
-    "article_count": 23,
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
+    "article_count": 25,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -341,6 +341,44 @@
     ],
     "sticky_stories": [
       {
+        "id": "1e7d5f29fb52d34caf",
+        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine",
+        "url": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
+        "source": "The Guardian World",
+        "published_at": "2026-09-16T21:26:53+00:00",
+        "stickiness_score": 37,
+        "residual_contribution": 0.08774,
+        "expected_s2": 0.197009,
+        "observed_corrected": 0.284749,
+        "age_after_peak_hours": 50.316,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 38,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.554361,
+        "deviation_ratio": 1.44536,
+        "cross_scale_coherence": 0.383546
+      },
+      {
+        "id": "9c71ca8f6c6e6af2eb",
+        "title": "Colin Kaepernick says NFL owners are colluding against Macklemore after Ed Sheeran tour ban",
+        "url": "https://www.theguardian.com/sport/2026/sep/16/colin-kaepernick-nfl-owners-ed-sheeran-macklemore-tour",
+        "source": "The Guardian US",
+        "published_at": "2026-09-16T19:23:54+00:00",
+        "stickiness_score": 37,
+        "residual_contribution": 0.08774,
+        "expected_s2": 0.197009,
+        "observed_corrected": 0.284749,
+        "age_after_peak_hours": 48.266,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 38,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.554361,
+        "deviation_ratio": 1.44536,
+        "cross_scale_coherence": 0.383546
+      },
+      {
         "id": "2d7e463eb61b914cde",
         "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
         "url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
@@ -436,11 +474,12 @@
         "cross_scale_coherence": 0.35068
       }
     ],
-    "max_stickiness": 31,
-    "duplicate_count": 3,
+    "max_stickiness": 37,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "1f307783e8188585d1",
       "51c2939016286eb554",
+      "c944fb8a9bea71dfb1",
       "ec644ffe66d3afa1a8"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -480,7 +519,7 @@
     "started_at": "2026-09-12T21:17:13.304166+00:00",
     "peaked_at": "2026-09-12T21:17:13.304166+00:00",
     "ended_at": "2026-09-15T18:17:13.304166+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
     "article_count": 65,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -923,9 +962,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "05fd7c1ccc024dcf12",
+      "080c266948c95fb2b2",
       "4d220a1ce285cfba67",
       "e6e1eff6ad7de45a45"
     ],
@@ -965,7 +1005,7 @@
     "started_at": "2026-09-10T21:17:13.304166+00:00",
     "peaked_at": "2026-09-10T21:17:13.304166+00:00",
     "ended_at": "2026-09-15T18:17:13.304166+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1680,7 +1720,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "53701a022cfe5b1e1c",
       "785548726a1a83ed8c",
@@ -2280,7 +2320,7 @@
     "started_at": "2026-09-09T21:53:05.694202+00:00",
     "peaked_at": "2026-09-09T21:53:05.694202+00:00",
     "ended_at": "2026-09-16T15:53:05.694202+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
     "article_count": 13,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -3250,10 +3290,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "1a2b46a8571ef969ef",
-      "34f634dc0b7a837b42"
+      "34f634dc0b7a837b42",
+      "657c3b76281fa4baff"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -245342,7 +245383,7 @@
     "started_at": "2026-09-10T20:46:05.880057+00:00",
     "peaked_at": "2026-09-10T20:46:05.880057+00:00",
     "ended_at": "2026-09-13T17:46:05.880057+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
     "article_count": 16,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -245785,7 +245826,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 7,
+    "duplicate_count": 8,
     "duplicate_cycle_ids": [
       "08f1cb2a8df8127c5f",
       "4802498fdf8a4f51f7",
@@ -346454,7 +346495,7 @@
     "started_at": "2026-09-14T18:53:05.694202+00:00",
     "peaked_at": "2026-09-14T18:53:05.694202+00:00",
     "ended_at": "2026-09-16T15:53:05.694202+00:00",
-    "archived_at": "2026-09-16T18:53:05.694202+00:00",
+    "archived_at": "2026-09-16T22:07:56.018587+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -346761,7 +346802,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "0c20acc20ea31d7321",
+      "d48a33ede3164f8379"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "3f02d6c03f4f9b74bb",
