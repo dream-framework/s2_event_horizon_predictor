@@ -34,8 +34,8 @@
     "started_at": "2026-09-14T18:53:05.694202+00:00",
     "peaked_at": "2026-09-14T18:53:05.694202+00:00",
     "ended_at": "2026-09-16T15:53:05.694202+00:00",
-    "archived_at": "2026-09-16T22:07:56.018587+00:00",
-    "article_count": 25,
+    "archived_at": "2026-09-17T00:28:00.681752+00:00",
+    "article_count": 26,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "tied / mixed",
@@ -436,6 +436,25 @@
         "cross_scale_coherence": 0.378561
       },
       {
+        "id": "365712d9e9c590359e",
+        "title": "Macklemore pledges $1m in tour earnings to Palestinian groups",
+        "url": "https://www.aljazeera.com/news/2026/9/16/macklemore-pledges-1m-in-tour-earnings-to-palestinian-groups?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-09-16T22:18:49+00:00",
+        "stickiness_score": 21,
+        "residual_contribution": 0.012487,
+        "expected_s2": 0.170558,
+        "observed_corrected": 0.183045,
+        "age_after_peak_hours": 51.847,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 2,
+        "horizon_phase": "normal S2 decay",
+        "horizon_index": 0.3807,
+        "deviation_ratio": 1.073213,
+        "cross_scale_coherence": 0.354729
+      },
+      {
         "id": "548e36240705b65387",
         "title": "Everything You Need to Know About Climate Week - Columbia University",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0Q1ZBY1lVeDJna2JfZzdSZEo0WGZIRnNpUDY1LVBmU19oWXFBNUVkdnUyMHcyMVE1LXkzc2xMaUR0M0U3djVzODZsbXBKaTB6UU9PdWpFRWprX2xveXRabHBrQzg0YlE2Tlk5bVFSd3B1SUhybS1qbDNNN1gza0k?oc=5",
@@ -475,7 +494,7 @@
       }
     ],
     "max_stickiness": 37,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "1f307783e8188585d1",
       "51c2939016286eb554",
@@ -519,7 +538,7 @@
     "started_at": "2026-09-12T21:17:13.304166+00:00",
     "peaked_at": "2026-09-12T21:17:13.304166+00:00",
     "ended_at": "2026-09-15T18:17:13.304166+00:00",
-    "archived_at": "2026-09-16T22:07:56.018587+00:00",
+    "archived_at": "2026-09-17T00:28:00.681752+00:00",
     "article_count": 65,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -962,7 +981,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "05fd7c1ccc024dcf12",
       "080c266948c95fb2b2",
@@ -361231,7 +361250,7 @@
     "started_at": "2026-09-11T05:31:54.920048+00:00",
     "peaked_at": "2026-09-11T05:31:54.920048+00:00",
     "ended_at": "2026-09-15T20:31:54.920048+00:00",
-    "archived_at": "2026-09-15T23:31:54.920048+00:00",
+    "archived_at": "2026-09-17T00:28:00.681752+00:00",
     "article_count": 15,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -361912,7 +361931,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "2204b6e0a4f3e3ee32",
+      "b201808a5d380391ef"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "fa489a9435f98f36e9",
