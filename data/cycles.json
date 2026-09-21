@@ -305022,8 +305022,8 @@
     "started_at": "2026-09-15T19:04:45.260997+00:00",
     "peaked_at": "2026-09-15T19:04:45.260997+00:00",
     "ended_at": "2026-09-19T22:04:45.260997+00:00",
-    "archived_at": "2026-09-20T16:01:38.410963+00:00",
-    "article_count": 11081,
+    "archived_at": "2026-09-20T21:30:13.699193+00:00",
+    "article_count": 11123,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
     "verdict": "S2 likely",
@@ -306092,7 +306092,7 @@
       }
     ],
     "max_stickiness": 21,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "20af0ce300cc98f837",
       "2ad8fb53a16ace738d",
