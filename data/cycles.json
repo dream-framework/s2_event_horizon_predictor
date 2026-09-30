@@ -34,7 +34,7 @@
     "started_at": "2026-09-23T19:54:12.715708+00:00",
     "peaked_at": "2026-09-23T19:54:12.715708+00:00",
     "ended_at": "2026-09-28T22:54:12.715708+00:00",
-    "archived_at": "2026-09-29T20:43:59.798862+00:00",
+    "archived_at": "2026-09-30T00:24:14.312393+00:00",
     "article_count": 10834,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1240,7 +1240,7 @@
       }
     ],
     "max_stickiness": 73,
-    "duplicate_count": 9,
+    "duplicate_count": 10,
     "duplicate_cycle_ids": [
       "0b797f4c0c3e4b697d",
       "4bc48b86ca78ca971b",
