@@ -690,7 +690,7 @@
     "started_at": "2026-10-06T17:57:27.239404+00:00",
     "peaked_at": "2026-10-06T17:57:27.239404+00:00",
     "ended_at": "2026-10-08T02:57:27.239404+00:00",
-    "archived_at": "2026-10-09T07:20:55.413400+00:00",
+    "archived_at": "2026-10-11T00:58:55.311343+00:00",
     "article_count": 8895,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -1386,8 +1386,9 @@
       }
     ],
     "max_stickiness": 39,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
+      "199d246b37d8a7f53e",
       "3d4266add169b76c2d",
       "440feabd233b52ffc6",
       "9378075cbbe444444b",
@@ -1430,7 +1431,7 @@
     "started_at": "2026-10-06T02:50:00.475272+00:00",
     "peaked_at": "2026-10-06T02:50:00.475272+00:00",
     "ended_at": "2026-10-10T14:50:00.475272+00:00",
-    "archived_at": "2026-10-10T21:38:41.275008+00:00",
+    "archived_at": "2026-10-11T00:58:55.311343+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2114,7 +2115,7 @@
       }
     ],
     "max_stickiness": 67,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "1ef0252bccf0278958",
       "30acc5179534663ea0",
@@ -2123,6 +2124,7 @@
       "8cb2237dee47b09740",
       "d69b42db229d735e36",
       "e4a825ebca731f49dd",
+      "f513cbfb2e79848be8",
       "f5bb6339aa03ee0612"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
@@ -2162,7 +2164,7 @@
     "started_at": "2026-10-04T21:00:45.680755+00:00",
     "peaked_at": "2026-10-04T21:00:45.680755+00:00",
     "ended_at": "2026-10-09T21:00:45.680755+00:00",
-    "archived_at": "2026-10-10T21:38:41.275008+00:00",
+    "archived_at": "2026-10-11T00:58:55.311343+00:00",
     "article_count": 41,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -3044,13 +3046,33 @@
         "horizon_index": 0.433138,
         "deviation_ratio": 1.29474,
         "cross_scale_coherence": 0.334537
+      },
+      {
+        "id": "52c9b4dd54ab8313c2",
+        "title": "Liverpool vs Man City: the top five clashes between Premier League giants",
+        "url": "https://www.aljazeera.com/sports/2026/10/10/liverpool-vs-man-city-top-5-battles-premier-league-matches-head-to-head?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-10-10T22:43:08+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.330902,
+        "observed_corrected": 0.326279,
+        "age_after_peak_hours": 144.737,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.34268,
+        "deviation_ratio": 0.986029,
+        "cross_scale_coherence": 0.347535
       }
     ],
     "max_stickiness": 74,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "3194c6bea0c4dcc878",
       "6ce830c1eb8db7e559",
+      "ac40aa595b0ae88f53",
       "bbefe08d83611ad0fd",
       "c4b07eb8eea6bd3ae3",
       "ef1e994310ebcf8039"
