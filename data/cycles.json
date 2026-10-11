@@ -34,7 +34,7 @@
     "started_at": "2026-10-08T18:15:36.228117+00:00",
     "peaked_at": "2026-10-08T18:15:36.228117+00:00",
     "ended_at": "2026-10-09T12:15:36.228117+00:00",
-    "archived_at": "2026-10-10T17:50:00.475272+00:00",
+    "archived_at": "2026-10-10T21:38:41.275008+00:00",
     "article_count": 8824,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -645,10 +645,11 @@
       }
     ],
     "max_stickiness": 67,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "4bce70364ac2848608",
       "5008883e17d0d4fa93",
+      "54cae8729d9a3120c0",
       "6234402cb9c9247790",
       "c06801d929ae2832e7"
     ],
@@ -1429,7 +1430,7 @@
     "started_at": "2026-10-06T02:50:00.475272+00:00",
     "peaked_at": "2026-10-06T02:50:00.475272+00:00",
     "ended_at": "2026-10-10T14:50:00.475272+00:00",
-    "archived_at": "2026-10-10T17:50:00.475272+00:00",
+    "archived_at": "2026-10-10T21:38:41.275008+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2113,7 +2114,7 @@
       }
     ],
     "max_stickiness": 67,
-    "duplicate_count": 10,
+    "duplicate_count": 11,
     "duplicate_cycle_ids": [
       "1ef0252bccf0278958",
       "30acc5179534663ea0",
@@ -2161,7 +2162,7 @@
     "started_at": "2026-10-04T21:00:45.680755+00:00",
     "peaked_at": "2026-10-04T21:00:45.680755+00:00",
     "ended_at": "2026-10-09T21:00:45.680755+00:00",
-    "archived_at": "2026-10-10T17:50:00.475272+00:00",
+    "archived_at": "2026-10-10T21:38:41.275008+00:00",
     "article_count": 41,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -2893,6 +2894,44 @@
     ],
     "sticky_stories": [
       {
+        "id": "a3b352d54be53c4fef",
+        "title": "Manchester United held by ten-man Tottenham as woes for both continue",
+        "url": "https://www.aljazeera.com/sports/2026/10/10/manchester-united-held-by-ten-man-tottenham-as-woes-for-both-continue?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-10-10T19:47:10+00:00",
+        "stickiness_score": 74,
+        "residual_contribution": 0.252322,
+        "expected_s2": 0.31032,
+        "observed_corrected": 0.562642,
+        "age_after_peak_hours": 142.141,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 52,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.607638,
+        "deviation_ratio": 1.813103,
+        "cross_scale_coherence": 0.335137
+      },
+      {
+        "id": "cc2a288ce7d4c5ee35",
+        "title": "Ronaldo suspended by Portugal FA after leaving camp and criticising coach",
+        "url": "https://www.aljazeera.com/sports/2026/10/10/ronaldo-suspended-by-portugal-fa-after-leaving-camp-and-criticizing-coach?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-10-10T19:23:26+00:00",
+        "stickiness_score": 74,
+        "residual_contribution": 0.252322,
+        "expected_s2": 0.31032,
+        "observed_corrected": 0.562642,
+        "age_after_peak_hours": 141.746,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 52,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.607638,
+        "deviation_ratio": 1.813103,
+        "cross_scale_coherence": 0.335137
+      },
+      {
         "id": "c2ca8ff66be601cedc",
         "title": "Premier League coaches react to Manchester City judgment, possible sanctions - The New York Times",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNblA1MGhYSFpSRDE0bWNrQjByZmRMa2NSSFlsaDBOZmlsanBwR3JuZ1g0SDlTQTF5eE52ZUZ3a1B2RTQwT0FzNTUxUXFIbHY5Zmx4VUg0SGxvMVNpODBQejF2bWtCVFV3cEVvOElvbHYtM0ZWdnE3dnl2UHdZZVRVbmNCSHU2S0hZTkJmR0hjcW1hWVVZcmpF?oc=5",
@@ -3007,10 +3046,11 @@
         "cross_scale_coherence": 0.334537
       }
     ],
-    "max_stickiness": 69,
-    "duplicate_count": 5,
+    "max_stickiness": 74,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "3194c6bea0c4dcc878",
+      "6ce830c1eb8db7e559",
       "bbefe08d83611ad0fd",
       "c4b07eb8eea6bd3ae3",
       "ef1e994310ebcf8039"
@@ -399152,7 +399192,7 @@
     "started_at": "2026-10-07T12:25:55.551424+00:00",
     "peaked_at": "2026-10-07T12:25:55.551424+00:00",
     "ended_at": "2026-10-10T09:25:55.551424+00:00",
-    "archived_at": "2026-10-10T17:50:00.475272+00:00",
+    "archived_at": "2026-10-10T21:38:41.275008+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -399595,11 +399635,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 6,
+    "duplicate_count": 7,
     "duplicate_cycle_ids": [
       "834d13422e4ebd42bc",
       "88314ada1506d06fe8",
-      "9fe1232b05c32a2037"
+      "9fe1232b05c32a2037",
+      "a98937a5b4fa7674d8"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
