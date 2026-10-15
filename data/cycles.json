@@ -34,8 +34,8 @@
     "started_at": "2026-10-13T20:52:15.932112+00:00",
     "peaked_at": "2026-10-13T20:52:15.932112+00:00",
     "ended_at": "2026-10-15T02:52:15.932112+00:00",
-    "archived_at": "2026-10-15T05:52:15.932112+00:00",
-    "article_count": 46,
+    "archived_at": "2026-10-15T11:22:03.619026+00:00",
+    "article_count": 47,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 weak",
@@ -292,14 +292,34 @@
         "horizon_index": 0.719483,
         "deviation_ratio": 2.129045,
         "cross_scale_coherence": 0.337937
+      },
+      {
+        "id": "9844beb78c1eb24730",
+        "title": "Man United’s Martinez takes to social media to defend his criticism of club",
+        "url": "https://www.aljazeera.com/sports/2026/10/15/man-uniteds-martinez-takes-to-social-media-to-defend-his-criticism-of-club?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-10-15T08:27:32+00:00",
+        "stickiness_score": 24,
+        "residual_contribution": 0.029314,
+        "expected_s2": 0.153785,
+        "observed_corrected": 0.183099,
+        "age_after_peak_hours": 36.091,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 33,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.41351,
+        "deviation_ratio": 1.190617,
+        "cross_scale_coherence": 0.347307
       }
     ],
     "max_stickiness": 67,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "227a8b9170d5c9ca78",
       "47eef066ccfa9f05eb",
-      "e5f578dcf37ffdb371"
+      "e5f578dcf37ffdb371",
+      "fd1793b4c739382b12"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -249877,8 +249897,8 @@
     "started_at": "2026-10-13T19:40:00.467841+00:00",
     "peaked_at": "2026-10-13T19:40:00.467841+00:00",
     "ended_at": "2026-10-14T10:40:00.467841+00:00",
-    "archived_at": "2026-10-14T22:15:47.162683+00:00",
-    "article_count": 7950,
+    "archived_at": "2026-10-15T11:22:03.619026+00:00",
+    "article_count": 7970,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -250471,10 +250491,11 @@
       }
     ],
     "max_stickiness": 46,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "16eaf4571ec53e6f5a",
-      "a094d22d5f1540011d"
+      "a094d22d5f1540011d",
+      "e03c30fe1e199f8cda"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -443893,7 +443914,7 @@
     "started_at": "2026-10-09T09:32:00.247023+00:00",
     "peaked_at": "2026-10-09T09:32:00.247023+00:00",
     "ended_at": "2026-10-14T21:32:00.247023+00:00",
-    "archived_at": "2026-10-15T00:32:00.247023+00:00",
+    "archived_at": "2026-10-15T11:22:03.619026+00:00",
     "article_count": 7,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -444713,7 +444734,12 @@
       }
     ],
     "max_stickiness": 25,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "55445674ef2b8bc7c2",
+      "d310987be7e63f8e69"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "009377bd7d5c89fd61",
@@ -452004,8 +452030,8 @@
     "started_at": "2026-10-08T15:32:00.247023+00:00",
     "peaked_at": "2026-10-08T15:32:00.247023+00:00",
     "ended_at": "2026-10-14T21:32:00.247023+00:00",
-    "archived_at": "2026-10-15T00:32:00.247023+00:00",
-    "article_count": 6,
+    "archived_at": "2026-10-15T11:22:03.619026+00:00",
+    "article_count": 8,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "tied / mixed",
@@ -452923,9 +452949,33 @@
         "horizon_index": 0.640869,
         "deviation_ratio": 1.826029,
         "cross_scale_coherence": 0.350963
+      },
+      {
+        "id": "32fa4b0195d7998d41",
+        "title": "Brazil's Congress approves shorter working week in win for Lula",
+        "url": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC World",
+        "published_at": "2026-10-15T10:05:17+00:00",
+        "stickiness_score": 59,
+        "residual_contribution": 0.185858,
+        "expected_s2": 0.361632,
+        "observed_corrected": 0.54749,
+        "age_after_peak_hours": 163.72,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 37,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.520778,
+        "deviation_ratio": 1.513942,
+        "cross_scale_coherence": 0.343988
       }
     ],
     "max_stickiness": 67,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "77b57c012074b3a241",
+      "d38c0a6d7e192eeac9"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   }
 ]
