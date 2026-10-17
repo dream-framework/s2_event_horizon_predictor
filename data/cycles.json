@@ -34,7 +34,7 @@
     "started_at": "2026-10-13T19:36:52.680978+00:00",
     "peaked_at": "2026-10-13T19:36:52.680978+00:00",
     "ended_at": "2026-10-17T07:36:52.680978+00:00",
-    "archived_at": "2026-10-17T14:10:44.266261+00:00",
+    "archived_at": "2026-10-17T17:07:04.030062+00:00",
     "article_count": 49,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -731,10 +731,29 @@
         "horizon_index": 0.41351,
         "deviation_ratio": 1.190617,
         "cross_scale_coherence": 0.347307
+      },
+      {
+        "id": "7a3f52aa24a9bbf50c",
+        "title": "Nottingham Forest vs Arsenal: Premier League – preview, teams, prediction",
+        "url": "https://www.aljazeera.com/sports/2026/10/17/nottingham-forest-vs-arsenal-premier-league-preview-teams?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_at": "2026-10-17T14:06:41+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.230178,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 89.994,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.090782
       }
     ],
     "max_stickiness": 90,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "0460dfad69abf09174",
       "13f1e7c9dcd2715020",
@@ -747,7 +766,8 @@
       "e3d75f1b45271d63c8",
       "e5f578dcf37ffdb371",
       "fb0d8abe5a77275785",
-      "fd1793b4c739382b12"
+      "fd1793b4c739382b12",
+      "fd7b57f991ecb7215e"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -252155,8 +252175,8 @@
     "started_at": "2026-10-13T19:40:00.467841+00:00",
     "peaked_at": "2026-10-13T19:40:00.467841+00:00",
     "ended_at": "2026-10-14T10:40:00.467841+00:00",
-    "archived_at": "2026-10-17T10:36:52.680978+00:00",
-    "article_count": 8077,
+    "archived_at": "2026-10-17T17:07:04.030062+00:00",
+    "article_count": 8185,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
     "verdict": "S2 weak",
@@ -252749,7 +252769,7 @@
       }
     ],
     "max_stickiness": 46,
-    "duplicate_count": 11,
+    "duplicate_count": 12,
     "duplicate_cycle_ids": [
       "16eaf4571ec53e6f5a",
       "3a6a0c152b7764f2a9",
@@ -277090,7 +277110,7 @@
     "started_at": "2026-10-11T11:33:33.259480+00:00",
     "peaked_at": "2026-10-11T11:33:33.259480+00:00",
     "ended_at": "2026-10-17T02:33:33.259480+00:00",
-    "archived_at": "2026-10-17T10:36:52.680978+00:00",
+    "archived_at": "2026-10-17T17:07:04.030062+00:00",
     "article_count": 8,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -277907,7 +277927,7 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "15c36f748dff935813",
       "5e3cf4c0aed19a7e7f",
@@ -334230,7 +334250,7 @@
     "started_at": "2026-10-15T03:46:47.042764+00:00",
     "peaked_at": "2026-10-15T03:46:47.042764+00:00",
     "ended_at": "2026-10-16T15:46:47.042764+00:00",
-    "archived_at": "2026-10-17T10:36:52.680978+00:00",
+    "archived_at": "2026-10-17T17:07:04.030062+00:00",
     "article_count": 23,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -334486,9 +334506,10 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "33162fb6066087e8ea",
+      "3b34f83e79972694d9",
       "588d2f587fb679b537",
       "e15a37ad54e31ef1eb",
       "f21e9d1e1a2a451597"
@@ -395357,7 +395378,7 @@
     "started_at": "2026-10-13T11:48:18.160730+00:00",
     "peaked_at": "2026-10-13T11:48:18.160730+00:00",
     "ended_at": "2026-10-16T11:48:18.160730+00:00",
-    "archived_at": "2026-10-17T10:36:52.680978+00:00",
+    "archived_at": "2026-10-17T17:07:04.030062+00:00",
     "article_count": 6,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -395856,7 +395877,7 @@
       }
     ],
     "max_stickiness": 70,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "0e56c084e00be0d3f3",
       "1638a0c7406b6d7141",
