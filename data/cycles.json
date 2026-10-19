@@ -316735,8 +316735,8 @@
     "started_at": "2026-10-14T19:12:40.951670+00:00",
     "peaked_at": "2026-10-14T19:12:40.951670+00:00",
     "ended_at": "2026-10-18T22:12:40.951670+00:00",
-    "archived_at": "2026-10-19T01:12:40.951670+00:00",
-    "article_count": 39,
+    "archived_at": "2026-10-19T13:04:35.669310+00:00",
+    "article_count": 41,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 likely",
@@ -317348,7 +317348,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "01f5f52f05c26e589a"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "f15425e29a0c4ab1c6",
@@ -379840,7 +379844,7 @@
     "started_at": "2026-10-15T04:25:32.505935+00:00",
     "peaked_at": "2026-10-15T04:25:32.505935+00:00",
     "ended_at": "2026-10-18T01:25:32.505935+00:00",
-    "archived_at": "2026-10-19T06:09:54.822469+00:00",
+    "archived_at": "2026-10-19T13:04:35.669310+00:00",
     "article_count": 24,
     "phase": "Cooling",
     "lifecycle_phase": "Cooling",
@@ -380300,10 +380304,29 @@
         "horizon_index": 0.690855,
         "deviation_ratio": 1.98217,
         "cross_scale_coherence": 0.348535
+      },
+      {
+        "id": "a0afb9f7c545d279c1",
+        "title": "The abortion debate has gone quiet amid US midterms. In Idaho, the stakes remain high",
+        "url": "https://www.theguardian.com/us-news/2026/oct/19/abortion-rights-idaho-ballot",
+        "source": "The Guardian US",
+        "published_at": "2026-10-19T11:00:54+00:00",
+        "stickiness_score": 30,
+        "residual_contribution": 0.054225,
+        "expected_s2": 0.147732,
+        "observed_corrected": 0.201957,
+        "age_after_peak_hours": 102.938,
+        "post_lambda_q": true,
+        "role": "post-lambda_q survivor",
+        "horizon_score": 44,
+        "horizon_phase": "local anomaly",
+        "horizon_index": 0.465263,
+        "deviation_ratio": 1.36705,
+        "cross_scale_coherence": 0.340341
       }
     ],
     "max_stickiness": 52,
-    "duplicate_count": 14,
+    "duplicate_count": 15,
     "duplicate_cycle_ids": [
       "33162fb6066087e8ea",
       "3b34f83e79972694d9",
