@@ -505,7 +505,7 @@
     "started_at": "2026-10-19T08:25:26.274679+00:00",
     "peaked_at": "2026-10-19T08:25:26.274679+00:00",
     "ended_at": "2026-10-23T17:25:26.274679+00:00",
-    "archived_at": "2026-10-23T23:50:29.419883+00:00",
+    "archived_at": "2026-10-24T04:30:39.539225+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1152,10 +1152,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "47cbcbf673c292d251",
-      "6a04361a9bd3a592df"
+      "6a04361a9bd3a592df",
+      "b4b47a5eeb122afcd7"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
@@ -241354,7 +241355,7 @@
     "started_at": "2026-10-18T23:50:29.419883+00:00",
     "peaked_at": "2026-10-18T23:50:29.419883+00:00",
     "ended_at": "2026-10-23T20:50:29.419883+00:00",
-    "archived_at": "2026-10-23T23:50:29.419883+00:00",
+    "archived_at": "2026-10-24T04:30:39.539225+00:00",
     "article_count": 9,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -242069,7 +242070,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "5f7d8414c2454ed933",
+      "f1de045e54a09ea90e"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "574d852d704a04c721",
@@ -379304,7 +379310,7 @@
     "started_at": "2026-10-21T21:13:40.876091+00:00",
     "peaked_at": "2026-10-21T21:13:40.876091+00:00",
     "ended_at": "2026-10-22T12:13:40.876091+00:00",
-    "archived_at": "2026-10-23T23:50:29.419883+00:00",
+    "archived_at": "2026-10-24T04:30:39.539225+00:00",
     "article_count": 9395,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -379898,7 +379904,7 @@
       }
     ],
     "max_stickiness": 26,
-    "duplicate_count": 8,
+    "duplicate_count": 9,
     "duplicate_cycle_ids": [
       "115e87e0e8a1980ba6",
       "31fd265807da7a6acd",
@@ -379907,7 +379913,8 @@
       "87b63180940428269d",
       "9eb55c7674564629a1",
       "ba5aa768f3b2d330f0",
-      "cd3f657349b64d5bbd"
+      "cd3f657349b64d5bbd",
+      "f0302855323063bc8d"
     ],
     "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
