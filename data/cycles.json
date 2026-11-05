@@ -2097,7 +2097,7 @@
     "started_at": "2026-10-29T06:16:21.930910+00:00",
     "peaked_at": "2026-10-29T06:16:21.930910+00:00",
     "ended_at": "2026-11-04T06:16:21.930910+00:00",
-    "archived_at": "2026-11-04T22:37:49.534134+00:00",
+    "archived_at": "2026-11-05T03:28:09.025605+00:00",
     "article_count": 21,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -2965,10 +2965,11 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 5,
+    "duplicate_count": 6,
     "duplicate_cycle_ids": [
       "1c743b5e8a5d8e74e2",
       "91f5db40f76d0bd59b",
+      "9ffecbef97cd2f535c",
       "c703306ca317043bf0",
       "e40657d22e9873a960",
       "e9a805010e525e809c"
