@@ -34,7 +34,7 @@
     "started_at": "2026-11-05T21:53:27.840443+00:00",
     "peaked_at": "2026-11-05T21:53:27.840443+00:00",
     "ended_at": "2026-11-06T12:53:27.840443+00:00",
-    "archived_at": "2026-11-07T15:38:08.175272+00:00",
+    "archived_at": "2026-11-07T23:37:20.102463+00:00",
     "article_count": 8455,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -628,10 +628,11 @@
       }
     ],
     "max_stickiness": 87,
-    "duplicate_count": 4,
+    "duplicate_count": 5,
     "duplicate_cycle_ids": [
       "0265bc137a02d3cbeb",
       "4e8a1171247c838c9f",
+      "7a22d0925bd0798199",
       "9d85eea61ddf0b8dbe",
       "fb3f1047f2074543d1"
     ],
@@ -290431,7 +290432,7 @@
     "started_at": "2026-11-04T00:27:51.900359+00:00",
     "peaked_at": "2026-11-04T00:27:51.900359+00:00",
     "ended_at": "2026-11-06T18:27:51.900359+00:00",
-    "archived_at": "2026-11-07T15:38:08.175272+00:00",
+    "archived_at": "2026-11-07T23:37:20.102463+00:00",
     "article_count": 17,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -290855,9 +290856,29 @@
         "source_tier_count": 0
       }
     ],
-    "sticky_stories": [],
+    "sticky_stories": [
+      {
+        "id": "fa595025e8368fab56",
+        "title": "OPB’s First Look: Blue ocean strategy for AI - Oregon Public Broadcasting - OPB",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcGRCcVkzMFluSE90aHZ0ZG5vbC00cTBhcllfTlAwU0hGNF9PMXZCR0J0R19SR2lrc21MRmVXTng3MFRic2lnams3eVlhc1dRY2hQd3ZnVnBQakNsRnpZeEZyVlF1QjJ5SkhkQ0F3d0NmakN5SVVMUGdydmV2QXF6SWlRN2lPd0E?oc=5",
+        "source": "Google News AI",
+        "published_at": "2026-11-07T17:30:59+00:00",
+        "stickiness_score": 0,
+        "residual_contribution": 0.0,
+        "expected_s2": 0.160352,
+        "observed_corrected": 0.0,
+        "age_after_peak_hours": 89.894,
+        "post_lambda_q": true,
+        "role": "decays with baseline",
+        "horizon_score": 0,
+        "horizon_phase": "noise",
+        "horizon_index": 0.0,
+        "deviation_ratio": 0.0,
+        "cross_scale_coherence": 0.093666
+      }
+    ],
     "max_stickiness": 0,
-    "duplicate_count": 3,
+    "duplicate_count": 4,
     "duplicate_cycle_ids": [
       "4477b02630ea26febd",
       "4e6df4561b70220bf0"
@@ -444815,7 +444836,7 @@
     "started_at": "2026-11-02T21:38:08.175272+00:00",
     "peaked_at": "2026-11-02T21:38:08.175272+00:00",
     "ended_at": "2026-11-07T12:38:08.175272+00:00",
-    "archived_at": "2026-11-07T15:38:08.175272+00:00",
+    "archived_at": "2026-11-07T23:37:20.102463+00:00",
     "article_count": 12,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -445496,7 +445517,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "2bbed1cc001be1362a",
+      "2fef3b8905390d29a6"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "eb2a6bc715c0e44d9a",
