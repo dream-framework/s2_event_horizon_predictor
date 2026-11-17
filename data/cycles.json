@@ -34,7 +34,7 @@
     "started_at": "2026-11-13T20:05:50.959048+00:00",
     "peaked_at": "2026-11-13T20:05:50.959048+00:00",
     "ended_at": "2026-11-16T08:05:50.959048+00:00",
-    "archived_at": "2026-11-16T11:05:50.959048+00:00",
+    "archived_at": "2026-11-16T20:59:01.660987+00:00",
     "article_count": 7926,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -883,7 +883,12 @@
       }
     ],
     "max_stickiness": 100,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "6dae473011503e7b43",
+      "cac4950c6b79cff240"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "9c792b7bedf897deea",
