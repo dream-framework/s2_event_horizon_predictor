@@ -34,7 +34,7 @@
     "started_at": "2026-11-17T18:59:01.440551+00:00",
     "peaked_at": "2026-11-17T18:59:01.440551+00:00",
     "ended_at": "2026-11-18T09:59:01.440551+00:00",
-    "archived_at": "2026-11-22T11:13:45.438197+00:00",
+    "archived_at": "2026-11-23T00:14:56.605685+00:00",
     "article_count": 7968,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -628,7 +628,7 @@
       }
     ],
     "max_stickiness": 66,
-    "duplicate_count": 12,
+    "duplicate_count": 13,
     "duplicate_cycle_ids": [
       "00d9cc2f82c79800df",
       "0634139429d8ff1f8c",
@@ -676,7 +676,7 @@
     "started_at": "2026-11-17T17:13:45.438197+00:00",
     "peaked_at": "2026-11-17T17:13:45.438197+00:00",
     "ended_at": "2026-11-22T08:13:45.438197+00:00",
-    "archived_at": "2026-11-22T11:13:45.438197+00:00",
+    "archived_at": "2026-11-23T00:14:56.605685+00:00",
     "article_count": 14,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1357,7 +1357,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "4f5e44ed88d8935eed",
+      "b9862831c0f16a2dd4"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "7c65f885c8d1410f3d",
@@ -329932,7 +329937,7 @@
     "started_at": "2026-11-16T15:29:24.738180+00:00",
     "peaked_at": "2026-11-16T15:29:24.738180+00:00",
     "ended_at": "2026-11-22T15:29:24.738180+00:00",
-    "archived_at": "2026-11-22T18:29:24.738180+00:00",
+    "archived_at": "2026-11-23T00:14:56.605685+00:00",
     "article_count": 7,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -330800,7 +330805,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "37c1422e2ed069afc7",
+      "e9be22f17eca4a1776"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "28c8d0917437825a36",
