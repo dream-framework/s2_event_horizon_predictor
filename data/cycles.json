@@ -415,8 +415,8 @@
     "started_at": "2026-11-21T15:20:56.470567+00:00",
     "peaked_at": "2026-11-21T15:20:56.470567+00:00",
     "ended_at": "2026-11-26T09:20:56.470567+00:00",
-    "archived_at": "2026-11-26T12:20:56.470567+00:00",
-    "article_count": 27,
+    "archived_at": "2026-11-27T04:16:48.264560+00:00",
+    "article_count": 28,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
     "verdict": "S2 likely",
@@ -1152,7 +1152,7 @@
       }
     ],
     "max_stickiness": 0,
-    "duplicate_count": 2,
+    "duplicate_count": 3,
     "duplicate_cycle_ids": [
       "89d6e5dcb98871cfad",
       "ea817c3ad5572b2907"
@@ -1194,7 +1194,7 @@
     "started_at": "2026-11-20T21:20:56.470567+00:00",
     "peaked_at": "2026-11-20T21:20:56.470567+00:00",
     "ended_at": "2026-11-26T09:20:56.470567+00:00",
-    "archived_at": "2026-11-26T12:20:56.470567+00:00",
+    "archived_at": "2026-11-27T04:16:48.264560+00:00",
     "article_count": 31,
     "phase": "Residual dust tail",
     "lifecycle_phase": "Residual dust tail",
@@ -1994,7 +1994,12 @@
     ],
     "sticky_stories": [],
     "max_stickiness": 0,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "57cc71874058cf1439",
+      "957abc79ff1f4ee244"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "23a447eaa900ccc736",
@@ -2894,7 +2899,7 @@
     "started_at": "2026-11-20T17:47:42.600444+00:00",
     "peaked_at": "2026-11-20T17:47:42.600444+00:00",
     "ended_at": "2026-11-25T23:47:42.600444+00:00",
-    "archived_at": "2026-11-26T02:47:42.600444+00:00",
+    "archived_at": "2026-11-27T04:16:48.264560+00:00",
     "article_count": 6905,
     "phase": "Active plateau",
     "lifecycle_phase": "Active plateau",
@@ -4117,7 +4122,12 @@
       }
     ],
     "max_stickiness": 65,
-    "duplicate_count": 1
+    "duplicate_count": 2,
+    "duplicate_cycle_ids": [
+      "2f7380df1883d5cdd5",
+      "f0ad2d95416bbbc2a0"
+    ],
+    "dedupe_reason": "same semantic label and nearby peak; retained strongest representative"
   },
   {
     "cycle_id": "4850f3abd406d85ad2",
